@@ -1,0 +1,432 @@
+/*
+Myers Design Co.
+*/
+
+/* COLORS
+	
+--Grayscale
+#000000 (black)
+1 - #232323
+2 - #3A3A3A
+3 - #757575
+4 - #BCBCBC
+5 - #CCCCCC
+6 - #EAEAEA
+#ffffff (white)
+
+--Accent Colors
+blue - #5198F9
+yellow - #fdda7b
+gold - #ccaa8f
+red - #f37b64
+green - #48ae73
+*/
+
+
+/*==========  TYPOGRAPHY  ==========*/
+
+body {
+	font: 400 18px "Chivo";
+	color: #161616;
+}
+
+h1 {
+	font: 400 2.25em/1em "Spectral";
+	margin-bottom: 0.34em;
+}
+
+h2 { /*section titles*/
+	font: 900 2em/1.1em "Chivo";
+	margin-bottom: 20px; padding-top: 4px;
+}
+
+h3 { /*project titles*/
+	font: 700 1em/0.5em "Chivo";
+}
+
+h4 { /*project subtext*/
+	font: 400 0.65em/.5em "Chivo";
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-top: 30px;
+}
+
+p {
+	line-height: 2em;
+	width: 95%;
+}
+
+a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
+	text-decoration: none;
+	transition: color .25s;
+	color: #333333;
+	font-weight: 900;
+}
+
+a:hover {
+  	color: blue;
+  	text-decoration: none;
+ 	border-bottom: 1px solid blue;
+	padding-bottom: 1px;
+}
+
+li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.highlight {
+	font-weight: 700;
+	color: #232323;
+}
+
+strong {
+	font-weight: 700;
+}
+
+/*==========  STRUCTURE  ==========*/
+
+.maxwidth {
+	max-width: 95%;
+	margin: 0px auto; 
+	padding: 0px;
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.container {
+	padding: 30px 0px;
+}
+
+.bumper-down {
+	margin-bottom: 0px;
+}
+
+.bumper-downandup {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.secondrow {
+	margin-top: 0px;
+}
+
+.padding-0 {
+	padding: 0;
+}
+
+.mobilehide {
+	display: none;
+}
+
+.tablethide {
+	display: none;
+}
+
+hr {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	border-top: 1px solid #BDBDBD;
+}
+
+a.button {
+	font: 700 .8em/1em "Chivo";
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background-color: white;
+	color: #232323;
+	margin: 30px 0px;
+	padding: 15px 40px 15px 15px;
+	border: 2px solid #232323;
+	border-radius: 0px 40px 0px 0px;
+	transition: background-color .15s;
+}
+
+a.button:hover {
+	background-color: #232323;
+	color: white;
+}
+
+/*==========  NAVIGATION  ==========*/
+
+.hero {
+	background: url("/img/hero/Brand2020_WebBackground2.svg") no-repeat fixed;
+	background-size: cover; 
+}
+
+.hero .alt {
+	background: none;
+	background-size: cover;
+}
+
+.navigator {
+	padding: 10px 20px 0px 0px;
+}
+
+.navbar {
+	border: none;
+	border-radius: 0px;
+	margin: 10px auto 0px auto;
+}
+
+.navbar-collapse {
+	padding: 0px;
+	margin: 0px auto;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0;
+}
+
+.navbar-toggle {
+    z-index:3;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.navbar-default .navbar-toggle {
+	border: 0;
+}
+
+.navbar-default {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a {
+	font: 400 .95em/1.3em "Chivo";
+	color: #4F4F4F;
+	transition: color .25s;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: black;
+}
+
+.navlogo {
+	width: 240px;
+	margin-top: -88px;
+	margin-left: 15px;
+}
+
+.navbar-left a:hover {
+	border-bottom: none;
+}
+
+/*==========  Portfolio  ==========*/
+
+.introduction {
+	padding-top: 100px;
+}
+
+.introduction p {
+}
+
+.introduction p a:hover {
+	border-bottom: none;
+}
+
+.bio {
+	font: 400 1.1em/1.35em "Spectral";	
+	background-color: #D3CDCD; 
+	padding: 75px 0px;
+}
+
+.bio img {
+	margin: 50px 0px;
+	max-width: 50%;
+	border: 10px solid white;
+	border-radius: 100%;
+}
+
+.portfolio img {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.portfolio {
+	margin: 50px auto;
+}
+
+.homeborder .row {
+	border: 2px solid #D3CDCD;
+	padding: 10px 40px;
+	transition: background-color .25s;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+
+.homeborder .row:hover {
+	background-color: #231E1E;
+	color: white;
+}
+
+.homeborder .row:hover a {
+	color: #F1EAEA;
+}
+
+.portfolio p {
+	font: 400 1.25em/1.5em "Spectral";	
+}
+
+/*==========  Footer ==========*/
+
+.footer {
+	background-color: #cccccc;
+	color: #3a3a3a;
+	padding: 30px 0px;
+	overflow: hidden;
+	background: url("/img/hero/Brand2020_WebBackground2.svg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.footer a {
+ 	border-bottom: 1px solid #3a3a3a;
+	padding-bottom: 1px;
+	color: #3a3a3a;
+}
+
+.footer a:hover {
+	color: blue;
+	border-bottom: 1px solid blue;
+}
+
+.footer li {
+	font: 400 1em/1.5em "Chivo";
+}
+
+h6 {
+	font: 400 1em/1.5em "Chivo";
+	margin-top: 25px; padding-top: 5px;
+}
+
+.footer li {
+	display: inline;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	body {
+		font: 400 16px "Chivo";
+	}
+
+	.mobilehide {
+		display: block;
+	}
+
+	.maxwidth {
+		max-width: 90%;
+		margin: 50px auto;
+	}
+
+	.bumper-down {
+		margin-bottom: 50px;
+	}
+
+	.bumper-downandup {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+	.container {
+		padding: 40px 0px;
+	}
+
+	.navigator {
+		padding: 15px 0px;
+	}
+
+	.introduction {
+		padding: 200px 0px 40px 0px;
+	}
+
+	.bio {
+		font: 400 1.25em/1.4em "Spectral";	
+	}	
+
+	.bio img {
+		max-width: 80%;
+	}
+
+	h2 {
+		margin-top: 0px;
+	}
+
+    .navlogo {
+		width: 220px;
+		margin-top: 15px; margin-left: -5px;
+	}
+
+	.navbar-left li {
+		margin-top: 15px; margin-left: -2px;
+	}
+
+	.portfolio img {
+		width: 95%;
+		margin-top: 0px;
+	}
+
+	.portfolio p {
+		margin: 30px 0px 60px 0px;
+		max-width: 800px;
+	}
+
+	.secondcolumn {
+		margin-top: 0px; 
+	}
+
+	.secondrow {
+		margin-top: 50px;
+	}
+
+	.homeborder .row {
+		margin-bottom: 0px
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	.tablethide {
+		display: block;
+	}
+
+	.maxwidth {
+		max-width: 1000px;
+	}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px) {
+
+
+	
+}
+
+/*==========  Custom Fonts  ==========*/

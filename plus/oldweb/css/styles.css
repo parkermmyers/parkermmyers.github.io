@@ -1,0 +1,311 @@
+/*
+	Parker Myers
+	Bootstrap Portfolio
+	March 24, 2014
+*/
+
+/* GENERAL */
+
+.glyphicon {
+	font-size: 1.0em;
+	padding: 0 0.5em;
+}
+
+body {
+	color: #44433f;
+	background-color: #E6E6E6;
+	font-faily: 'Mission Gothic', Helvetica, Arial, sans-serif;
+}
+
+.bump {
+	height: 60px;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+	font-family: 'Mission Gothic';
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0px auto;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+p {
+	font-family: "Charter", Georgia, serif;
+	color: #44433F;
+	font-size: 110%;
+	margin: 0 auto;
+	font-weight: 300;
+	width: 400px;
+}
+
+/* NAVIGATION */
+
+nav {
+	background-image: url('../images/floral2.png');
+	position: fixed; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+
+}
+
+nav ul {
+	font-family: 'Mission Gothic';
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: 700;
+}
+
+nav li {
+	float: left;
+	width: 20%;
+	font-family: 'Mission Gothic', Helvetica;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+nav a:link, nav a:visited {
+	display: block;
+	opacity: 0.0;
+	text-align: center;
+	padding: 16px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover, nav a:active {
+	background-color: white;
+	color: black;
+}
+
+/* ------------------------------HEADER--------------------------------------------------*/
+
+.header {
+	width: 100%;
+	height: 500px;
+	padding-top: 220px;
+	background-image: url('../images/stardust.png');
+	margin: 0px auto;
+
+}
+
+.header h1 {
+	color: white;	
+	border: 2px solid white;
+	width: 250px;
+	padding: 10px;
+}
+
+/* ------------------------------ABOUT--------------------------------------------------*/
+
+.about {
+	width: 100%;
+	height: 600px;
+	padding-top: 220px;
+	background-color: white;
+	margin: 0px auto;
+
+}
+
+
+/* ------------------------------PORTFOLIO--------------------------------------------------*/
+
+.portfolio {
+	height: 900px;
+	margin: 0px auto;
+	background-image: url('../images/stardust.png');
+	padding-top: 100px;
+}
+
+.portfolio h1 {
+	color: white;	
+	border: 2px solid white;
+	width: 250px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.portfolio p {
+	padding-bottom: 1em;
+	color: white;
+}
+
+a.pop:link, a.pop:visited {
+	font-family: 'Mission Gothic';
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FF4D4D;
+	font-size: 100%;
+}
+
+/* ------------------------------RESUME--------------------------------------------------*/
+
+.resume {
+	height: 200px;
+	margin: 0px auto;
+	background-color: white;
+}
+
+.resume h1 {
+	background-color: #FF4D4D;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	width: 200px;
+	margin: 0px auto;
+	margin-top: 70px;	
+}
+
+.resume a {
+	text-decoration: none;
+	width: 200px;
+}
+
+.resume a:hover {
+	color: black;
+}
+
+/* ------------------------------CONTACT------------------------------------------------*/
+
+.contact {
+	height: 500px;
+	margin: 0px auto;
+	padding-top: 100px;
+	background-image: url('../images/stardust.png');
+}
+
+.contactbox {
+	background-color: white;
+	width: 80%;
+	padding:30px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.contact h1 {
+	color: white;	
+	border: 2px solid white;
+	width: 250px;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+.contact a:link, #contact a:visited {
+	text-decoration: none;
+	color: black;
+	font-family: 'Mission Gothic';
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	margin: 30px 20px;
+	font-weight: 300;
+}
+
+.contact a:hover {
+	color: white;
+	background-color: black;
+	padding: 0 20px;
+	border: 5px solid black;
+}
+
+.contact i {
+	font-size: 20px;
+	color: #ff4d4d;
+}
+
+/* ------------------------------EMBEDDED FONTS--------------------------------------------------*/
+
+
+@font-face {
+    font-family: 'Mission Gothic';
+    src: url('fonts/mission_gothic_regular-webfont.eot');
+    src: url('fonts/mission_gothic_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mission_gothic_regular-webfont.woff2') format('woff2'),
+         url('fonts/mission_gothic_regular-webfont.woff') format('woff'),
+         url('fonts/mission_gothic_regular-webfont.ttf') format('truetype'),
+         url('fonts/mission_gothic_regular-webfont.svg#mission_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Mission Bold';
+    src: url('fonts/mission_gothic_bold-webfont.eot');
+    src: url('fonts/mission_gothic_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mission_gothic_bold-webfont.woff2') format('woff2'),
+         url('fonts/mission_gothic_bold-webfont.woff') format('woff'),
+         url('fonts/mission_gothic_bold-webfont.ttf') format('truetype'),
+         url('fonts/mission_gothic_bold-webfont.svg#mission_gothicbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('fonts/charter_regular-webfont.eot');
+    src: url('fonts/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/charter_regular-webfont.woff2') format('woff2'),
+         url('fonts/charter_regular-webfont.woff') format('woff'),
+         url('fonts/charter_regular-webfont.ttf') format('truetype'),
+         url('fonts/charter_regular-webfont.svg#charterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* ------------------------------RESPONSIVE--------------------------------------------------*/
+
+
+/* Extra small devices (phones, less than 768px) */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.header {
+		height: 500px;
+	}
+	
+	nav a:link, nav a:visited {
+		opacity: 1.0;
+		color: black;
+	}
+	
+	.portfolio {
+		height: 1000px;
+	}
+	
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+	.header {
+		height: 520px;
+	}
+	
+	.portfolio {
+		height: 900px;
+	}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+	.header {
+		height: 620px;
+		padding-top: 280px
+	}
+		
+	.portfolio {
+		height: 1000px;
+	}

@@ -1,0 +1,148 @@
+/*
+	Material Design Base Styles
+	Created by Parker Myers
+	September 29, 2014
+*/
+
+/* GENERAL					 */
+
+	html, body {
+		background-color: white;
+	}
+	
+	#test:before { content:"Email"; }
+ 
+ 	#test:hover:before { content:"parkermmyers@gmail.com"; }
+
+/* TYPOGRAPHY					*/
+
+	h1, h2, h3, h4, h5, h6, li, ul {
+		font-family: 'PT Sans';
+		color: #262626;
+	}
+	
+	h1 {
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		font-size: 1.25em;
+		font-weight: 700;
+	}
+	
+	h1:hover {
+		text-decoration: none;
+	}
+	
+	p {
+		font-family: 'PT Serif';
+		color: #515151;
+	}
+	
+	h2 {
+		text-transform: uppercase;
+		font-size: 0.8em;
+		letter-spacing: 5px;
+	}	
+
+
+/* NAVIGATION					 */
+
+	div.side {
+		height: 100%;
+		top: 0;
+		left: 0;
+		border-right: 1px solid #EBEBEB;
+		width: 100%;
+		padding: 50px 50px 100px 75px;
+	}
+	
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	.side img {
+		width: 150px;
+	}
+	
+	li>a {
+		color: #00CC99;
+		text-transform: uppercase;
+	}
+	
+	li>a:hover {
+		background-color: #00CC99;
+		color: white;
+		text-decoration: none;
+		padding: 2px 4px;
+	}
+	
+/* PORTFOLIO					 */
+
+	div.portfolio {
+		padding: 20px 0px 20px 0px;
+		text-align: center;
+		background-color: white;
+	}
+	
+	.portfolio img {
+		opacity: 0.7;
+   		transition: opacity .25s ease-in-out;
+   		-moz-transition: opacity .25s ease-in-out;
+   		-webkit-transition: opacity .25s ease-in-out;
+   		background-color: black;
+	}
+	
+	.portfolio img:hover {
+		opacity: 1.0;
+	}
+	
+	.pop {
+		color: #00CC99;
+		font-family: 'PT Sans';
+		text-transform: uppercase;
+	}
+	
+	.pop:hover {
+		background-color: #00CC99;
+		color: white;
+		text-decoration: none;
+		padding: 2px 4px;
+	}
+		
+	
+/* MEDIA QUERIES			 */
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (min-width : 320px) {
+		
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (min-width : 480px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+		div.portfolio {
+			margin-left: 250px;	
+			padding-top: 50px;
+			text-align: left;
+		}
+		
+		div.side {
+			position: fixed;
+			width: 350px;
+		}
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1450px) {
+
+	}

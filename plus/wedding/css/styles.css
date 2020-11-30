@@ -1,0 +1,416 @@
+/*
+Wedding Website
+Parker Myers and Emily Probst
+Developed by Parker Myers
+*/
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------------------------------TYPOGRAPHY-----------------------------------------------*/
+
+body, h1, h2, h4, h5, h6 {
+    font-family: 'Mission Gothic', 'PT Sans', 'Helvetica', sans-serif;
+    color: #414042;
+}
+
+h3 {
+	font-family: 'Charter', 'PT Serif', 'Georgia';
+	color: #414042;
+}
+
+.lead {
+    font-family: 'Charter', 'PT Serif', 'Georgia';    
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 500px;
+    padding: 0px 20px;
+    color: #414042;
+}
+
+.section-heading {
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 0px 20px 10px 20px;
+    color: #414042;
+    font-family: 'Mission Gothic Bold';
+}
+
+/*----------------------------------------HEADER (INTRO)-----------------------------------------------*/
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #f8f8f8;
+    /*background: url('../img/hero2.jpg') no-repeat center center;
+    background-size: cover;*/
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    font-family: 'Mission Gothic', 'PT Sans';
+    font-size: 2em;
+    line-height: 0.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -7px;
+    color: white;
+}
+
+.intro-message > h3 {
+    font-family: 'Charter', 'PT Serif', serif;
+	font-size: 1.1em;
+	text-transform: none;
+	color: white;
+}
+
+.network-name {
+    font-family: 'Mission Gothic', 'PT Sans', 'Helvetica', sans-serif;    
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+.list-inline {
+    width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+.list-inline:hover {
+
+}
+
+.newbanner {
+	margin: 0px auto;
+	padding: 10% 0;
+	text-align: center;
+}
+
+.newbanner img {
+	width: 95%;
+}
+
+.newbanner2 {
+    display: none;
+}
+
+/*----------------------------------------CONTENT BLOCKS-----------------------------------------------*/
+
+.content-section-a {
+    padding: 100px 0;
+    margin: 0px auto;
+}
+
+/*----------------------------------------MEET THE WEDDING PARTY-----------------------------------------------*/
+
+.weddingpartybox { /* entire box of wedding party */
+    margin: 0px auto;
+    width: 500px;
+}
+
+.section-heading2 { /* meet the party */
+    text-transform: uppercase;
+    font-size: 2em;
+    max-width:400px;
+    color: #414042;
+    padding-left: 10px;
+    font-family: 'Mission Gothic Bold';
+}
+
+.weddingpartybox h1 { /* as described by */
+    font-size: 1.5em;
+    padding: 16px 8px;
+    margin-top: 20px;
+    margin-bottom: -4px;
+    background-color: #414042;
+    color: white;
+    width: 500px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h4 { /* names of wedding party*/
+    font-family: 'Mission Gothic', "PT Sans", Georgia;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.weddinglead { /* descriptions of wedding party*/
+    font-family: 'Charter', 'PT Serif', 'Georgia';    
+    font-size: 1.1em;
+    font-weight: 400;
+    max-width: 500px;
+    padding: 0px 20px;
+    color: #414042;
+}
+
+.graywrap {
+    background-color: #F8F8F8;
+    padding: 10px 0px;
+    width: 500px;
+}
+
+
+/*----------------------------------------BANNER (IMG AT BOTTOM) -----------------------------------------------*/
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url('../img/hero4.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'Mission Gothic', 'PT Sans';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+/*----------------------------------------FOOTER-----------------------------------------------*/
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+/*----------------------------------------FORMS-----------------------------------------------*/
+
+form {
+	margin: 0px auto;
+	width: 400px;
+	padding: 1em;
+}
+
+form div + div {
+	margin-top: 1em;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 1em;
+	padding: 0em 1em;
+	font-weight: 400;
+}
+
+button {
+	border: none;
+	margin: 0px auto;
+	text-transform: uppercase;
+	padding: 1em;
+	margin-left: 102px;
+	width: 200px;
+	background-color: #7CE0BF;
+	color: white;
+}
+
+button:hover {
+	-o-transition:1s ease-out, background 1s ease-in;
+	-ms-transition:1s ease-out, background 1s ease-in;
+	-moz-transition:1s ease-out, background 1s ease-in;
+	-webkit-transition:1s ease-out, background 1s ease-in;         
+	transition:1s ease-out, background 1s ease-in;
+	background-color: #FF7373;
+	color: white;
+}
+
+input {
+	width: 200px;
+	-webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box; /* For all Gecko based browsers */
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 5em;
+    background-color: #E6E6E6;
+    border: none;
+    font-family: 'Mission Gothic', 'PT Sans', 'Helvetica', sans-serif;
+    padding-left: 5px;
+}
+
+/*----------------------------------------MEDIA QUERIES-----------------------------------------------*/
+
+@media(min-width:450px) {
+    .intro-message > h1 {
+        font-size: 2.5em;
+        padding-left: 50px;
+    }
+    
+    .intro-message > h3 {
+        font-size: 1.25em;
+        padding-left: 50px;
+    }
+    
+    hr {
+    	display: none;
+    }	
+    
+    .section-heading {
+        padding-left: 50px;
+    }
+    
+    .section-heading2 {
+    }
+	
+	.lead {
+	    padding-left: 50px;
+	}
+}
+
+@media(min-width:767px) {
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+    
+    .banner h2 {
+        margin: 0px auto;
+        font-size: 2em;
+    }
+    
+    .lead {
+    	font-size: 1.25em;
+    }
+    
+    .custombanner img {
+    	width: 75%;
+    }
+
+    .newbanner {
+        display: none;
+    }
+
+    .newbanner2  {
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    .newbanner2 img {
+        width: 90%;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+}
+
+@media(min-width:995px) {
+	.intro-message > h1 {
+		font-size: 4em;
+		text-align: center;
+		padding-left: 0px;
+		padding-bottom: 10px;
+	}
+	
+	.intro-message > h3 {
+		text-align: center;
+		padding-left: 0px;
+	}
+	
+	.section-heading {
+    	padding-left: 200px;
+    }
+	
+	.lead {
+	    padding-left: 200px;
+	    max-width: 650px;
+	}
+	    
+	.custombanner img {
+    	width: 50%;
+    }
+    
+    .section-heading2 {
+    	
+    }
+}
+
+
+/*----------------------------------------FONTS-----------------------------------------------*/
+
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on November 29, 2014 */
+
+@font-face {
+    font-family: 'Mission Gothic';
+    src: url('/wedding/fonts/mission_gothic_regular-webfont.eot');
+    src: url('/wedding/fonts/mission_gothic_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wedding/fonts/mission_gothic_regular-webfont.woff2') format('woff2'),
+         url('/wedding/fonts/mission_gothic_regular-webfont.woff') format('woff'),
+         url('/wedding/fonts/mission_gothic_regular-webfont.ttf') format('truetype'),
+         url('/wedding/fonts/mission_gothic_regular-webfont.svg#mission_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mission Gothic Bold';
+    src: url('/wedding/fonts/mission_gothic_bold-webfont.eot');
+    src: url('/wedding/fonts/mission_gothic_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wedding/fonts/mission_gothic_bold-webfont.woff2') format('woff2'),
+         url('/wedding/fonts//wedding/fonts/mission_gothic_bold-webfont.woff') format('woff'),
+         url('/wedding/fonts/mission_gothic_bold-webfont.ttf') format('truetype'),
+         url('/wedding/fonts/mission_gothic_bold-webfont.svg#mission_gothicbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mission Gothic Black';
+    src: url('/wedding/fonts/mission_gothic_black-webfont.eot');
+    src: url('/wedding/fonts/mission_gothic_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wedding/fonts/mission_gothic_black-webfont.woff2') format('woff2'),
+         url('/wedding/fonts/mission_gothic_black-webfont.woff') format('woff'),
+         url('/wedding/fonts/mission_gothic_black-webfont.ttf') format('truetype'),
+         url('/wedding/fonts/mission_gothic_black-webfont.svg#mission_gothicblack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('/wedding/fonts/charter_regular-webfont.eot');
+    src: url('/wedding/fonts//wedding/fonts/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wedding/fonts/charter_regular-webfont.woff2') format('woff2'),
+         url('/wedding/fonts//wedding/fonts/charter_regular-webfont.woff') format('woff'),
+         url('/wedding/fonts/charter_regular-webfont.ttf') format('truetype'),
+         url('/wedding/fonts/charter_regular-webfont.svg#charterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Charter Bold';
+    src: url('/wedding/fonts/charter_bold-webfont.eot');
+    src: url('/wedding/fonts/charter_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wedding/fonts//wedding/fonts/charter_bold-webfont.woff2') format('woff2'),
+         url('/wedding/fonts/charter_bold-webfont.woff') format('woff'),
+         url('/wedding/fonts/charter_bold-webfont.ttf') format('truetype'),
+         url('/wedding/fonts/charter_bold-webfont.svg#charterbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
