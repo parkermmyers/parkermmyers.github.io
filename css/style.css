@@ -112,6 +112,10 @@ strong {
 	display: none;
 }
 
+.mobileonly {
+	display: block;
+}
+
 .tablethide {
 	display: none;
 }
@@ -276,6 +280,10 @@ a.button:hover {
 
 	.mobilehide {
 		display: block;
+	}
+
+	.mobileonly {
+		display: none;
 	}
 
 	.maxwidth {
