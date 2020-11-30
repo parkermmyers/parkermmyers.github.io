@@ -1,7 +1,0 @@
-Options -Indexes
-
-DirectoryIndex shoppingcart.php
-
-<IfModule mod_rewrite.c>
-RewriteEngine off
-</IfModule>
