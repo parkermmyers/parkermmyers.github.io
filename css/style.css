@@ -157,6 +157,8 @@ a.button:hover {
 	padding-bottom: 1px;
 }
 
+
+
 .navigator {
 	padding: 10px 10px 0px 0px;
 }
@@ -209,6 +211,10 @@ a.button:hover {
 	width: 100px;
 	margin-top: -50px;
 	margin-left: 15px;
+}
+
+.navbar-left a {
+	border-bottom: none;
 }
 
 .navbar-left a:hover {
