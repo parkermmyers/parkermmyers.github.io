@@ -55,6 +55,7 @@ a:hover {
 }
 
 .hero a {
+	border-bottom: 1px solid white;
 }
 
 .hero a:hover {
@@ -91,6 +92,7 @@ a.button:hover {
 
 .navbar-left a:hover {
 	background-color: black;
+	border-bottom: none;
 }
 
 .navlogo a {
