@@ -90,15 +90,15 @@ a.button:hover {
 	color: white;
 }
 
-.navbar-left a:hover {
-	background-color: black;
-	border-bottom: none;
-}
-
-.navlogo a {
+.navbar-left a {
 	background-color: black;
 	border-bottom: none;
 	color: black;
+}
+
+.navbar-left a:hover {
+	background-color: black;
+	border-bottom: none;
 }
 
 /*==========  Portfolio  ==========*/
