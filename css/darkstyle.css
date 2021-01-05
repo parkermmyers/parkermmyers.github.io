@@ -76,11 +76,11 @@ a.button:hover {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a {
-	color: #CCCCCC;
+	color: #BCBCBC;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-	color: black;
+	color: white;
 }
 
 .navbar-left a:hover {
@@ -91,17 +91,17 @@ a.button:hover {
 
 .portfolio h2:hover {
 	background-color: #fdda7b;
-	color: #333333;
+	color: black;
 }
 
 /*==========  Footer ==========*/
 
 .footer {
-	background-color: #eee;
-	color: #3a3a3a;
+	background-color: #3A3A3A;
+	color: white;
 }
 
 .footer a {
- 	border-bottom: 1px solid #3a3a3a;
-	color: #3a3a3a;
+ 	border-bottom: 1px solid #BCBCBC;
+	color: #BCBCBC;
 }
