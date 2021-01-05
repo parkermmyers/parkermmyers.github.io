@@ -55,7 +55,6 @@ a:hover {
 }
 
 .hero a {
-	border-bottom: 1px solid white;
 }
 
 .hero a:hover {
@@ -94,6 +93,12 @@ a.button:hover {
 	background-color: black;
 }
 
+.navlogo a {
+	background-color: black;
+	border-bottom: none;
+	color: black;
+}
+
 /*==========  Portfolio  ==========*/
 
 .portfolio h2:hover {
@@ -114,6 +119,7 @@ a.button:hover {
 }
 
 .footer a:hover {
+	background-color: #232323;
 	color: #fdda7b;
 	border-bottom: 1px solid #fdda7b;
 }
