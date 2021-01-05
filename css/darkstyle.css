@@ -91,15 +91,14 @@ a.button:hover {
 /*==========  Portfolio  ==========*/
 
 .portfolio h2:hover {
-	background-color: #fdda7b;
-	color: black;
+	color: #EAEAEA;
 }
 
 /*==========  Footer ==========*/
 
 .footer {
-	background-color: #3A3A3A;
-	color: #BCBCBC;
+	background-color: #232323;
+	color: white;
 }
 
 .footer a {
