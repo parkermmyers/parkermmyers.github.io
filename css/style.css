@@ -228,10 +228,6 @@ a.button:hover {
 	padding-top: 0px;
 }
 
-.introduction p a:hover {
-	border-bottom: none;
-}
-
 .portfolio {
 	margin-bottom: 50px;
 }
