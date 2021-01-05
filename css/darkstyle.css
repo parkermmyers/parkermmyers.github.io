@@ -61,11 +61,11 @@ a:hover {
 /*==========  STRUCTURE  ==========*/
 
 a.button {
- 	border-bottom: 1px solid #232323;
+ 	border-bottom: 1px solid white;
 }
 
 a.button:hover {
-	background-color: none;
+	background-color: black;
 	color: #fdda7b;
  	border-bottom: 1px solid #fdda7b;
 }
