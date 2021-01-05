@@ -208,9 +208,9 @@ a.button:hover {
 }
 
 .navlogo {
-	width: 100px;
-	margin-top: -50px;
-	margin-left: 15px;
+	width: 60px;
+	margin-top: -60px;
+	margin-left: 0px;
 }
 
 .navbar-left a {
