@@ -1,0 +1,107 @@
+/*
+Myers Design Co.
+*/
+
+/* COLORS
+	
+--Grayscale
+#000000 (black)
+1 - #232323
+2 - #3A3A3A
+3 - #757575
+4 - #BCBCBC
+5 - #CCCCCC
+6 - #EAEAEA
+#ffffff (white)
+
+--Accent Colors
+blue - #5198F9
+yellow - #fdda7b
+gold - #ccaa8f
+red - #f37b64
+green - #48ae73
+*/
+
+
+/*==========  TYPOGRAPHY  ==========*/
+
+body {
+	font: 400 14px/21px "Chivo";
+	background-color: black;
+	color: #EAEAEA;
+}
+
+h1 {
+}
+
+h2 { /*project names*/
+}
+
+h3 { /*project subtext*/
+}
+
+h4 { /*footer headers*/
+}
+
+a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
+	color: #333333;
+}
+
+a:hover {
+	background-color: #fdda7b;
+	color: black;
+}
+
+.highlight {
+	color: #161616;
+	background-color: #fdda7b;
+}
+
+/*==========  STRUCTURE  ==========*/
+
+a.button {
+ 	border-bottom: 1px solid #232323;
+}
+
+a.button:hover {
+	background-color: #fdda7b;
+	color: black;
+ 	border-bottom: 1px solid #fdda7b;
+}
+
+/*==========  NAVIGATION  ==========*/
+
+.hero a {
+ 	border-bottom: 1px solid #232323;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a {
+	color: #4F4F4F;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: black;
+}
+
+.navbar-left a:hover {
+	background-color: white;
+}
+
+/*==========  Portfolio  ==========*/
+
+.portfolio h2:hover {
+	background-color: #fdda7b;
+	color: #333333;
+}
+
+/*==========  Footer ==========*/
+
+.footer {
+	background-color: #eee;
+	color: #3a3a3a;
+}
+
+.footer a {
+ 	border-bottom: 1px solid #3a3a3a;
+	color: #3a3a3a;
+}
