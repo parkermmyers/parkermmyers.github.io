@@ -80,11 +80,13 @@ a.button:hover {
 }
 
 .navbar-left a:hover {
+	background-color: none;
 }
 
 /*==========  Portfolio  ==========*/
 
 .portfolio h2:hover {
+	background-color: none;
 	color: #EAEAEA;
 }
 
