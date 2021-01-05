@@ -44,7 +44,7 @@ h4 { /*footer headers*/
 }
 
 a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
-	color: #333333;
+	color: #BCBCBC;
 }
 
 a:hover {
@@ -76,7 +76,7 @@ a.button:hover {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a {
-	color: #4F4F4F;
+	color: #CCCCCC;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
