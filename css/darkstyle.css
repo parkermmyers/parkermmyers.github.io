@@ -46,11 +46,13 @@ h4 { /*footer headers*/
 
 a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 	color: white;
+	border-bottom: 1px solid white;
 }
 
 a:hover {
-	background-color: #232323;
-	color: #EAEAEA;
+	background-color: black;
+	color: #fdda7b;
+	border-bottom: 1px solid #fdda7b;
 }
 
 .highlight {
@@ -88,7 +90,7 @@ a.button:hover {
 
 .portfolio h2:hover {
 	background-color: black;
-	color: #EAEAEA;
+	color: #fdda7b;
 }
 
 /*==========  Footer ==========*/
@@ -101,4 +103,9 @@ a.button:hover {
 .footer a {
  	border-bottom: 1px solid white;
 	color: white;
+}
+
+.footer a:hover {
+	color: #fdda7b;
+	border-bottom: 1px solid #fdda7b;
 }
