@@ -27,7 +27,8 @@ green - #48ae73
 
 body {
 	font: 400 16px/24px "Chivo";
-	color: #161616;
+	background-color: black;
+	color: white;
 }
 
 h1 {
