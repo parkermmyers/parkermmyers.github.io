@@ -71,10 +71,6 @@ a.button:hover {
 
 /*==========  NAVIGATION  ==========*/
 
-.hero a {
- 	border-bottom: 1px solid white;
-}
-
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a {
 	color: #BCBCBC;
 }
