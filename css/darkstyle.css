@@ -53,8 +53,6 @@ a:hover {
 }
 
 .highlight {
-	color: black;
-	background-color: white;
 }
 
 /*==========  STRUCTURE  ==========*/
@@ -86,7 +84,7 @@ a.button:hover {
 /*==========  Portfolio  ==========*/
 
 .portfolio h2:hover {
-	background-color: none;
+	background-color: #232323;
 	color: #EAEAEA;
 }
 
