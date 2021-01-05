@@ -26,9 +26,9 @@ green - #48ae73
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 14px/21px "Chivo";
+	font: 400 15px/21px "Chivo";
 	background-color: black;
-	color: #EAEAEA;
+	color: white;
 }
 
 h1 {
@@ -38,13 +38,14 @@ h2 { /*project names*/
 }
 
 h3 { /*project subtext*/
+	color: #BCBCBC;
 }
 
 h4 { /*footer headers*/
 }
 
 a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
-	color: #BCBCBC;
+	color: white;
 }
 
 a:hover {
@@ -98,10 +99,10 @@ a.button:hover {
 
 .footer {
 	background-color: #3A3A3A;
-	color: white;
+	color: #BCBCBC;
 }
 
 .footer a {
- 	border-bottom: 1px solid #BCBCBC;
-	color: #BCBCBC;
+ 	border-bottom: 1px solid white;
+	color: white;
 }
