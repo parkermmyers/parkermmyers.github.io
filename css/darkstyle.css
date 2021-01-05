@@ -53,8 +53,8 @@ a:hover {
 }
 
 .highlight {
-	color: white;
-	background-color: black;
+	color: black;
+	background-color: white;
 }
 
 /*==========  STRUCTURE  ==========*/
@@ -64,8 +64,7 @@ a.button {
 }
 
 a.button:hover {
-	background-color: #fdda7b;
-	color: black;
+	color: #fdda7b;
  	border-bottom: 1px solid #fdda7b;
 }
 
