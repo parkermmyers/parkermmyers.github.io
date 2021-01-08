@@ -27,7 +27,7 @@ green - #48ae73
 
 body {
 	font: 400 15px/21px "Chivo";
-	color: #161616;
+	color: #242424;
 }
 
 h1 {
@@ -66,8 +66,8 @@ a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 }
 
 a:hover {
-	color: #0027BE;
-	border-bottom: 1px solid #0027BE;
+	color: #ccaa8f;
+	border-bottom: 1px solid #ccaa8f;
 }
 
 li {
@@ -131,8 +131,8 @@ a.button {
 }
 
 a.button:hover {
-	color: #0027BE;
- 	border-bottom: 1px solid #0027BE;
+	color: #ccaa8f;
+ 	border-bottom: 1px solid #ccaa8f;
 }
 
 /*==========  NAVIGATION  ==========*/
@@ -149,8 +149,8 @@ a.button:hover {
 }
 
 .hero a:hover {
-	color: #0027BE;
-	border-bottom: 1px solid #0027BE;
+	color: #ccaa8f;
+	border-bottom: 1px solid #ccaa8f;
 }
 
 .navigator {
@@ -233,7 +233,7 @@ a.button:hover {
 }
 
 .portfolio h2:hover {
-	color: #0027BE;
+	color: #ccaa8f;
 }
 
 .portfolio img {
@@ -256,8 +256,8 @@ a.button:hover {
 }
 
 .footer a:hover {
-	color: #0027BE;
-	border-bottom: 1px solid #0027BE;
+	color: #ccaa8f;
+	border-bottom: 1px solid #ccaa8f;
 	text-decoration: none;
 }
 
