@@ -66,8 +66,8 @@ a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 }
 
 a:hover {
-	color: #C8FF00;
-	border-bottom: 1px solid #C8FF00;
+	color: #0027BE;
+	border-bottom: 1px solid #0027BE;
 }
 
 li {
@@ -131,8 +131,8 @@ a.button {
 }
 
 a.button:hover {
-	color: #C8FF00;
- 	border-bottom: 1px solid #C8FF00;
+	color: #0027BE;
+ 	border-bottom: 1px solid #0027BE;
 }
 
 /*==========  NAVIGATION  ==========*/
@@ -149,8 +149,8 @@ a.button:hover {
 }
 
 .hero a:hover {
-	color: #C8FF00;
-	border-bottom: 1px solid #C8FF00;
+	color: #0027BE;
+	border-bottom: 1px solid #0027BE;
 }
 
 .navigator {
@@ -233,7 +233,7 @@ a.button:hover {
 }
 
 .portfolio h2:hover {
-	color: #C8FF00;
+	color: #0027BE;
 }
 
 .portfolio img {
@@ -256,8 +256,8 @@ a.button:hover {
 }
 
 .footer a:hover {
-	color: #C8FF00;
-	border-bottom: 1px solid #C8FF00;
+	color: #0027BE;
+	border-bottom: 1px solid #0027BE;
 	text-decoration: none;
 }
 
