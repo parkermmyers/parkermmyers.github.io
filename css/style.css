@@ -34,7 +34,9 @@ body {
 h1 {
 	font-size: 1em;
 	font-weight: 700;
+	text-transform: uppercase;
 	margin-bottom: 0.34em;
+	letter-spacing: 0.1px;
 }
 
 h2 { /*project names*/
@@ -214,7 +216,6 @@ a.button:hover {
 
 .navbar-left a:hover {
 	border-bottom: none;
-	background-color: white;
 	text-decoration: none;
 }
 
