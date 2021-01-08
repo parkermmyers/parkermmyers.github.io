@@ -66,8 +66,8 @@ a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 }
 
 a:hover {
-	color: #002fa7;
-	border-bottom: 1px solid #002fa7;
+	color: #FCB600;
+	border-bottom: 1px solid #FCB600;
 }
 
 li {
@@ -131,8 +131,8 @@ a.button {
 }
 
 a.button:hover {
-	color: #002fa7;
- 	border-bottom: 1px solid #002fa7;
+	color: #FCB600;
+ 	border-bottom: 1px solid #FCB600;
 }
 
 /*==========  NAVIGATION  ==========*/
@@ -149,8 +149,8 @@ a.button:hover {
 }
 
 .hero a:hover {
-	color: #002fa7;
-	border-bottom: 1px solid #002fa7;
+	color: #FCB600;
+	border-bottom: 1px solid #FCB600;
 }
 
 .navigator {
@@ -233,7 +233,7 @@ a.button:hover {
 }
 
 .portfolio h2:hover {
-	color: #002fa7;
+	color: #FCB600;
 }
 
 .portfolio img {
@@ -256,8 +256,8 @@ a.button:hover {
 }
 
 .footer a:hover {
-	color: #002fa7;
-	border-bottom: 1px solid #002fa7;
+	color: #FCB600;
+	border-bottom: 1px solid #FCB600;
 	text-decoration: none;
 }
 
