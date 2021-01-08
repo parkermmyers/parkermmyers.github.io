@@ -28,7 +28,7 @@ green - #48ae73
 body {
 	font: 400 15px/21px "Chivo";
 	background-color: black;
-	color: white;
+	color: #EAEAEA;
 }
 
 h1 {
@@ -61,11 +61,6 @@ a:hover {
 .hero a:hover {
 	color: #5198F9;
 	border-bottom: 1px solid #5198F9;
-}
-
-.highlight {
-	background-color: black;
-	color: white;
 }
 
 /*==========  STRUCTURE  ==========*/
