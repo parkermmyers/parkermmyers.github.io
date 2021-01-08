@@ -31,12 +31,10 @@ body {
 	color: #242424;
 }
 
-h1 {
+h1 { /*keep it clean*/
 	font-size: 1em;
 	font-weight: 900;
-	text-transform: uppercase;
 	margin-bottom: 0.34em;
-	letter-spacing: 0.1px;
 }
 
 h2 { /*project names*/
@@ -44,16 +42,12 @@ h2 { /*project names*/
 	margin-bottom: 20px; padding-top: 4px;
 }
 
-h3 { /*project subtext*/
+h3 { /*project subtext and footer headers*/
 	font-size: 0.75em;
 	line-height: 0.5em;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 	margin-top: 30px;
-}
-
-h4 { /*footer headers*/
-	margin-top: 25px; padding-top: 5px;
 }
 
 p {
@@ -140,6 +134,22 @@ a.button:hover {
 
 /*==========  NAVIGATION  ==========*/
 
+.hero {
+	margin-top: 30px;
+}
+
+.hero a {
+	font: 700 1em/1em "Chivo";
+  	text-decoration: none;
+ 	border-bottom: 1px solid #232323;
+	padding-bottom: 1px;
+}
+
+.hero a:hover {
+	color: #0e1acc;
+	border-bottom: 1px solid #0e1acc;
+}
+
 .navigator {
 	padding: 10px 10px 0px 0px;
 }
@@ -204,22 +214,6 @@ a.button:hover {
 }
 
 /*==========  Content  ==========*/
-
-.hero {
-	margin-top: 30px;
-}
-
-.hero a {
-	font: 700 1em/1em "Chivo";
-  	text-decoration: none;
- 	border-bottom: 1px solid #232323;
-	padding-bottom: 1px;
-}
-
-.hero a:hover {
-	color: #0e1acc;
-	border-bottom: 1px solid #0e1acc;
-}
 
 .portfolio {
 	margin: 30px 0px;
