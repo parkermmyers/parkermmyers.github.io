@@ -232,15 +232,7 @@ a.button:hover {
 .portfolio a:hover {
 	border-bottom: none;
 	text-decoration: none;
-}
-
-.portfolio h2:hover {
 	color: #0e1acc;
-}
-
-.portfolio img {
-	width: 100%;
-	margin-top: 50px;
 }
 
 /*==========  Footer ==========*/
@@ -309,15 +301,6 @@ a.button:hover {
     .navlogo {
 		width: 75px;
 		margin-top: -5px; margin-left: -20px;
-	}
-
-	.navbar-left li {
-		margin-top: 15px; margin-left: -2px;
-	}
-
-	.portfolio img {
-		width: 95%;
-		margin-top: 0px;
 	}
 
 }
