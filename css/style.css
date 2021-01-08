@@ -140,22 +140,6 @@ a.button:hover {
 
 /*==========  NAVIGATION  ==========*/
 
-.hero {
-	margin-top: 30px;
-}
-
-.hero a {
-	font: 700 1em/1em "Chivo";
-  	text-decoration: none;
- 	border-bottom: 1px solid #232323;
-	padding-bottom: 1px;
-}
-
-.hero a:hover {
-	color: #0e1acc;
-	border-bottom: 1px solid #0e1acc;
-}
-
 .navigator {
 	padding: 10px 10px 0px 0px;
 }
@@ -219,10 +203,22 @@ a.button:hover {
 	text-decoration: none;
 }
 
-/*==========  Portfolio  ==========*/
+/*==========  Content  ==========*/
 
-.introduction {
-	padding-top: 0px;
+.hero {
+	margin-top: 30px;
+}
+
+.hero a {
+	font: 700 1em/1em "Chivo";
+  	text-decoration: none;
+ 	border-bottom: 1px solid #232323;
+	padding-bottom: 1px;
+}
+
+.hero a:hover {
+	color: #0e1acc;
+	border-bottom: 1px solid #0e1acc;
 }
 
 .portfolio {
