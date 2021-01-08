@@ -66,8 +66,8 @@ a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 }
 
 a:hover {
-	color: #ffffff;
-	border-bottom: 1px solid #ffffff;
+	color: ##C8FF00;
+	border-bottom: 1px solid ##C8FF00;
 }
 
 li {
@@ -131,8 +131,8 @@ a.button {
 }
 
 a.button:hover {
-	color: #ffffff;
- 	border-bottom: 1px solid #ffffff;
+	color: ##C8FF00;
+ 	border-bottom: 1px solid ##C8FF00;
 }
 
 /*==========  NAVIGATION  ==========*/
@@ -149,8 +149,8 @@ a.button:hover {
 }
 
 .hero a:hover {
-	color: #ffffff;
-	border-bottom: 1px solid #ffffff;
+	color: ##C8FF00;
+	border-bottom: 1px solid ##C8FF00;
 }
 
 .navigator {
@@ -233,7 +233,7 @@ a.button:hover {
 }
 
 .portfolio h2:hover {
-	color: #ffffff;
+	color: ##C8FF00;
 }
 
 .portfolio img {
@@ -256,8 +256,8 @@ a.button:hover {
 }
 
 .footer a:hover {
-	color: #ffffff;
-	border-bottom: 1px solid #ffffff;
+	color: ##C8FF00;
+	border-bottom: 1px solid ##C8FF00;
 	text-decoration: none;
 }
 
