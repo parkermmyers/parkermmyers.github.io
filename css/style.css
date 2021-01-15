@@ -7,7 +7,7 @@ Myers Design Co.
 body {
 	font: 400 16px/21px "Chivo";
 	background-color: #f5f5f5;
-	color: #2b2b2b;
+	color: #1f1f1f;
 }
 
 h1 { /*keep it clean*/
@@ -36,14 +36,14 @@ p {
 
 a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 	text-decoration: none;
-	color: #2b2b2b;
+	color: #1f1f1f;
 	transition: color .25s;
 	font-weight: 400;
 }
 
 a:hover {
-	color: black;
-	border-bottom: 1px solid black;
+	color: white;
+	border-bottom: 1px solid white;
 }
 
 li {
