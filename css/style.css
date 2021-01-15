@@ -16,9 +16,9 @@ Myers Design Co.
 
 --Accent Colors
 blue - #5198F9
-yellow - #f37b64
-gold - #f37b64
-red - #f37b64
+yellow - black
+gold - black
+red - black
 green - #48ae73
 */
 
@@ -63,8 +63,8 @@ a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 }
 
 a:hover {
-	color: #f37b64;
-	border-bottom: 1px solid #f37b64;
+	color: black;
+	border-bottom: 1px solid black;
 }
 
 li {
@@ -118,8 +118,8 @@ a.button {
 }
 
 a.button:hover {
-	color: #f37b64;
- 	border-bottom: 1px solid #f37b64;
+	color: black;
+ 	border-bottom: 1px solid black;
 }
 
 /*==========  Navigation and Hero  ==========*/
@@ -136,8 +136,8 @@ a.button:hover {
 }
 
 .hero a:hover {
-	color: #f37b64;
-	border-bottom: 1px solid #f37b64;
+	color: black;
+	border-bottom: 1px solid black;
 }
 
 .navigator {
@@ -209,10 +209,13 @@ a.button:hover {
 	margin: 30px 0px;
 }
 
+.portfolio a {
+	font-style: italic;
+}
+
 .portfolio a:hover {
 	border-bottom: none;
 	text-decoration: none;
-	font-style: italic;
 	color: black;
 }
 
@@ -234,8 +237,8 @@ a.button:hover {
 }
 
 .footer a:hover {
-	color: #f37b64;
-	border-bottom: 1px solid #f37b64;
+	color: black;
+	border-bottom: 1px solid black;
 	text-decoration: none;
 }
 
