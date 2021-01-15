@@ -109,7 +109,7 @@ strong {
 }
 
 a.button {
-	font: 700 1em/1em "Chivo";
+	font: 400 1em/1em "Chivo";
   	text-decoration: none;
   	display: inline-block;
  	border-bottom: 1px solid #232323;
@@ -129,7 +129,7 @@ a.button:hover {
 }
 
 .hero a {
-	font: 700 1em/1em "Chivo";
+	font: 400 1em/1em "Chivo";
   	text-decoration: none;
  	border-bottom: 1px solid #232323;
 	padding-bottom: 1px;
@@ -213,6 +213,7 @@ a.button:hover {
 	border-bottom: none;
 	text-decoration: none;
 	font-style: italic;
+	color: black;
 }
 
 .portfolio img {
