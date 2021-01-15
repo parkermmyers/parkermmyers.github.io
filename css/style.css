@@ -203,7 +203,7 @@ a.button:hover {
 }
 
 .portfolio a {
-	font-style: italic;
+	font-weight: 400;
 }
 
 .portfolio a:hover {
