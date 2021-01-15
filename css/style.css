@@ -22,7 +22,7 @@ green - #48ae73
 body {
 	font: 400 15px/21px "Chivo";
 	background-color: #f5f5f5;
-	color: #3d3d3d;
+	color: #333333;
 }
 
 h1 { /*keep it clean*/
@@ -51,7 +51,7 @@ p {
 
 a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 	text-decoration: none;
-	color: #3d3d3d;
+	color: #333333;
 	transition: color .25s;
 	font-weight: 400;
 }
