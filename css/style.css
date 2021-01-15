@@ -33,12 +33,13 @@ body {
 
 h1 { /*keep it clean*/
 	font-size: 1em;
-	font-weight: 900;
+	font-weight: 400;
+	font-style: italic;
 	margin-bottom: 0.34em;
 }
 
 h2 { /*project names*/
-	font-weight: 900;
+	font-weight: 400;
 	margin-bottom: 20px; padding-top: 4px;
 }
 
@@ -213,6 +214,7 @@ a.button:hover {
 	border-bottom: none;
 	text-decoration: none;
 	color: #fdda7b;
+	font-style: italic;
 }
 
 .portfolio img {
