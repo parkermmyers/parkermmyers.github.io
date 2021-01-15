@@ -16,8 +16,8 @@ Myers Design Co.
 
 --Accent Colors
 blue - #5198F9
-yellow - #fdda7b
-gold - #fdda7b
+yellow - #f37b64
+gold - #f37b64
 red - #f37b64
 green - #48ae73
 */
@@ -33,8 +33,7 @@ body {
 
 h1 { /*keep it clean*/
 	font-size: 1em;
-	font-weight: 400;
-	font-style: italic;
+	font-weight: 900;
 	margin-bottom: 0.34em;
 }
 
@@ -64,8 +63,8 @@ a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 }
 
 a:hover {
-	color: #fdda7b;
-	border-bottom: 1px solid #fdda7b;
+	color: #f37b64;
+	border-bottom: 1px solid #f37b64;
 }
 
 li {
@@ -119,8 +118,8 @@ a.button {
 }
 
 a.button:hover {
-	color: #fdda7b;
- 	border-bottom: 1px solid #fdda7b;
+	color: #f37b64;
+ 	border-bottom: 1px solid #f37b64;
 }
 
 /*==========  Navigation and Hero  ==========*/
@@ -137,8 +136,8 @@ a.button:hover {
 }
 
 .hero a:hover {
-	color: #fdda7b;
-	border-bottom: 1px solid #fdda7b;
+	color: #f37b64;
+	border-bottom: 1px solid #f37b64;
 }
 
 .navigator {
@@ -213,7 +212,6 @@ a.button:hover {
 .portfolio a:hover {
 	border-bottom: none;
 	text-decoration: none;
-	color: #fdda7b;
 	font-style: italic;
 }
 
@@ -235,8 +233,8 @@ a.button:hover {
 }
 
 .footer a:hover {
-	color: #fdda7b;
-	border-bottom: 1px solid #fdda7b;
+	color: #f37b64;
+	border-bottom: 1px solid #f37b64;
 	text-decoration: none;
 }
 
