@@ -104,7 +104,7 @@ a.button:hover {
 /*==========  Navigation and Hero  ==========*/
 
 .hero {
-	padding-top: 30px;
+	padding: 50px 0px 50px 0px;
 }
 
 .hero a {
@@ -120,7 +120,7 @@ a.button:hover {
 }
 
 .navigator {
-	padding: 10px 10px 0px 0px;
+	padding: 40px 10px 0px 0px;
 	background-color: white;
 }
 
@@ -199,7 +199,8 @@ a.button:hover {
 }
 
 .portfolio a:hover {
-
+	text-decoration: none;
+	border-bottom: none;
 }
 
 .portfolio img {
@@ -209,14 +210,15 @@ a.button:hover {
 /*==========  Footer ==========*/
 
 .footer {
-	padding: 0px 0px 60px 0px;
+	padding: 40px 0px 60px 0px;
 	background-color: #393939;
 	color: white;
 }
 
 .footer a {
- 	border-bottom: 1px solid #2b2b2b;
+ 	border-bottom: 1px solid white;
 	padding-bottom: 1px;
+	color: white;
 }
 
 .footer a:hover {
