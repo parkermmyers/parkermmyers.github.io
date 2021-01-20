@@ -120,7 +120,7 @@ a.button:hover {
 }
 
 .navigator {
-	padding: 60px 10px 0px 0px;
+	padding: 40px 10px 0px 0px;
 	background-color: white;
 }
 
@@ -264,7 +264,7 @@ a.button:hover {
 	}
 
 	.navigator {
-		padding: 10px 0px;
+		padding: 20px 0px 10px 0px;
 	}
 
 	h2 {
