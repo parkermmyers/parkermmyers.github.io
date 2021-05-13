@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 16px/21px "Karla";
+	font: 400 15px/21px "Chivo";
 	background-color: #EDEDED;
 	color: #1f1f1f;
 }
@@ -88,7 +88,7 @@ strong {
 }
 
 a.button {
-	font: 400 1em/1em "Karla";
+	font: 400 1em/1em "Chivo";
   	text-decoration: none;
   	display: inline-block;
  	border-bottom: 1px solid #2b2b2b;
