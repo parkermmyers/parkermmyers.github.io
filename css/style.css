@@ -186,7 +186,7 @@ a.button:hover {
 
 .portfolio {
 	padding: 50px 0px;
-	background-color: #7F7F7F;
+	/*background-color: #7F7F7F;*/
 }
 
 .portfolio h3 {
@@ -195,7 +195,6 @@ a.button:hover {
 
 .portfolio a {
 	font-weight: 400;
-	color: white;
 }
 
 .portfolio a:hover {
@@ -211,14 +210,12 @@ a.button:hover {
 
 .footer {
 	padding: 40px 0px 60px 0px;
-	background-color: #393939;
-	color: white;
+	/*background-color: #393939;*/
 }
 
 .footer a {
  	border-bottom: 1px solid white;
 	padding-bottom: 1px;
-	color: white;
 }
 
 .footer a:hover {
