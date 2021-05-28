@@ -167,8 +167,8 @@ a.button:hover {
 }
 
 .navlogo {
-	width: 200px;
-	margin-top: -70px;
+	width: 250px;
+	margin-top: -75px;
 	margin-left: 5px;
 }
 
@@ -268,8 +268,8 @@ a.button:hover {
 	}
 
     .navlogo {
-		width: 200px;
-		margin-top: -5px; margin-left: -20px;
+		width: 250px;
+		margin-top: 0px; margin-left: -20px;
 	}
 
 }
