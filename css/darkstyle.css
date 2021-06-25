@@ -26,8 +26,8 @@ green - #48ae73
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	background-color: black;
-	color: #EAEAEA;
+	background-color: #0B0C0D;
+	color: #F5F7FA;
 }
 
 h1 {
@@ -48,6 +48,7 @@ a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 }
 
 a:hover {
+	color: #0F4BF1;
 }
 
 .hero a {
@@ -67,7 +68,7 @@ a.button:hover {
 /*==========  NAVIGATION  ==========*/
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a {
-	color: #BCBCBC;
+	color: #656D78;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -91,7 +92,6 @@ a.button:hover {
 /*==========  Footer ==========*/
 
 .footer {
-	background-color: #141414;
 	color: white;
 }
 
