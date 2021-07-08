@@ -6,7 +6,7 @@ Myers Design Co.
 
 body {
 	font: 400 15px/21px "Chivo";
-	background-color: #EDEDED;
+	background-color: white;
 	color: #1f1f1f;
 }
 
@@ -121,6 +121,7 @@ a.button:hover {
 
 .navigator {
 	padding: 40px 10px 0px 0px;
+	background-color: #EDEDED;
 }
 
 .navbar {
