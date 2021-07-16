@@ -47,6 +47,10 @@ a:hover {
 	border-bottom: 1px solid black;
 }
 
+.coollink {
+	display: inline-block;
+}
+
 .coollink::after {
     content: '';
     display: block;
