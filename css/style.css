@@ -39,16 +39,16 @@ a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 	color: #1f1f1f;
 	transition: color .25s;
 	font-weight: 400;
-overflow: hidden;
+	overflow: hidden;
 }
 
 a:hover {
 	color: black;
-	border-bottom: 1px solid black;
 }
 
 .coollink {
 	display: inline-block;
+	margin-bottom: 10px;
 }
 
 .coollink::after {
