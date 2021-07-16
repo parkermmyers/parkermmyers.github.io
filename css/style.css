@@ -48,7 +48,7 @@ a:hover {
 
 .coollink {
 	display: inline-block;
-	margin-bottom: -10px;
+	margin-bottom: 10px;
 }
 
 .coollink::after {
