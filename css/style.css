@@ -133,13 +133,11 @@ strong {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a {
-	transition: color .25s;
-	text-decoration: none;
-	border-bottom: none;
+
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-	color: black;
+
 }
 
 .navlogo {
