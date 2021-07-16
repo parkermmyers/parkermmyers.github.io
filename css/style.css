@@ -119,12 +119,9 @@ a.button:hover {
 	border-bottom: 1px solid black;
 }
 
-.introtext h1 {
-	font-size: 200%;
-}
-
-.introtext p {
-	font-size: 300%;
+.introtext p, .introtext h1 {
+	font-size: 40px;
+	line-height: 50px;
 }
 
 .navigator {
