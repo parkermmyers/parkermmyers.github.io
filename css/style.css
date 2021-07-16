@@ -47,7 +47,7 @@ a:hover {
 	border-bottom: 1px solid black;
 }
 
-a::after {
+.coollink::after {
     content: '';
     display: block;
     width: 0;
@@ -56,7 +56,7 @@ a::after {
     transition: width .3s;
 }
 
-a:hover::after {
+.coollink:hover::after {
 	width: 100%;
     //transition: width .3s;
 }
