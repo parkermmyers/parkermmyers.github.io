@@ -177,9 +177,9 @@ a.button:hover {
 }
 
 .navlogo {
-	width: 50px;
+	width: 65px;
 	margin-top: -75px;
-	margin-left: 5px;
+	margin-left: 15px;
 }
 
 .navbar-left a {
@@ -194,7 +194,6 @@ a.button:hover {
 /*==========  Content  ==========*/
 
 .portfolio {
-	padding: 10px 0px;
 	/*background-color: #7F7F7F;*/
 }
 
