@@ -201,7 +201,7 @@ strong {
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 	.maxwidth {
-		max-width: 800px;
+		max-width: 900px;
 		margin: 10px auto;
 	}
 }
@@ -230,7 +230,7 @@ strong {
 	}
 
     .navlogo {
-		margin-top: 0px; margin-left: -20px;
+		margin-top: 0px; margin-left: -10px;
 	}
 
 }
