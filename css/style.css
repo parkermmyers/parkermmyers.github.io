@@ -39,11 +39,12 @@ a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
  	color: #1f1f1f;
 	padding-bottom: 1px;
 	text-decoration: none;
+	transition: color .3s, border-bottom .3s;
 }
 
 a:hover {
-	color: #818281;
-	border-bottom: 1px solid #818281;
+	color: #275fe3;
+	border-bottom: 1px solid #275fe3;
 	text-decoration: none;
 }
 
