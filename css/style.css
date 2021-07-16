@@ -42,8 +42,13 @@ a, a:active, a:visited, .navbar-default .navbar-nav>li>a {
 	overflow: hidden;
 }
 
+a:hover {
+	color: black;
+}
+
 .coollink {
 	display: inline-block;
+	margin-bottom: -3px;
 }
 
 .coollink::after {
