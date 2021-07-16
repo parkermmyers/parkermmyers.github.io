@@ -1,1 +1,13 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 957.61 735.21"><defs><style>.cls-1{fill:#232323;}</style></defs><rect class="cls-1" width="254.82" height="735.21" rx="16.43"/><path class="cls-1" d="M375.69,850.76V138.17h0c140.73,0,254.84,114,254.86,254.77V850.76a16.41,16.41,0,0,1-16.41,16.41h-222a16.41,16.41,0,0,1-16.41-16.41Z" transform="translate(-21.19 -131.96)"/><path class="cls-1" d="M724,850.77V360.57h0c140.7,0,254.77,114.06,254.8,254.76V850.66a16.41,16.41,0,0,1-16.32,16.51H740.4A16.42,16.42,0,0,1,724,850.77Z" transform="translate(-21.19 -131.96)"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 957.6 735.2" style="enable-background:new 0 0 957.6 735.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#232323;}
+</style>
+<path class="st0" d="M85,0h189c7.7,0,14,6.3,14,14v598.2c0,7.7-6.3,14-14,14H85c-7.7,0-14-6.3-14-14V14C71,6.3,77.3,0,85,0z"/>
+<path class="st0" d="M372.9,612.2V5.3l0,0c119.9,0,217,97.1,217.1,217v389.9c0,7.7-6.3,14-14,14H386.9
+	C379.2,626.2,373,619.9,372.9,612.2L372.9,612.2z"/>
+<path class="st0" d="M669.6,612.2V194.7l0,0c119.8,0,217,97.1,217,217v200.4c0,7.7-6.2,14-13.9,14.1c0,0,0,0,0,0H683.6
+	C675.8,626.2,669.6,619.9,669.6,612.2z"/>
+</svg>
