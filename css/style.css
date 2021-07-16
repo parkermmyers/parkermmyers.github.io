@@ -177,7 +177,7 @@ a.button:hover {
 }
 
 .navlogo {
-	width: 250px;
+	width: 50px;
 	margin-top: -75px;
 	margin-left: 5px;
 }
@@ -247,7 +247,7 @@ a.button:hover {
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 	.maxwidth {
-		max-width: 900px;
+		max-width: 800px;
 		margin: 10px auto;
 	}
 }
@@ -276,7 +276,6 @@ a.button:hover {
 	}
 
     .navlogo {
-		width: 250px;
 		margin-top: 0px; margin-left: -20px;
 	}
 
