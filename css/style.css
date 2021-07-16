@@ -48,14 +48,14 @@ a:hover {
 
 .coollink {
 	display: inline-block;
-	margin-bottom: 10px;
+	margin-bottom: -10px;
 }
 
 .coollink::after {
     content: '';
     display: block;
     width: 0;
-    height: 2px;
+    height: 1px;
     background: #000;
     transition: width .3s;
 }
@@ -129,13 +129,10 @@ a.button:hover {
 .hero a {
 	font: 400 1em/1em "Chivo";
   	text-decoration: none;
- 	border-bottom: 1px solid #2b2b2b;
-	padding-bottom: 1px;
 }
 
 .hero a:hover {
 	color: black;
-	border-bottom: 1px solid black;
 }
 
 .introtext {
