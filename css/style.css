@@ -222,17 +222,14 @@ strong {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
-	.maxwidth {
-		max-width: 650px;
-		margin: 10px auto;
-	}
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
 	.maxwidth {
-		max-width: 850px;
+		max-width: 650px;
 		margin: 10px auto;
 	}
 
@@ -271,6 +268,11 @@ strong {
 
 	.tablethide {
 		display: block;
+	}
+
+	.maxwidth {
+		max-width: 850px;
+		margin: 10px auto;
 	}
 
 }
