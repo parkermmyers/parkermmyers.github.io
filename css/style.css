@@ -13,8 +13,8 @@ body {
 .sideways {
     display: inline-block;
     position: absolute;
-    top: 240px;
-    left: -70px;
+    top: 250px;
+    left: -140px;
 	transform: rotate(270deg);
     text-align: right;
     text-transform: uppercase;
@@ -200,13 +200,13 @@ strong {
 	color: white;
 }
 
-.footer a {
+.footer a, .footer a:active, .footer a:visited {
 	color: white;
 	border-bottom: 1px solid white;
 	transition: color .3s, border-bottom .3s;
 }
 
-.footer a:hover, .footer a:active, .footer a:visited {
+.footer a:hover {
 	color: #2565fa;
 	border-bottom: 1px solid #2565fa;
 	text-decoration: none;
@@ -262,6 +262,10 @@ strong {
 
 	h2 {
 		margin-top: 0px;
+	}
+
+	.sideways {
+		left: -170px;
 	}
 
     .navlogo {
