@@ -13,6 +13,7 @@ body {
 h1 { /*hello!*/
 	font-size: 1em;
 	font-weight: 900;
+	margin-top: 300px;
 	margin-bottom: 0.34em;
 }
 
