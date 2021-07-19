@@ -231,6 +231,11 @@ strong {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
+	.maxwidth {
+		max-width: 650px;
+		margin: 10px auto;
+	}
+
 	.mobilehide {
 		display: block;
 	}
