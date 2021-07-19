@@ -11,7 +11,16 @@ body {
 }
 
 .sideways {
+    display: inline-block;
+    position: absolute;
+    top: 175px;
+    left: 0;
 	transform: rotate(270deg);
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: .8em;
+
 }
 
 
