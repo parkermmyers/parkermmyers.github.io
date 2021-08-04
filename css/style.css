@@ -55,8 +55,8 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 }
 
 a:hover {
-	color: #2565fa;
-	border-bottom: 1px solid #2565fa;
+	color: #f76a31;
+	border-bottom: 1px solid #f76a31;
 	text-decoration: none;
 }
 
@@ -151,7 +151,7 @@ strong {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-	color: #2565fa;
+	color: #f76a31;
 }
 
 .navlogo {
@@ -207,8 +207,8 @@ strong {
 }
 
 .footer a:hover {
-	color: #2565fa;
-	border-bottom: 1px solid #2565fa;
+	color: #f76a31;
+	border-bottom: 1px solid #f76a31;
 	text-decoration: none;
 }
 
