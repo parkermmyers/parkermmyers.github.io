@@ -60,6 +60,18 @@ strong {
 
 /*==========  STRUCTURE  ==========*/
 
+.sideways {
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: -60px;
+	transform: rotate(270deg);
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: .8em;
+}
+
 .maxwidth {
 	max-width: 90%;
 	margin: 0px auto; 
@@ -91,18 +103,6 @@ strong {
 }
 
 /*==========  Navigation and Hero  ==========*/
-
-.sideways {
-    display: inline-block;
-    position: absolute;
-    top: 250px;
-    left: -60px;
-	transform: rotate(270deg);
-    text-align: right;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: .8em;
-}
 
 .hero {
 	padding: 10px 0px;
