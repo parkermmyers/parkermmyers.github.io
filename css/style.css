@@ -20,6 +20,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: .8em;
+    font-family: "Space Mono";
 }
 
 h1 { /*hello!*/
