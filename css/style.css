@@ -10,18 +10,6 @@ body {
 	color: #1f1f1f;
 }
 
-.sideways {
-    display: inline-block;
-    position: absolute;
-    top: 290px;
-    left: -120px;
-	transform: rotate(270deg);
-    text-align: right;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: .8em;
-}
-
 h1 { /*hello!*/
 	font-size: 1em;
 	font-weight: 900;
@@ -32,6 +20,7 @@ h1 { /*hello!*/
 h2 { /*project names*/
 	font-weight: 400;
 	margin-bottom: 50px; padding-top: 4px;
+	font-size: 2em;
 }
 
 h3 { /*project subtext and footer headers*/
@@ -103,6 +92,18 @@ strong {
 
 /*==========  Navigation and Hero  ==========*/
 
+.sideways {
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: -60px;
+	transform: rotate(270deg);
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: .8em;
+}
+
 .hero {
 	padding: 10px 0px;
 }
@@ -148,6 +149,7 @@ strong {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a {
 	text-decoration: none;
 	border-bottom: none;
+	font-size: 0.9em;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
