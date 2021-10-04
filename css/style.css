@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 18px/24px "calluna-sans";
+	font: 400 18px/24px "MD System";
 	background-color: white;
 	color: #1f1f1f;
 }
@@ -291,4 +291,41 @@ strong {
 
 
 	
+}
+
+
+@font-face {
+    font-family: 'MD System';
+    src: url('mdsystemtest-bold-webfont.woff2') format('woff2'),
+         url('mdsystemtest-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MD System';
+    src: url('mdsystemtest-heavy-webfont.woff2') format('woff2'),
+         url('mdsystemtest-heavy-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MD System';
+    src: url('mdsystemtest-italic-webfont.woff2') format('woff2'),
+         url('mdsystemtest-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'MD System';
+    src: url('mdsystemtest-regular-webfont.woff2') format('woff2'),
+         url('mdsystemtest-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
