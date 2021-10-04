@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'MD System';
+    src: url(/fonts/mdsystemtest-bold-webfont.woff2) format('woff2'),
+         url(/fonts/mdsystemtest-bold-webfont.woff) format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MD System';
+    src: url(/fonts/mdsystemtest-heavy-webfont.woff2) format('woff2'),
+         url(/fonts/mdsystemtest-heavy-webfont.woff) format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MD System';
+    src: url(/fonts/mdsystemtest-italic-webfont.woff2) format('woff2'),
+         url(/fonts/mdsystemtest-italic-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MD System';
+    src: url(/fonts/mdsystemtest-regular-webfont.woff2) format('woff2'),
+         url(/fonts/mdsystemtest-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
