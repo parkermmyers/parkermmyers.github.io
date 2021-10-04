@@ -8,6 +8,7 @@ body {
 	font: 400 16px/24px "MD System";
 	background-color: white;
 	color: #1f1f1f;
+text-shadow: 0 0 1px rgba(51,51,51,0.3);
 }
 
 h1 { /*hello!*/
@@ -238,7 +239,7 @@ strong {
 @media only screen and (min-width : 768px) {
 
 	.maxwidth {
-		max-width: 500px;
+		max-width: 600px;
 		margin: 10px auto;
 	}
 
@@ -280,7 +281,7 @@ strong {
 	}
 
 	.maxwidth {
-		max-width: 850px;
+		max-width: 550px;
 		margin: 10px auto;
 	}
 
