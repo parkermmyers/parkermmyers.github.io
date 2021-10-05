@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 16px/23px "MD System";
+	font: 400 18px/25px "MD System";
 	background-color: white;
 	color: #1f1f1f;
 	text-shadow: 0 0 1px rgba(51,51,51,0.3);
@@ -234,6 +234,8 @@ strong {
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 
+body {
+	font: 400 16px/23px "MD System";
 }
 
 /* Small Devices, Tablets */
