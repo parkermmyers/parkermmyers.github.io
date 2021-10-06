@@ -232,9 +232,6 @@ strong {
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 
-body {
-	font: 400 16px/23px "MD System";
-}
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
