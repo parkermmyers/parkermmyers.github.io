@@ -28,10 +28,10 @@ h3 { /*project subtext and footer headers*/
 	line-height: 0.5em;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
+	padding-bottom: 15px;
 }
 
 p {
-	line-height: 1.3em;
 	width: 95%;
 }
 
