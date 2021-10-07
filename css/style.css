@@ -5,9 +5,9 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 18px/1.7em "questa-sans";
+	font: 400 18px/1.7em "degular";
 	background-color: #f6f6f6;
-	color: #000000;
+	color: #333333;
 	text-rendering: optimizeLegibility;
 }
 
@@ -59,7 +59,7 @@ li {
 }
 
 strong {
-	font-weight: 700;
+	font-weight: 900;
 }
 
 /*==========  STRUCTURE  ==========*/
