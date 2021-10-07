@@ -6,7 +6,7 @@ Myers Design Co.
 
 body {
 	font: 400 20px/25px "MD System";
-	background-color: white;
+	background-color: #EDEDED;
 	color: #000000;
 }
 
@@ -198,8 +198,7 @@ strong {
 
 .footer {
 	padding: 40px 0px 50px 0px;
-	background-color: #393939;
-	color: white;
+	color: black;
 }
 
 .footer a, .footer a:active, .footer a:visited {
