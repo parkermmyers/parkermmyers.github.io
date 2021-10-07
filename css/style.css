@@ -25,6 +25,7 @@ h2 { /*project names*/
 h3 { /*project subtext and footer headers*/
 	font-size: 0.8em;
 	line-height: 0.5em;
+	margin: 10px 0px;
 	text-transform: uppercase;
 	letter-spacing: 0.4px;
 }
@@ -102,14 +103,6 @@ strong {
 
 .hero {
 	padding: 10px 0px;
-}
-
-.hero h2 {
-	margin: 10px 0px;
-}
-
-.hero h3 {
-	margin-top: 10px;
 }
 
 .navigator {
@@ -226,10 +219,6 @@ strong {
 
 	.navigator {
 		padding: 0px 0px 10px 0px;
-	}
-
-	h2 {
-		margin-top: 0px;
 	}
 
     .navlogo {
