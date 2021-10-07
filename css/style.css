@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 20px/1.7em "MD System";
+	font: 400 18px/1.7em "MD System";
 	background-color: #f6f6f6;
 	color: #000000;
 }
@@ -47,6 +47,11 @@ a:hover {
 	color: #777;
 	border-bottom: 1px solid #777;
 	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
 }
 
 li {
@@ -271,7 +276,7 @@ strong {
 	}
 
 	.maxwidth {
-		max-width: 750px;
+		max-width: 800px;
 		margin: 10px auto;
 	}
 
