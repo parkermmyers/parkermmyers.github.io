@@ -29,35 +29,3 @@
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'MD Primer';
-    src: url('/fonts/mdprimertest-black-webfont.woff2') format('woff2'),
-         url('/fonts/mdprimertest-black-webfont.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MD Primer';
-    src: url('/fonts/mdprimertest-bold-webfont.woff2') format('woff2'),
-         url('/fonts/mdprimertest-bold-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MD Primer';
-    src: url('/fonts/mdprimertest-medium-webfont.woff2') format('woff2'),
-         url('/fonts/mdprimertest-medium-webfont.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MD Primer';
-    src: url('/fonts/mdprimertest-regular-webfont.woff2') format('woff2'),
-         url('/fonts/mdprimertest-regular-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
