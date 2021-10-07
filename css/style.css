@@ -95,13 +95,21 @@ strong {
 }
 
 .second-column {
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 /*==========  Navigation and Hero  ==========*/
 
 .hero {
 	padding: 10px 0px;
+}
+
+.hero h2 {
+	margin: 10px 0px;
+}
+
+.hero h3 {
+	margin-top: 10px;
 }
 
 .navigator {
