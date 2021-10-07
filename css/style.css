@@ -24,15 +24,15 @@ h2 { /*project names*/
 }
 
 h3 { /*project subtext and footer headers*/
-	font-size: 0.75em;
+	font-size: 0.8em;
 	line-height: 0.5em;
 	text-transform: uppercase;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.4px;
 	padding-bottom: 15px;
 }
 
 p {
-	width: 95%;
+	width: 90%;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
@@ -184,7 +184,6 @@ strong {
 /*==========  Content  ==========*/
 
 .portfolio {
-	/*background-color: #7F7F7F;*/
 	padding-bottom: 50px;
 }
 
