@@ -5,9 +5,9 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 18px/25px "MD System";
+	font: 400 20px/25px "MD System";
 	background-color: white;
-	color: #1f1f1f;
+	color: #000000;
 }
 
 h1 { /*hello!*/
