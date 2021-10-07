@@ -157,7 +157,7 @@ strong {
 
 
 .navbar-default .navbar-nav>li>a:hover {
-	color: #f76a31;
+	color: #777;
 }
 
 .navlogo {
@@ -180,18 +180,6 @@ strong {
 .portfolio {
 	/*background-color: #7F7F7F;*/
 	padding-bottom: 50px;
-}
-
-.portfolio h3 {
-	color: #000000;
-}
-
-.portfolio a {
-	font-weight: 400;
-}
-
-.portfolio a:hover {
-
 }
 
 .portfolio img {
