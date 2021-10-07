@@ -6,7 +6,7 @@ Myers Design Co.
 
 body {
 	font: 400 20px/25px "MD System";
-	background-color: #EDEDED;
+	background-color: #f6f6f6;
 	color: #000000;
 }
 
@@ -36,16 +36,16 @@ p {
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
- 	border-bottom: 1px solid #1f1f1f;
- 	color: #1f1f1f;
+ 	border-bottom: 1px solid #000000;
+ 	color: #000000;
 	padding-bottom: 1px;
 	text-decoration: none;
 	transition: color .3s, border-bottom .3s;
 }
 
 a:hover {
-	color: #f76a31;
-	border-bottom: 1px solid #f76a31;
+	color: #777;
+	border-bottom: 1px solid #777;
 	text-decoration: none;
 }
 
@@ -110,7 +110,6 @@ strong {
 
 .navigator {
 	padding: 40px 10px 0px 0px;
-	background-color: #EDEDED;
 }
 
 .navbar {
@@ -153,7 +152,7 @@ strong {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: black;
+	color: #000000;
 }
 
 
@@ -184,7 +183,7 @@ strong {
 }
 
 .portfolio h3 {
-	color: black;
+	color: #000000;
 }
 
 .portfolio a {
@@ -203,7 +202,6 @@ strong {
 
 .footer {
 	padding: 40px 0px 50px 0px;
-	color: black;
 }
 
 /*
