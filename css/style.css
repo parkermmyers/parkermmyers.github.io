@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 20px/25px "MD System";
+	font: 400 20px/1.7em "MD System";
 	background-color: #f6f6f6;
 	color: #000000;
 }
@@ -50,6 +50,7 @@ a:hover {
 }
 
 li {
+	display: inline-block;
 	margin-right: 20px;
 }
 
@@ -188,7 +189,7 @@ strong {
 /*==========  Footer ==========*/
 
 .footer {
-	padding: 40px 0px 50px 0px;
+	padding: 20px 0px 50px 0px;
 }
 
 /*
@@ -270,7 +271,7 @@ strong {
 	}
 
 	.maxwidth {
-		max-width: 700px;
+		max-width: 750px;
 		margin: 10px auto;
 	}
 
