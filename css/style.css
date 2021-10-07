@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 18px/1.7em "Commissioner";
+	font: 400 20px/1.7em "Commissioner";
 	background-color: #f6f6f6;
 	color: #1c1c1c;
 	text-rendering: optimizeLegibility;
@@ -18,14 +18,14 @@ h1 { /*hello!*/
 
 h2 { /*project names*/
 	font-weight: 900;
-	margin: 0px 0px 30px 0px; 
+	margin: 0px 0px 50px 0px; 
 	font-size: 2em;
 }
 
 h3 { /*project subtext and footer headers*/
 	font-size: 0.8em;
 	line-height: 0.5em;
-	margin: 10px 0px;
+	margin: 10px 0px 20px 0px;
 	text-transform: uppercase;
 	letter-spacing: 0.4px;
 }
@@ -196,7 +196,11 @@ strong {
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 
-
+	body {
+		font-size: 18px;
+	}
+	
+}
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
