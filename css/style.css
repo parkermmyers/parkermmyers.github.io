@@ -54,8 +54,8 @@ ul {
 }
 
 li {
-	display: inline-block;
-	margin-right: 20px;
+	display: block;
+	margin-right: 15px;
 }
 
 strong {
@@ -186,33 +186,11 @@ strong {
 	padding-bottom: 50px;
 }
 
-.portfolio img {
-	width: 100%;
-}
-
 /*==========  Footer ==========*/
 
 .footer {
 	padding: 20px 0px 50px 0px;
 }
-
-/*
-.footer a, .footer a:active, .footer a:visited {
-	color: white;
-	border-bottom: 1px solid white;
-	transition: color .3s, border-bottom .3s;
-}
-
-.footer a:hover {
-	color: #f76a31;
-	border-bottom: 1px solid #f76a31;
-	text-decoration: none;
-}
-
-.footer h3 {
-	color: silver;
-}
-*/
 
 .footer li {
 	margin-bottom: 20px;
