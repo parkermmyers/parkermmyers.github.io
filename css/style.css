@@ -5,9 +5,9 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 18px/1.7em "degular";
+	font: 400 18px/1.7em "Commissioner";
 	background-color: #f6f6f6;
-	color: #333333;
+	color: #1c1c1c;
 	text-rendering: optimizeLegibility;
 }
 
@@ -37,7 +37,7 @@ p {
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	border-bottom: 1px solid #000000;
- 	color: #000000;
+ 	color: #1c1c1c;
 	padding-bottom: 1px;
 	text-decoration: none;
 	transition: color .3s, border-bottom .3s;
@@ -157,9 +157,8 @@ strong {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #000000;
+	color: #1c1c1c;
 }
-
 
 .navbar-default .navbar-nav>li>a:hover {
 	color: #777;
