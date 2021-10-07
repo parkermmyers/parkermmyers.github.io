@@ -152,6 +152,11 @@ strong {
 	font-size: 0.9em;
 }
 
+.navbar-default .navbar-nav>li>a {
+	color: black;
+}
+
+
 .navbar-default .navbar-nav>li>a:hover {
 	color: #f76a31;
 }
