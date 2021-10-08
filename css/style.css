@@ -173,7 +173,7 @@ strong {
 /*==========  Content  ==========*/
 
 .portfolio {
-	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 /*==========  Footer ==========*/
@@ -198,6 +198,7 @@ strong {
 
 	body {
 		font-size: 18px;
+		padding-top: 50px;
 	}
 	
 }
