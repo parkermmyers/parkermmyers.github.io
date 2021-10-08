@@ -59,6 +59,7 @@ li {
 
 strong {
 	font-weight: 700;
+	margin-top: 50px;
 }
 
 /*==========  STRUCTURE  ==========*/
@@ -173,7 +174,7 @@ strong {
 /*==========  Content  ==========*/
 
 .portfolio {
-	padding-top: 50px;
+	padding-top: 100px;
 }
 
 /*==========  Footer ==========*/
