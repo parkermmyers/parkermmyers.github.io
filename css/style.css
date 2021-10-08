@@ -31,7 +31,7 @@ h3 { /*project subtext and footer headers*/
 }
 
 p {
-	width: 90%;
+	width: 95%;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
@@ -59,7 +59,6 @@ li {
 
 strong {
 	font-weight: 700;
-	margin-top: 50px;
 }
 
 /*==========  STRUCTURE  ==========*/
@@ -173,8 +172,12 @@ strong {
 
 /*==========  Content  ==========*/
 
+.introduction {
+	padding-top: 50px;
+}
+
 .portfolio {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 /*==========  Footer ==========*/
