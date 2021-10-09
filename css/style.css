@@ -8,7 +8,6 @@ body {
 	font: 400 20px/1.7em "Chivo";
 	background-color: #f6f6f6;
 	color: #1c1c1c;
-	text-rendering: optimizeLegibility;
 }
 
 h1 { /*hello!*/
@@ -42,9 +41,9 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 	transition: color .3s, border-bottom .3s;
 }
 
-a:hover {
-	color: #777;
-	border-bottom: 1px solid #777;
+a:hover, .navbar-default .navbar-nav>li>a:hover {
+	color: #145bff;
+	border-bottom: 1px solid #145bff;
 	text-decoration: none;
 }
 
@@ -149,10 +148,6 @@ strong {
 
 .navbar-default .navbar-nav>li>a {
 	color: #1c1c1c;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-	color: #777;
 }
 
 .navlogo {
