@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 18px/1.7em "Maven Pro";
+	font: 400 18px/1.7em "Archivo";
 	background-color: #242120;
 	color: #BAB6B1;
 }
@@ -74,6 +74,7 @@ table {
 
 th, td {
 	vertical-align: top;
+	padding-top: 10px;
 }
 
 .tablelabel {
