@@ -96,7 +96,7 @@ table {
 }
 
 .label {
-	width: 70%;
+	width: 40%;
 }
 
 .label {
@@ -123,7 +123,7 @@ table {
 
 .navlogo {
 	width: 60px;
-	margin-top: -10px;
+	margin-top: -5px;
 }
 
 .navlogo a, .navlogo a:hover {
