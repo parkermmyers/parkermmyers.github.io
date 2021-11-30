@@ -93,8 +93,12 @@ strong {
 	margin-top: 50px;
 }
 
+table {
+	width: 100%;
+}
+
 td.label {
-	width: 500px;
+	width: 70%;
 }
 
 .label {
