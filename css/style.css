@@ -29,7 +29,7 @@ h3 { /*project subtext and footer headers*/
 }
 
 p {
-	width: 95%;
+
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
@@ -98,10 +98,16 @@ strong {
 	margin-top: 50px;
 }
 
-.label {
+table {
+	border-spacing: 0px;
+
+}
+
+.label, th .label {
 	font-weight: 400;
 	font-size: 1em;
-	color: #f6f6f6;
+	color: #bab6b1;
+	width: 70%;
 }
 
 .data {
