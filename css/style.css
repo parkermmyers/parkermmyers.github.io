@@ -98,6 +98,14 @@ strong {
 	margin-top: 50px;
 }
 
+.label {
+	font-weight: 400;
+}
+
+.data {
+
+}
+
 /*==========  Navigation and Hero  ==========*/
 
 .hero {
