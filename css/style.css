@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 16px/1.7em "supria-sans";
+	font: 400 16px/1.7em "basic-sans";
 	background-color: #242120;
 	color: #BAB6B1;
 }
@@ -20,7 +20,7 @@ h1 { /*hello!*/
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: white;
 	text-decoration: none;
-	transition: color .3s, border-bottom .3s;
+	transition: color .3s;
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
@@ -76,17 +76,18 @@ th, td {
 	vertical-align: top;
 }
 
-.tablelabel, th.tablelabel {
+.tablelabel {
 	font-weight: 400;
 	font-size: 1em;
 	color: #bab6b1;
 	padding-left: 0px;
-	width: 30%;
+	width: 50%;
 }
 
 .tabledata {
 	font-weight: 500;
 	font-size: 1em;
+	color: white;
 }
 
 /*==========  Navigation and Hero  ==========*/
@@ -122,6 +123,10 @@ th, td {
 
 	body {
 		padding-top: 75px;
+	}
+
+	.tablelabel {
+		width: 30%;
 	}
 	
 }
