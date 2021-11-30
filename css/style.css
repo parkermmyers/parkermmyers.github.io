@@ -17,13 +17,12 @@ h1 { /*hello!*/
 }
 
 h2 { /*project names*/
+	font-size: 1em;
 	font-weight: 400;
 }
 
 h3 { /*project subtext and footer headers*/
 	font-size: 0.8em;
-	line-height: 0.5em;
-	margin: 10px 0px 20px 0px;
 	text-transform: uppercase;
 	letter-spacing: 0.4px;
 }
