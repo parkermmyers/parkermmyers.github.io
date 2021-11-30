@@ -20,12 +20,7 @@ h1 { /*hello!*/
 h2 { /*project names*/
 	font-size: 1em;
 	font-weight: 400;
-}
-
-h3 { /*project subtext and footer headers*/
-	font-size: 0.8em;
-	text-transform: uppercase;
-	letter-spacing: 0.4px;
+	color: white;
 }
 
 p {
@@ -34,7 +29,7 @@ p {
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	border-bottom: 1px solid #000000;
- 	color: #1c1c1c;
+ 	color: white;
 	padding-bottom: 1px;
 	text-decoration: none;
 	transition: color .3s, border-bottom .3s;
@@ -107,13 +102,12 @@ table {
 	font-weight: 400;
 	font-size: 1em;
 	color: #bab6b1;
-	width: 70%;
+	width: 300px;
 }
 
 .data {
 	font-weight: 500;
 	font-size: 1em;
-
 }
 
 /*==========  Navigation and Hero  ==========*/
