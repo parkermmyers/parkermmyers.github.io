@@ -95,15 +95,16 @@ table {
 	width: 100%;
 }
 
-th.tablelabel {
-	width: 30%;
+th, td {
+	vertical-align: top;
 }
 
-.tablelabel {
+.tablelabel, th.tablelabel {
 	font-weight: 400;
 	font-size: 1em;
 	color: #bab6b1;
 	padding-left: 0px;
+	width: 30%;
 }
 
 .tabledata {
