@@ -205,7 +205,7 @@ strong {
 @media only screen and (min-width : 768px) {
 
 	.maxwidth {
-		max-width: 600px;
+		max-width: 700px;
 		margin: 10px auto;
 	}
 
@@ -239,7 +239,6 @@ strong {
 	}
 
 	.maxwidth {
-		max-width: 800px;
 		margin: 10px auto;
 	}
 
