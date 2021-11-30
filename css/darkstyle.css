@@ -43,7 +43,7 @@ a.button:hover {
 /*==========  NAVIGATION  ==========*/
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a {
-	color: #656D78;
+	color: #242120;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -51,13 +51,13 @@ a.button:hover {
 }
 
 .navbar-left a {
-	background-color: black;
+	background-color: #242120;
 	border-bottom: none;
-	color: black;
+	color: #242120;
 }
 
 .navbar-left a:hover {
-	background-color: black;
+	background-color: #242120;
 	border-bottom: none;
 }
 
