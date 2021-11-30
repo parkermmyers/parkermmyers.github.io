@@ -14,6 +14,7 @@ h1 { /*hello!*/
 	font-size: 1em;
 	font-weight: 700;
 	color: white;
+	margin-top: 50px;
 }
 
 h2 { /*project names*/
@@ -100,7 +101,7 @@ strong {
 .label {
 	font-weight: 400;
 	font-size: 1em;
-	color: #1c1c1c;
+	color: #f6f6f6;
 }
 
 .data {
@@ -126,16 +127,6 @@ strong {
 
 .navlogo a, .navlogo a:hover {
 	border-bottom: none;
-}
-
-/*==========  Content  ==========*/
-
-.introduction {
-	padding-top: 50px;
-}
-
-.portfolio {
-	padding-top: 50px;
 }
 
 /*==========  Footer ==========*/
