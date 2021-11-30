@@ -93,16 +93,15 @@ strong {
 	margin-top: 50px;
 }
 
-table {
-	border-spacing: 0px;
-
+.label th {
+	width: 300px;
 }
 
-.label, th .label {
+.label {
 	font-weight: 400;
 	font-size: 1em;
 	color: #bab6b1;
-	width: 300px;
+	padding-left: 0px;
 }
 
 .data {
