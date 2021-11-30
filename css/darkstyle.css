@@ -30,15 +30,6 @@ a:hover {
 	border-bottom: 1px solid white;
 }
 
-/*==========  STRUCTURE  ==========*/
-
-a.button {
- 	border-bottom: 1px solid white;
-}
-
-a.button:hover {
-	background-color: black;
-}
 
 /*==========  NAVIGATION  ==========*/
 
