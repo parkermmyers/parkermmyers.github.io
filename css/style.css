@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 18px/1.7em "Supria Sans";
+	font: 400 16px/1.7em "Basic Sans";
 	background-color: #242120;
 	color: #BAB6B1;
 }
@@ -17,16 +17,6 @@ h1 { /*hello!*/
 	margin-top: 50px;
 }
 
-h2 { /*project names*/
-	font-size: 1em;
-	font-weight: 400;
-	color: white;
-}
-
-p {
-
-}
-
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: white;
 	text-decoration: none;
@@ -34,17 +24,8 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: #145bff;
+	color: #dab187;
 	text-decoration: none;
-}
-
-ul {
-	padding-left: 0;
-}
-
-li {
-	display: block;
-	margin-right: 15px;
 }
 
 strong {
@@ -115,7 +96,7 @@ th, td {
 }
 
 .navigator {
-	padding: 40px 10px 0px 0px;
+	padding-top: 40px;
 }
 
 .navlogo {
@@ -123,18 +104,10 @@ th, td {
 	margin-top: -5px;
 }
 
-.navlogo a, .navlogo a:hover {
-	border-bottom: none;
-}
-
 /*==========  Footer ==========*/
 
 .footer {
 	padding-bottom: 50px;
-}
-
-.footer li {
-	margin-bottom: 10px;
 }
 
 /*==========  Mobile First Method  ==========*/
@@ -148,7 +121,6 @@ th, td {
 @media only screen and (min-width : 480px) {
 
 	body {
-		font-size: 16px;
 		padding-top: 75px;
 	}
 	
@@ -169,15 +141,8 @@ th, td {
 		display: none;
 	}
 
-	.second-column {
-		margin-top: 0px;
-	}
-
 	.navigator {
 		padding: 0px 0px 10px 0px;
-	}
-
-    .navlogo {
 	}
 
 }
@@ -187,10 +152,6 @@ th, td {
 
 	.tablethide {
 		display: block;
-	}
-
-	.maxwidth {
-		margin: 10px auto;
 	}
 
 }
