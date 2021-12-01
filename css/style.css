@@ -73,7 +73,6 @@ strong {
 	font-size: 1em;
 	color: #bab6b1;
 	padding-left: 0px;
-	padding-right: 20px;
 }
 
 .tabledata {
@@ -102,10 +101,6 @@ strong {
 		font: 400 18px/1.7em "Chivo";
 		padding-top: 75px;
 		padding-bottom: 75px;
-	}
-	
-	.tablelabel {
-		width: 30%;
 	}
 	
 }
