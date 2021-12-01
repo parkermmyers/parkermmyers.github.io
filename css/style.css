@@ -8,8 +8,8 @@ body {
 	font: 400 20px/1.7em "Chivo";
 	background-color: #242120;
 	color: #BAB6B1;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 h1 {
@@ -39,7 +39,7 @@ strong {
 /*==========  Structure  ==========*/
 
 .maxwidth {
-	max-width: 98%;
+	max-width: 95%;
 	margin: 0px auto; 
 	padding: 0px;
 }
