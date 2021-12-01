@@ -72,14 +72,14 @@ strong {
 	font-weight: 400;
 	font-size: 1em;
 	color: #bab6b1;
-	padding-left: 0px;
+	margin-bottom: 0px;
 }
 
 .tabledata {
 	font-weight: 400;
 	font-size: 1em;
 	color: white;
-	margin-bottom: 100px;
+	margin-bottom: 25px;
 }
 
 /*==========  Navigation and Hero  ==========*/
