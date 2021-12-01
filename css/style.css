@@ -68,24 +68,12 @@ strong {
 
 /*==========  Tables  ==========*/
 
-table {
-	table-layout: fixed;
-	width: 100%;
-	line-height: 1.4em;
-}
-
-th, td {
-	vertical-align: top;
-	padding-top: 20px;
-}
-
 .tablelabel {
 	font-weight: 400;
 	font-size: 1em;
 	color: #bab6b1;
 	padding-left: 0px;
 	padding-right: 20px;
-	width: 40%;
 }
 
 .tabledata {
