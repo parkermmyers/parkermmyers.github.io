@@ -5,14 +5,14 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 18px/1.6em "Chivo";
+	font: 400 20px/1.7em "Chivo";
 	background-color: #242120;
 	color: #BAB6B1;
 }
 
 h1 { /*hello!*/
 	font-size: 1em;
-	font-weight: 500;
+	font-weight: 700;
 	color: white;
 	margin-top: 50px;
 }
@@ -63,18 +63,15 @@ strong {
 	display: none;
 }
 
-.second-column {
-	margin-top: 50px;
-}
-
 table {
 	table-layout: fixed;
 	width: 100%;
+	line-height: ;
 }
 
 th, td {
 	vertical-align: top;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .tablelabel {
@@ -94,14 +91,6 @@ th, td {
 
 /*==========  Navigation and Hero  ==========*/
 
-.hero {
-	padding: 10px 0px;
-}
-
-.navigator {
-	padding-top: 40px;
-}
-
 .navlogo {
 	width: 60px;
 	margin-top: -5px;
@@ -110,7 +99,7 @@ th, td {
 /*==========  Footer ==========*/
 
 .footer {
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 }
 
 /*==========  Mobile First Method  ==========*/
@@ -125,8 +114,9 @@ th, td {
 
 	body {
 		padding-top: 75px;
+		font: 400 18px/1.7em "Chivo";
 	}
-
+	
 	.tablelabel {
 		width: 40%;
 	}
