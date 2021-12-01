@@ -5,9 +5,10 @@ Myers Design Co.
 /*==========  TYPOGRAPHY  ==========*/
 
 body {
-	font: 400 20px/1.7em "Maven Pro";
+	font: 400 20px/1.7em "Inter";
 	background-color: #242120;
 	color: #BAB6B1;
+	padding-top: 25px;
 }
 
 h1 { /*hello!*/
@@ -44,7 +45,7 @@ strong {
 .fullwidth {
 	width: 100%;
 	margin: 0px auto;
-	padding: 25px;
+	padding: 10px;
 }
 
 .container {
@@ -80,7 +81,7 @@ th, td {
 	color: #bab6b1;
 	padding-left: 0px;
 	padding-right: 20px;
-	width: 35%;
+	width: 40%;
 }
 
 .tabledata {
