@@ -2,16 +2,17 @@
 Myers Design Co.
 */
 
-/*==========  TYPOGRAPHY  ==========*/
+/*==========  Typography  ==========*/
 
 body {
 	font: 400 20px/1.7em "Inter";
 	background-color: #242120;
 	color: #BAB6B1;
-	padding-top: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-h1 { /*hello!*/
+h1 {
 	font-size: 1em;
 	font-weight: 700;
 	color: white;
@@ -22,6 +23,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: #dab187;
 	text-decoration: none;
 	transition: color .3s;
+	font-weight: 700;
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
@@ -34,7 +36,7 @@ strong {
 	color: white;
 }
 
-/*==========  STRUCTURE  ==========*/
+/*==========  Structure  ==========*/
 
 .maxwidth {
 	max-width: 98%;
@@ -63,6 +65,8 @@ strong {
 .tablethide {
 	display: none;
 }
+
+/*==========  Tables  ==========*/
 
 table {
 	table-layout: fixed;
@@ -96,12 +100,6 @@ th, td {
 	width: 60px;
 }
 
-/*==========  Footer ==========*/
-
-.footer {
-	padding-bottom: 40px;
-}
-
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */ 
@@ -113,8 +111,9 @@ th, td {
 @media only screen and (min-width : 480px) {
 
 	body {
-		padding-top: 75px;
 		font: 400 18px/1.7em "Chivo";
+		padding-top: 75px;
+		padding-bottom: 75px;
 	}
 	
 	.tablelabel {
@@ -136,10 +135,6 @@ th, td {
 
 	.mobileonly {
 		display: none;
-	}
-
-	.navigator {
-		padding: 0px 0px 10px 0px;
 	}
 
 }
