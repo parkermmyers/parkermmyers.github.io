@@ -6,6 +6,7 @@ Myers Design Co.
 
 body {
 	font: 400 20px/1.7em "Karla";
+	letter-spacing: -0.15px;
 	background-color: #242120;
 	color: #BAB6B1;
 	padding-top: 30px;
