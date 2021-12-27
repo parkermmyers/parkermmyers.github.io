@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 20px/1.7em "neue-haas-unica";
+	font: 400 20px/1.7em "Rubik";
 	background-color: #dbd0c5;
 	color: #45423f;
 	padding-top: 30px;
@@ -71,14 +71,14 @@ strong {
 .tablelabel {
 	font-weight: 400;
 	font-size: 1em;
-	color: #bab6b1;
+	color: #45423f;
 	margin-bottom: 0px;
 }
 
 .tabledata {
 	font-weight: 500;
 	font-size: 1em;
-	color: white;
+	color: #45423f;
 	margin-bottom: 25px;
 }
 
