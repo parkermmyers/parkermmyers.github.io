@@ -5,9 +5,9 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 20px/1.7em "Space Mono";
-	background-color: #242120;
-	color: #BAB6B1;
+	font: 400 20px/1.7em "neue-haas-unica";
+	background-color: #dbd0c5;
+	color: #45423f;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -15,12 +15,12 @@ body {
 h1 {
 	font-size: 1em;
 	font-weight: 700;
-	color: white;
+	color: #45423f;
 	margin-top: 50px;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
- 	color: #dab187;
+ 	color: #45423f;
 	text-decoration: none;
 	transition: color .3s;
 	font-weight: 700;
@@ -33,7 +33,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 
 strong {
 	font-weight: 700;
-	color: white;
+	color: #45423f;
 }
 
 /*==========  Structure  ==========*/
