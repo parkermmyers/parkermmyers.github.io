@@ -6,7 +6,7 @@ Myers Design Co.
 
 body {
 	font: 400 20px/1.7em "Rubik";
-	background-color: #dbd0c5;
+	background-color: #d4d4d4;
 	color: #45423f;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -42,6 +42,7 @@ strong {
 	max-width: 95%;
 	margin: 0px auto; 
 	padding: 0px;
+	background-color: white;
 }
 
 .fullwidth {
