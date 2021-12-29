@@ -110,16 +110,16 @@ strong {
 
 figure {
 	width: 100%;
-	margin: 50px auto;
+	margin: 60px auto;
 }
 
 figcaption {
-	line-height: 1.3em;
-	letter-spacing: 0.05em;
-	font-size: 0.7em;
+	line-height: 1.4em;
+	letter-spacing: 0.075em;
+	font-size: 0.8em;
 	font-weight: 500;
 	padding-top: 20px;
-	color: #6b6b6b;
+	color: #828282;
 }
 
 
