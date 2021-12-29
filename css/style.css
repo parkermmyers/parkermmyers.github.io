@@ -21,15 +21,14 @@ h1 {
 h2 {
 	font-size: 1em;	
 	font-weight: 700;
-	margin-top: 5px;
+	margin-top: 0px;
 }
 
 h3 {
 	font-size: 1em;
 	font-weight: 400;
 	text-align: right;
-	margin-top: 5px;
-	font-style: italic;
+	margin-top: 0px;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
@@ -122,9 +121,10 @@ figcaption {
 	letter-spacing: 0.075em;
 	font-size: 0.75em;
 	font-weight: 500;
-	padding-top: 20px;
+	margin-top: 20px;
+	padding-left: 10px;
 	color: #828282;
-	border-top: 1px solid white;
+	border-left: 2px solid white;
 }
 
 
@@ -139,7 +139,7 @@ figcaption {
 @media only screen and (min-width : 480px) {
 
 	body {
-		font-size: 16px;
+		font-size: 17px;
 		padding-top: 75px;
 		padding-bottom: 75px;
 	}
