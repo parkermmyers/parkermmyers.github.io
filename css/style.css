@@ -78,6 +78,10 @@ strong {
 	display: none;
 }
 
+.portfolioheader {
+	margin: 50px 0px 10px 0px;
+}
+
 /*==========  Tables  ==========*/
 
 .tablelabel {
