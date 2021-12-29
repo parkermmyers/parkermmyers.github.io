@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 20px/1.7em "Space Mono";
+	font: 400 20px/1.7em "Azeret Mono";
 	background-color: #e8e8e8;
 	color: #45423f;
 	padding-top: 30px;
@@ -16,6 +16,10 @@ h1 {
 	font-size: 1em;
 	font-weight: 700;
 	margin-top: 50px;
+}
+
+h2 {
+	font-weight: 500;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
