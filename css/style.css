@@ -5,8 +5,8 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 20px/1.7em "Inter";
-	background-color: #F7F7F8;
+	font: 400 20px/1.7em "Archivo";
+	background-color: #c9c9c9;
 	color: #45423f;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -15,7 +15,7 @@ body {
 h1 {
 	font-size: 1em;
 	font-weight: 700;
-	color: #45423f;
+	color: white;
 	margin-top: 50px;
 }
 
@@ -27,7 +27,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: white;
+	color: #dab187;
 	text-decoration: none;
 }
 
