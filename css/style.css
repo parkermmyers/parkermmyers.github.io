@@ -29,6 +29,7 @@ h3 {
 	font-weight: 400;
 	text-align: right;
 	margin-top: 5px;
+	font-style: italic;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
@@ -79,7 +80,8 @@ strong {
 }
 
 .portfolioheader {
-	margin: 50px 0px 10px 0px;
+	margin-top: 50px;
+	margin-bottom: 20px;
 }
 
 /*==========  Tables  ==========*/
