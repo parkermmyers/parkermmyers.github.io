@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 18px/1.7em "DM Mono";
+	font: 400 18px/1.7em "Karla";
 	background-color: #e8e8e8;
 	color: #45423f;
 	padding-top: 20px;
@@ -122,9 +122,7 @@ figcaption {
 	font-size: 0.75em;
 	font-weight: 500;
 	margin-top: 20px;
-	padding-left: 20px;
 	color: #828282;
-	border-left: 5px solid white;
 }
 
 
