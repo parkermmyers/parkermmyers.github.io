@@ -14,13 +14,13 @@ body {
 
 h1 {
 	font-size: 1em;
-	font-weight: 500;
+	font-weight: 600;
 	margin-top: 50px;
 }
 
 h2 {
 	font-size: 1em;	
-	font-weight: 500;
+	font-weight: 600;
 	margin-top: 0px;
 }
 
@@ -36,7 +36,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: #45423f;
 	text-decoration: none;
 	transition: color .3s;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
@@ -45,7 +45,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 }
 
 strong {
-	font-weight: 500;
+	font-weight: 600;
 	color: #45423f;
 }
 
@@ -94,7 +94,7 @@ strong {
 }
 
 .tabledata {
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 1em;
 	color: #45423f;
 	margin-bottom: 25px;
@@ -120,7 +120,7 @@ figure img {
 figcaption {
 	line-height: 1.4em;
 	font-size: 0.75em;
-	font-weight: 500;
+	font-weight: 600;
 	margin-top: 20px;
 	color: #828282;
 }
