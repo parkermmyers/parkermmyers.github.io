@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 19px/1.7em "basic-sans";
+	font: 400 20px/1.7em "basic-sans";
 	background-color: #e8e8e8;
 	color: #45423f;
 	padding-top: 20px;
@@ -14,13 +14,13 @@ body {
 
 h1 {
 	font-size: 1em;
-	font-weight: 600;
+	font-weight: 700;
 	margin-top: 50px;
 }
 
 h2 {
 	font-size: 1em;	
-	font-weight: 600;
+	font-weight: 700;
 	margin-top: 0px;
 }
 
@@ -29,13 +29,14 @@ h3 {
 	font-weight: 400;
 	text-align: right;
 	margin-top: 0px;
+	font-style: italic;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: #45423f;
 	text-decoration: none;
 	transition: color .3s;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
@@ -44,7 +45,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 }
 
 strong {
-	font-weight: 600;
+	font-weight: 700;
 	color: #45423f;
 }
 
@@ -93,7 +94,7 @@ strong {
 }
 
 .tabledata {
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 1em;
 	color: #45423f;
 	margin-bottom: 25px;
