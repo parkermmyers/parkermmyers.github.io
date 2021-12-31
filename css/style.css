@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 19px/1.7em "Karla";
+	font: 400 19px/1.7em "Work Sans";
 	background-color: #e8e8e8;
 	color: #45423f;
 	padding-top: 20px;
@@ -39,7 +39,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: white;
+	color: blue;
 	text-decoration: none;
 }
 
