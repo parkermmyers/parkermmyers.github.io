@@ -14,13 +14,13 @@ body {
 
 h1 {
 	font-size: 1em;
-	font-weight: 700;
+	font-weight: 500;
 	margin-top: 50px;
 }
 
 h2 {
 	font-size: 1em;	
-	font-weight: 700;
+	font-weight: 500;
 	margin-top: 0px;
 }
 
@@ -29,13 +29,14 @@ h3 {
 	font-weight: 400;
 	text-align: right;
 	margin-top: 0px;
+	font-style: italic;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: #45423f;
 	text-decoration: none;
 	transition: color .3s;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
@@ -44,7 +45,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 }
 
 strong {
-	font-weight: 700;
+	font-weight: 500;
 	color: #45423f;
 }
 
