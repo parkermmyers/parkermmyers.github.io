@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 500 20px/1.7em "Spline Sans";
+	font: 400 20px/1.7em "Spline Sans";
 	background-color: #e8e8e8;
 	color: #45423f;
 	padding-top: 20px;
@@ -26,7 +26,7 @@ h2 {
 
 h3 {
 	font-size: 1em;
-	font-weight: 500;
+	font-weight: 400;
 	text-align: right;
 	margin-top: 0px;
 	font-style: italic;
@@ -87,14 +87,14 @@ strong {
 /*==========  Tables  ==========*/
 
 .tablelabel {
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 1em;
 	color: #45423f;
 	margin-bottom: 0px;
 }
 
 .tabledata {
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 1em;
 	color: #45423f;
 	margin-bottom: 25px;
