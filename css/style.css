@@ -94,7 +94,7 @@ strong {
 }
 
 .tabledata {
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 1em;
 	color: #45423f;
 	margin-bottom: 25px;
@@ -104,6 +104,10 @@ strong {
 
 .navlogo {
 	width: 60px;
+}
+
+.homelogo {
+	width: 40px;
 }
 
 /*==========  Navigation and Hero  ==========*/
