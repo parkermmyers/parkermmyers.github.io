@@ -25,6 +25,7 @@ h2 {
 }
 
 h3 {
+	font-family: "Courier Prime";
 	font-size: 0.8em;
 	font-weight: 400;
 	text-align: right;
@@ -87,8 +88,9 @@ strong {
 /*==========  Tables  ==========*/
 
 .tablelabel {
+	font-family: "Courier Prime";
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 0.8em;
 	color: #45423f;
 	margin-bottom: 0px;
 }
@@ -123,6 +125,7 @@ figure img {
 }
 
 figcaption {
+	font-family: "Courier Prime";
 	line-height: 1.4em;
 	font-size: 0.75em;
 	font-weight: 600;
