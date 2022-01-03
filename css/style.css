@@ -107,7 +107,8 @@ strong {
 }
 
 .homelogo {
-	width: 40px;
+	width: 60px;
+	margin-left: -10px;
 }
 
 /*==========  Navigation and Hero  ==========*/
