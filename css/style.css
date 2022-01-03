@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 18px/1.7em "DM Mono";
+	font: 400 20px/1.7em "HK Grotesk";
 	background-color: #e8e8e8;
 	color: #45423f;
 	padding-top: 20px;
@@ -14,13 +14,13 @@ body {
 
 h1 {
 	font-size: 1em;
-	font-weight: 700;
+	font-weight: 800;
 	margin-top: 50px;
 }
 
 h2 {
 	font-size: 1em;	
-	font-weight: 700;
+	font-weight: 800;
 	margin-top: 0px;
 }
 
@@ -36,7 +36,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: #45423f;
 	text-decoration: none;
 	transition: color .3s;
-	font-weight: 700;
+	font-weight: 800;
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
@@ -45,7 +45,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 }
 
 strong {
-	font-weight: 700;
+	font-weight: 800;
 	color: #45423f;
 }
 
@@ -94,7 +94,7 @@ strong {
 }
 
 .tabledata {
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 1em;
 	color: #45423f;
 	margin-bottom: 25px;
@@ -177,6 +177,38 @@ figcaption {
 
 
 	
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('/fonts/hkgroteskpro-extrabold.woff2') format('woff2'),
+         url('/fonts/hkgroteskpro-extrabold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('/fonts/hkgroteskpro-italic.woff2') format('woff2'),
+         url('/fonts/hkgroteskpro-italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('/fonts/hkgroteskpro-regular.woff2') format('woff2'),
+         url('/fonts/hkgroteskpro-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('/fonts/hkgroteskpro-semibold.woff2') format('woff2'),
+         url('/fonts/hkgroteskpro-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
 }
 
 
