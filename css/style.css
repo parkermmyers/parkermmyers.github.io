@@ -19,14 +19,15 @@ h1 {
 }
 
 h2 {
-	font-size: 1em;	
+	font-size: 3em;	
+	color: black;
 	font-weight: 800;
 	margin-top: 0px;
 }
 
 h3 {
 	font-family: "Courier Prime";
-	font-size: 0.8em;
+	font-size: 1.5em;
 	font-weight: 400;
 	text-align: right;
 	margin-top: 0px;
