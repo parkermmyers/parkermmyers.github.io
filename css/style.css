@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 450 20px/1.7em "Karla";
+	font: 400 20px/1.7em "Karla";
 	letter-spacing: -0.02em;
 	background-color: #f2f2f2;
 	color: #45423f;
@@ -15,20 +15,20 @@ body {
 
 h1 {
 	font-size: 1em;
-	font-weight: 800;
+	font-weight: 700;
 	margin-top: 50px;
 }
 
 h2 {
 	font-size: 2.5em;	
 	color: black;
-	font-weight: 800;
+	font-weight: 700;
 	margin-top: 25px;
 }
 
 h3 {
 	font-size: 0.8em;
-	font-weight: 600;
+	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	margin-top: 0px;
@@ -38,7 +38,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: #45423f;
 	text-decoration: none;
 	transition: color .3s;
-	font-weight: 800;
+	font-weight: 700;
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
@@ -47,7 +47,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 }
 
 strong {
-	font-weight: 800;
+	font-weight: 700;
 	color: #45423f;
 }
 
