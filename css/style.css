@@ -121,7 +121,8 @@ strong {
 /*==========  Interior Pages  ==========*/
 
 .archivelist {
-	font-size: 0.7em;
+	font-size: 0.6em;
+	line-height: 1em;
 }
 
 figure {
