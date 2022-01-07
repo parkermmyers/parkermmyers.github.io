@@ -9,7 +9,6 @@ body {
 	font-feature-settings: "ss01" 1;
 	background-color: white;
 	color: #45423f;
-	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
@@ -90,6 +89,8 @@ strong {
 
 .hero {
 	background-color: #f2f2f2;
+	width: 100%;
+	padding-top: 50px;
 }
 
 /*==========  Tables  ==========*/
@@ -144,7 +145,6 @@ figcaption {
 
 	body {
 		font-size: 18px;
-		padding-top: 75px;
 		padding-bottom: 75px;
 	}
 	
