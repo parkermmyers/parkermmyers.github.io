@@ -132,9 +132,7 @@ ol {
     -moz-column-count: 3;
     column-count: 3;
     padding-inline-start: 14px;
-    text-align: left;
-    font-variant-numeric: tabular-nums;
-    column-gap: 2em;
+    column-gap: 1.5em;
 }
 
 figure {
