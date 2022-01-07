@@ -6,6 +6,7 @@ Myers Design Co.
 
 body {
 	font: 400 20px/1.7em "Be Vietnam Pro";
+	font-feature-settings: "ss01";
 	background-color: #f2f2f2;
 	color: #45423f;
 	padding-top: 20px;
