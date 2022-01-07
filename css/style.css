@@ -121,8 +121,14 @@ strong {
 /*==========  Interior Pages  ==========*/
 
 .archivelist {
-	font-size: 0.6em;
-	line-height: 1em;
+	font-size: 0.65em;
+	line-height: 1.2em;
+}
+
+ol {
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
 }
 
 figure {
