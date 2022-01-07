@@ -118,7 +118,11 @@ strong {
 	margin-left: -10px;
 }
 
-/*==========  Navigation and Hero  ==========*/
+/*==========  Interior Pages  ==========*/
+
+.archivelist {
+	font-size: 0.8em;
+}
 
 figure {
 	width: 100%;
