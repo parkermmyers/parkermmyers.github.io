@@ -5,8 +5,8 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 21px/1.7em "Be Vietnam Pro";
-	font-feature-settings: "ss01" 1;
+	font: 400 21px/1.7em "Karla";
+	letter-spacing: -0.02em;
 	background-color: white;
 	color: #45423f;
 	padding-bottom: 20px;
@@ -22,7 +22,7 @@ h1 {
 h2 {
 	font-size: 2.5em;	
 	color: black;
-	font-weight: 900;
+	font-weight: 800;
 	margin-top: 25px;
 }
 
