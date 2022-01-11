@@ -43,7 +43,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: blue;
+	color: #4081D5;
 	text-decoration: none;
 }
 
