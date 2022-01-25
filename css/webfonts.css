@@ -29,3 +29,29 @@
     font-weight: 900;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('/fonts/bevietnampro-black.woff2') format('woff2'),
+         url('/fonts/bevietnampro-black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('/fonts/bevietnampro-bold.woff2') format('woff2'),
+         url('/fonts/bevietnampro-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Be Vietnam';
+    src: url('/fonts/bevietnampro-regular.woff2') format('woff2'),
+         url('/fonts/bevietnampro-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
