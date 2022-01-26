@@ -1,36 +1,4 @@
 @font-face {
-    font-family: 'HK Grotesk';
-    src: url('/fonts/hkgroteskpro-book.woff2') format('woff2'),
-         url('/fonts/hkgroteskpro-book.woff') format('woff');
-    font-weight: 450;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'HK Grotesk';
-    src: url('/fonts/hkgroteskpro-semibold.woff2') format('woff2'),
-         url('/fonts/hkgroteskpro-semibold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'HK Grotesk';
-    src: url('/fonts/hkgroteskpro-extrabold.woff2') format('woff2'),
-         url('/fonts/hkgroteskpro-extrabold.woff') format('woff');
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'HK Grotesk';
-    src: url('/fonts/hkgroteskpro-black.woff2') format('woff2'),
-         url('/fonts/hkgroteskpro-black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Be Vietnam';
     src: url('/fonts/bevietnampro-black.woff2') format('woff2'),
          url('/fonts/bevietnampro-black.woff') format('woff');

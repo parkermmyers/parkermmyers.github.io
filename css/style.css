@@ -58,7 +58,7 @@ strong {
 }
 
 .right {
-	text-align: right;
+	text-align: left;
 }
 
 /*==========  Structure  ==========*/
@@ -97,9 +97,13 @@ strong {
 }
 
 .hero {
-	background-color: #f2f2f2;
+	background-color: #3a55d8;
 	width: 100%;
 	padding-top: 25px;
+}
+
+.hero p {
+	color: #f7ed74;
 }
 
 /*==========  Tables  ==========*/
@@ -182,6 +186,10 @@ figcaption {
 
 	.homelogo {
 		padding-top: 75px;
+	}
+
+	.right {
+		text-align: right;
 	}
 	
 }
