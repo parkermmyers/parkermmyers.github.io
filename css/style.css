@@ -55,10 +55,7 @@ strong {
 
 .white {
 	color:  white;
-}
-
-.right {
-	text-align: left;
+	margin-top: 0px;
 }
 
 /*==========  Structure  ==========*/
