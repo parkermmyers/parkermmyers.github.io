@@ -53,6 +53,14 @@ strong {
 	color: black;
 }
 
+.white {
+	color:  white;
+}
+
+.right {
+	text-align: right;
+}
+
 /*==========  Structure  ==========*/
 
 .maxwidth {
