@@ -100,8 +100,12 @@ strong {
 	padding-bottom: 25px;
 }
 
+.hero h1 {
+	margin-top: 0px;
+}
+
 .hero p {
-	color: #949494;
+	color: white;
 }
 
 /*==========  Tables  ==========*/
