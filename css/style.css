@@ -48,8 +48,8 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	text-decoration: none;
 }
 
-strong {
-	font-weight: 700;
+.strong {
+	font-weight: 900;
 	color: black;
 }
 
@@ -60,6 +60,10 @@ strong {
 
 .right {
 	text-align: left;
+}
+
+.white {
+	color: white;
 }
 
 /*==========  Structure  ==========*/
