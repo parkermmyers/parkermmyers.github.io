@@ -101,12 +101,6 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	margin-bottom: 20px;
 }
 
-.hero {
-	width: 100%;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-
 /*==========  Tables  ==========*/
 
 .tablelabel {
@@ -123,11 +117,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 
 /*==========  Navigation and Hero  ==========*/
 
-.navlogo {
-	width: 60px;
-}
-
-.homelogo {
+.logo {
 	width: 60px;
 	padding-top: 25px;
 	margin-left: -10px;
@@ -142,9 +132,9 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 }
 
 ol {
-	-webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
     padding-inline-start: 14px;
     column-gap: 1.5em;
 }
@@ -185,10 +175,11 @@ figcaption {
 		padding-top: 75px;
 	}
 
-	.right {
-		text-align: right;
+	ol {
+		-webkit-column-count: 3;
+	    -moz-column-count: 3;
+	    column-count: 3;
 	}
-	
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
