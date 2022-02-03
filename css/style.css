@@ -63,14 +63,11 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 .tablelabel {
 	font-size: 1em;
 	color: #45423f;
-	margin-bottom: 5px;
 }
 
 .tabledata {
 	font-size: 1em;
 	color: #45423f;
-	margin-top: 0px;
-	margin-bottom: 5px;
 }
 
 .tabledata a {
@@ -175,7 +172,6 @@ ol {
 	}
 
 	.tabledata {
-		margin-bottom: 0px;
 	}
 
 	ol {

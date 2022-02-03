@@ -127,3 +127,7 @@ hr {
   content: "";
   display: table;
   clear: both; }
+
+  p {
+    margin-block-start: 0px;
+  }
