@@ -91,7 +91,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	margin-left: -10px;
 }
 
-i {
+.backarrow i {
 	padding-top: 25px;
 }
 
@@ -146,7 +146,7 @@ ol {
 		width: 60px;
 	}
 
-	i {
+	.backarrow i {
 		padding-bottom: 75px;
 	}
 
