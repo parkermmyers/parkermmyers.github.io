@@ -44,7 +44,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: #E2FF00;
+	background-color: #E2FF00;
 	text-decoration: none;
 }
 
@@ -105,7 +105,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 
 .tabledata a {
 	background-color: white;
-	padding: 5px 7px;
+	padding: 4px 6px;
 	border-radius: 3px;
 }
 
