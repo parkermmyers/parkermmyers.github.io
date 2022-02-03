@@ -123,6 +123,10 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	margin-left: -10px;
 }
 
+i {
+	padding-top: 25px;
+}
+
 /*==========  Interior Pages  ==========*/
 
 .archivelist {
@@ -169,6 +173,10 @@ figcaption {
 
 	.logo {
 		width: 60px;
+		padding-top: 75px;
+	}
+
+	i {
 		padding-top: 75px;
 	}
 
