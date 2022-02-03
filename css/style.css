@@ -126,7 +126,7 @@ i {
 /*==========  Interior Pages  ==========*/
 
 .archivelist {
-	font-size: 0.5em;
+	font-size: 0.8em;
 	line-height: 1.5em;
 	margin-top: 25px;
 }
@@ -180,6 +180,10 @@ figcaption {
 		-webkit-column-count: 2;
 	    -moz-column-count: 2;
 	    column-count: 2;
+	}
+
+	.archivelist {
+		font-size: 0.5em;
 	}
 
 }
