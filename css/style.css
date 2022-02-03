@@ -76,10 +76,6 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	display: none;
 }
 
-.mobileonly {
-	display: block;
-}
-
 .tablethide {
 	display: none;
 }
@@ -107,6 +103,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	background-color: white;
 	padding: 4px 6px;
 	border-radius: 3px;
+	transition: background-color .3s;
 }
 
 .tabledata a:hover {
@@ -129,7 +126,7 @@ i {
 /*==========  Interior Pages  ==========*/
 
 .archivelist {
-	font-size: 0.6em;
+	font-size: 0.5em;
 	line-height: 1.5em;
 	margin-top: 25px;
 }
@@ -190,15 +187,11 @@ figcaption {
 @media only screen and (min-width : 768px) {
 
 	.maxwidth {
-		max-width: 700px;
+		max-width: 650px;
 	}
 
 	.mobilehide {
 		display: block;
-	}
-
-	.mobileonly {
-		display: none;
 	}
 
 	.tabledata {
