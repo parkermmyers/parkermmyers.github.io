@@ -71,14 +71,14 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	margin-top: -10px;
 }
 
-.tabledata a, .name {
+.tabledata a, .name h1 {
 	background-color: white;
 	padding: 4px 6px;
 	border-radius: 3px;
 	transition: background-color .3s;
 }
 
-.tabledata a:hover, .name:hover {
+.tabledata a:hover, .name h1:hover {
 	background-color: #E2FF00;
 	color: black;
 }
