@@ -33,7 +33,7 @@ h3 {
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	margin-top: 0px;
-	color: #828282;
+	color: white;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
@@ -94,13 +94,19 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 .tablelabel {
 	font-size: 1em;
 	color: #45423f;
-	margin-bottom: 0px;
+	margin-bottom: 5px;
 }
 
 .tabledata {
 	font-size: 1em;
 	color: #45423f;
 	margin-bottom: 25px;
+}
+
+.tabledata a {
+	background-color: white;
+	padding: 5px 7px;
+	border-radius: 3px;
 }
 
 /*==========  Navigation and Hero  ==========*/
