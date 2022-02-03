@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 21px/1.7em "Be Vietnam";
+	font: 400 22px/1.7em "Be Vietnam";
 	font-feature-settings: 'ss01';
 	background-color: #D9D9D9;
 	color: #45423f;
@@ -44,7 +44,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: #2f4afa;
+	color: #E2FF00;
 	text-decoration: none;
 }
 
@@ -109,6 +109,10 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	border-radius: 3px;
 }
 
+.tabledata a:hover {
+	background-color: #E2FF00;
+}
+
 /*==========  Navigation and Hero  ==========*/
 
 .logo {
@@ -151,9 +155,6 @@ figcaption {
 	font-size: 0.8em;
 	margin-top: 20px;
 	color: #828282;
-	background-color: white;
-	padding: 4px 6px;
-	border-radius: 3px;
 }
 
 
@@ -177,11 +178,6 @@ figcaption {
 		padding-top: 75px;
 	}
 
-	ol {
-		-webkit-column-count: 3;
-	    -moz-column-count: 3;
-	    column-count: 3;
-	}
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -200,6 +196,12 @@ figcaption {
 
 	.tabledata {
 		margin-bottom: 0px;
+	}
+
+	ol {
+		-webkit-column-count: 3;
+	    -moz-column-count: 3;
+	    column-count: 3;
 	}
 
 }
