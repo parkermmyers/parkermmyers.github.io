@@ -76,6 +76,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	padding: 4px 6px;
 	border-radius: 3px;
 	transition: background-color .3s;
+	display: inline-block;
 }
 
 .tabledata a:hover, .name h1:hover {
