@@ -9,7 +9,6 @@ body {
 	font-feature-settings: 'ss01';
 	background-color: #D9D9D9;
 	color: #45423f;
-	padding: 10px 0px
 }
 
 h1 {
@@ -64,12 +63,14 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 .tablelabel {
 	font-size: 1em;
 	color: #45423f;
+	margin-bottom: 5px;
 }
 
 .tabledata {
 	font-size: 1em;
 	color: #45423f;
-	margin-bottom: 25px;
+	margin-top: 0px;
+	margin-bottom: 5px;
 }
 
 .tabledata a {
@@ -148,7 +149,7 @@ ol {
 	}
 
 	i {
-		padding-top: 75px;
+		padding-bottom: 75px;
 	}
 
 	ol {
