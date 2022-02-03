@@ -111,6 +111,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 
 .tabledata a:hover {
 	background-color: #E2FF00;
+	color: black;
 }
 
 /*==========  Navigation and Hero  ==========*/
@@ -134,9 +135,9 @@ i {
 }
 
 ol {
-	-webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
+	-webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
     padding-inline-start: 14px;
     column-gap: 1.5em;
 }
@@ -152,7 +153,7 @@ figure img {
 
 figcaption {
 	line-height: 1.4em;
-	font-size: 0.8em;
+	font-size: 0.75em;
 	margin-top: 20px;
 	color: #828282;
 }
@@ -178,12 +179,18 @@ figcaption {
 		padding-top: 75px;
 	}
 
+	ol {
+		-webkit-column-count: 2;
+	    -moz-column-count: 2;
+	    column-count: 2;
+	}
+
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
 	.maxwidth {
-		max-width: 800px;
+		max-width: 700px;
 	}
 
 	.mobilehide {
