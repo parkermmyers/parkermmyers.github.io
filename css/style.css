@@ -9,7 +9,7 @@ body {
 	font-feature-settings: 'ss01';
 	background-color: #D9D9D9;
 	color: #45423f;
-	padding-bottom: 20px;
+	padding: 10px 0px
 }
 
 h1 {
@@ -53,36 +53,10 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	color: black;
 }
 
-
 /*==========  Structure  ==========*/
-
-.maxwidth {
-	max-width: 95%;
-	margin: 10px auto; 
-	padding: 0px;
-}
-
-.fullwidth {
-	width: 100%;
-	margin: 0px auto;
-	padding: 10px;
-}
-
-.container {
-	padding: 10px 0px;
-}
 
 .mobilehide {
 	display: none;
-}
-
-.tablethide {
-	display: none;
-}
-
-.portfolioheader {
-	margin-top: 50px;
-	margin-bottom: 20px;
 }
 
 /*==========  Tables  ==========*/
@@ -90,7 +64,6 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 .tablelabel {
 	font-size: 1em;
 	color: #45423f;
-	margin-bottom: 5px;
 }
 
 .tabledata {
@@ -115,7 +88,6 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 
 .logo {
 	width: 80px;
-	padding-top: 25px;
 	margin-left: -10px;
 }
 
@@ -125,18 +97,9 @@ i {
 
 /*==========  Interior Pages  ==========*/
 
-.archivelist {
-	font-size: 0.8em;
-	line-height: 1.5em;
-	margin-top: 25px;
-}
-
-ol {
-	-webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    padding-inline-start: 14px;
-    column-gap: 1.5em;
+.portfolioheader {
+	margin-top: 50px;
+	margin-bottom: 20px;
 }
 
 figure {
@@ -155,21 +118,33 @@ figcaption {
 	color: #828282;
 }
 
+.archivelist {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	margin-top: 25px;
+}
 
-/*==========  Mobile First Method  ==========*/
+ol {
+	-webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    padding-inline-start: 14px;
+    column-gap: 1.5em;
+}
 
 
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
+/*==========  Media Queries  ==========*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {
 
 	body {
 		font-size: 18px;
-		padding-bottom: 75px;
+		padding: 75px 0px;
 	}
 
 	.logo {
 		width: 60px;
-		padding-top: 75px;
 	}
 
 	i {
@@ -187,12 +162,12 @@ figcaption {
 	}
 
 }
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
 
-	.maxwidth {
-		max-width: 650px;
-	}
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
 
 	.mobilehide {
 		display: block;
@@ -206,17 +181,14 @@ figcaption {
 		-webkit-column-count: 3;
 	    -moz-column-count: 3;
 	    column-count: 3;
-	}
+	}	
 
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+/* Larger than desktop */
+@media (min-width: 1000px) {}
 
-	.tablethide {
-		display: block;
-	}
-
-}
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
 
 
