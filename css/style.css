@@ -105,7 +105,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 
 figure {
 	width: 100%;
-	margin: 70px auto;
+	margin: 30px auto;
 }
 
 figure img {
@@ -159,10 +159,15 @@ ol {
 		-webkit-column-count: 2;
 	    -moz-column-count: 2;
 	    column-count: 2;
+	    list-style-position: inside;
 	}
 
 	.archivelist {
 		font-size: 0.5em;
+	}
+
+	figure {
+		margin: 60px auto;
 	}
 
 }
