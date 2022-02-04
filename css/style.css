@@ -15,7 +15,7 @@ h1 {
 	font-size: 1em;
 	color: black;
 	font-weight: 700;
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -77,6 +77,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	border-radius: 36px;
 	transition: background-color .3s;
 	display: inline-block;
+	margin-left: -6px;
 }
 
 .tabledata a:hover, .name h1:hover {
@@ -92,7 +93,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 }
 
 .backarrow {
-	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 /*==========  Interior Pages  ==========*/
@@ -140,6 +141,10 @@ ol {
 
 	body {
 		padding: 75px 0px;
+	}
+
+	h1 {
+		margin-top: 50px;
 	}
 
 	.logo {
