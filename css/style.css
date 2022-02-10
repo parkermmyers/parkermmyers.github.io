@@ -15,7 +15,6 @@ h1 {
 	font-size: 1em;
 	color: black;
 	font-weight: 700;
-	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -137,10 +136,6 @@ ol {
 	body {
 		padding: 75px 0px;
 		font: 400 17px/1.7em "Be Vietnam";
-	}
-
-	h1 {
-		margin-top: 50px;
 	}
 
 	.logo {
