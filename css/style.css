@@ -13,9 +13,11 @@ body {
 
 h1 {
 	font-size: 1em;
+	line-height: 1.4em;
 	color: black;
 	font-weight: 700;
 	margin-bottom: 20px;
+	margin-top: 0px;
 }
 
 h2 {
