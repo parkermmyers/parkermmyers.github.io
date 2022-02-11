@@ -59,6 +59,18 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	display: none;
 }
 
+.container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.box {
+	background-color: white;
+	padding: 15px;
+	border-radius: 10px;
+	margin-block-end: 0px;
+}
+
 /*==========  Tables  ==========*/
 
 .tablelabel {
@@ -70,6 +82,10 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	font-size: 1em;
 	color: #45423f;
 	margin-top: -10px;
+}
+
+.portfolio .tabledata {
+	font-size: 2em;
 }
 
 .tabledata a {
