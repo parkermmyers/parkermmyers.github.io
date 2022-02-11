@@ -13,11 +13,10 @@ body {
 
 h1 {
 	font-size: 1em;
-	line-height: 1.4em;
 	color: black;
 	font-weight: 700;
+	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-top: 0px;
 }
 
 h2 {
@@ -44,7 +43,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: #dab187;
+	color: white;
 	text-decoration: none;
 }
 
@@ -57,10 +56,6 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 
 .mobilehide {
 	display: none;
-}
-
-.container {
-	margin: 75px auto;
 }
 
 /*==========  Tables  ==========*/
@@ -142,6 +137,10 @@ ol {
 	body {
 		padding: 75px 0px;
 		font: 400 17px/1.7em "Be Vietnam";
+	}
+
+	h1 {
+		margin-top: 50px;
 	}
 
 	.logo {
