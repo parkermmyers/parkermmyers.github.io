@@ -44,7 +44,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: white;
+	color: #dab187;
 	text-decoration: none;
 }
 
@@ -60,8 +60,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 }
 
 .container {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin: 75px 0px;
 }
 
 .box {
