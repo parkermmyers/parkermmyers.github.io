@@ -59,7 +59,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 }
 
 i {
-	font-size: 0.85em;
+	vertical-align: middle;
 }
 
 /*==========  Structure  ==========*/
