@@ -12,11 +12,11 @@ body {
 }
 
 h1 {
-	font-size: 1em;
+	font-size: 2em;
 	color: black;
-	font-weight: 700;
+	font-weight: 900;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 h2 {
