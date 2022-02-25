@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 20px/1.7em "Be Vietnam";
+	font: 400 20px/1.7em "Be Vietnam Pro";
 	font-feature-settings: 'ss01';
 	background-color: #D9D9D9;
 	color: #45423f;
@@ -13,8 +13,9 @@ body {
 
 h1 {
 	font-size: 1.5em;
+	font-family: "Spectral";
 	color: black;
-	font-weight: 900;
+	font-weight: 800;
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
