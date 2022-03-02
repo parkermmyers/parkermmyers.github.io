@@ -6,7 +6,7 @@ Myers Design Co.
 
 body {
 	font: 400 20px/1.7em "Be Vietnam Pro";
-	background-color: #D9D9D9;
+	background-color: #e8e8e8;
 	color: #45423f;
 	padding: 25px 0px;
 }
@@ -15,7 +15,7 @@ h1 {
 	font-size: 1.25em;
 	font-family: "Spectral";
 	color: black;
-	font-weight: 800;
+	font-weight: 400;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
