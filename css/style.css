@@ -86,6 +86,7 @@ i {
 .logo {
 	width: 100px;
 	margin-left: -5px;
+	margin-bottom: 30px;
 }
 
 .backarrow {
@@ -153,7 +154,6 @@ ol {
 	.logo {
 		width: 180px;
 		margin-left: -30px;
-		margin-bottom: 30px;
 	}
 
 	.backarrow {
