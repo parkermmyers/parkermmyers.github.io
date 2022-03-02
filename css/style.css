@@ -135,7 +135,7 @@ ol {
 
 	body {
 		padding: 150px 0px;
-		font-size: 25px;
+		font-size: 22px;
 	}
 
 	h1 {
@@ -179,6 +179,10 @@ ol {
 /* Larger than tablet */
 @media (min-width: 750px) {
 
+	body {
+		font-size: 25px;
+	}
+	
 	.mobilehide {
 		display: block;
 	}
