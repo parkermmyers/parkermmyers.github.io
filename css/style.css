@@ -6,6 +6,7 @@ Myers Design Co.
 
 body {
 	font: 400 20px/1.7em "Be Vietnam Pro";
+	font-feature-settings: "ss01";
 	background-color: white;
 	color: #45423f;
 	padding: 25px 0px;
@@ -95,10 +96,6 @@ i {
 
 /*==========  Interior Pages  ==========*/
 
-.portfolioheader {
-	margin-top: 50px;
-	margin-bottom: 20px;
-}
 
 figure {
 	width: 100%;
