@@ -8,7 +8,7 @@ body {
 	font: 400 22px/1.7em "Be Vietnam Pro";
 	background-color: #e8e8e8;
 	color: #45423f;
-	padding: 25px 0px;
+	padding: 50px 0px;
 }
 
 h1 {
@@ -20,9 +20,10 @@ h1 {
 	margin-bottom: 20px;
 }
 
-.hero h1 {
+.heroh1 {
 	font-size: 3em;
-	font-weight: 800;
+	font-weight: 400;
+	margin-top: 0px;
 }
 
 h2 {
