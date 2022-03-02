@@ -84,8 +84,8 @@ i {
 /*==========  Navigation and Hero  ==========*/
 
 .logo {
-	width: 80px;
-	margin-left: -30px;
+	width: 100px;
+	margin-left: -5px;
 }
 
 .backarrow {
@@ -152,6 +152,8 @@ ol {
 
 	.logo {
 		width: 180px;
+		margin-left: -30px;
+		margin-bottom: 30px;
 	}
 
 	.backarrow {
