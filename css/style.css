@@ -145,7 +145,6 @@ ol {
 
 	.logo {
 		width: 180px;
-		margin-left: -30px;
 	}
 
 	.backarrow {
@@ -204,6 +203,10 @@ ol {
 	h1 {
 		margin-top: 60px;
 		margin-bottom: 50px;
+	}
+
+	.logo {
+		margin-left: -30px;
 	}
 
 }
