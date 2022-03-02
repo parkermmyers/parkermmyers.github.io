@@ -28,9 +28,8 @@ h1 {
 
 h2 {
 	font-size: 2em;
-	font-family: "Spectral";	
 	color: black;
-	font-weight: 800;
+	font-weight: 900;
 	margin-top: 25px;
 }
 
@@ -139,7 +138,7 @@ ol {
 	}
 
 	.logo {
-		width: 100px;
+		width: 120px;
 	}
 
 	.backarrow {
