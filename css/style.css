@@ -20,10 +20,14 @@ h1 {
 }
 
 .heroh1 {
-	font-size: 1.5em;
+	font-size: 1.6em;
 	line-height: 1.35em;
-	margin-top: 250px;
+	margin-top: 0px;
 	margin-bottom: 35px;
+}
+
+.herorow {
+	margin-top: 100px;
 }
 
 h2 {
