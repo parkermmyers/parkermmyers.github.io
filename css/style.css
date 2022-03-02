@@ -22,12 +22,11 @@ h1 {
 .heroh1 {
 	font-size: 1.6em;
 	line-height: 1.35em;
-	margin-top: 0px;
-	margin-bottom: 35px;
 }
 
 .herorow {
-	margin-top: 40px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 h2 {
@@ -141,7 +140,7 @@ ol {
 	}
 
 	.logo {
-		width: 120px;
+		width: 180px;
 	}
 
 	.backarrow {
