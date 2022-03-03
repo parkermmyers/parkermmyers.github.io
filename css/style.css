@@ -88,6 +88,14 @@ i {
 	display: block;
 }
 
+.sidebar {
+	padding-left: 10px;
+}
+
+ul {
+	padding-inline-start: 20px;
+}
+
 /*==========  Navigation and Hero  ==========*/
 
 .logo {
