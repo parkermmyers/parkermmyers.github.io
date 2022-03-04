@@ -9,7 +9,7 @@ body {
 	font-feature-settings: "ss01";
 	background-color: #e4e4e4;
 	color: #45423f;
-	padding: 25px 0px;
+	padding: 40px 0px;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-weight: 900;
-	margin-top: 8px;
+	margin-top: 0px;
 }
 
 h2 {
@@ -61,6 +61,10 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 .iso {
 	margin-bottom: 20px;
 	font-weight: 700;
+}
+
+.tablelabel, .tabledata {
+	line-height: ;
 }
 
 /*==========  Structure  ==========*/
@@ -132,14 +136,6 @@ ol {
 /* Larger than mobile */
 @media (min-width: 400px) {
 
-	.iso {
-		margin-bottom: 0px;
-	}
-
-	.logo {
-		width: 180px;
-	}
-
 	.backarrow {
 		padding-bottom: 75px;
 	}
@@ -177,6 +173,10 @@ ol {
 
 	.mobileshow {
 		display: none;
+	}
+
+	.iso {
+		margin-bottom: 0px;
 	}
 
 }
