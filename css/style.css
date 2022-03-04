@@ -5,30 +5,22 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 21px/1.7em "Be Vietnam";
-	font-feature-settings: "ss01";
-	background-color: white;
+	font: 400 21px/1.7em "DM Mono";
+	background-color: #e4e4e4;
 	color: #45423f;
 	padding: 25px 0px;
 }
 
 h1 {
-	color: black;
 	font-size: 1em;
-	font-weight: 900;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.heroh1 {
-	font-size: 1em;
-	line-height: 1.5em;
-	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: 700;
+	margin-top: 0px;
 }
 
 h2 {
 	font-size: 2em;
-	color: black;
 	font-weight: 900;
 	margin-top: 25px;
 }
@@ -48,12 +40,16 @@ h4 {
 	font-size: 0.8em;
 }
 
+p {
+	margin-block-end: 0.25em;
+}
+
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
- 	color: black;
- 	font-weight: 500;
+ 	color: #45423f;
+ 	font-weight: 700;
 	text-decoration: none;
 	transition: color .3s;
-	border-bottom: 1px solid lightgray;
+	border-bottom: 2px solid white;
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
@@ -61,17 +57,9 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	text-decoration: none;
 }
 
-.tablelabel {
-	color: #45423f;
-}
-
-.tabledata {
-	color: #45423f;
-	margin-top: -10px;
-}
-
-i {
-	vertical-align: -1px;
+.iso {
+	margin-bottom: 20px;
+	font-weight: 700;
 }
 
 /*==========  Structure  ==========*/
@@ -84,11 +72,11 @@ i {
 	display: block;
 }
 
-/*==========  Navigation and Hero  ==========*/
-
-.navigation {
-
+hr {
+	border-top: 2px solid white;
 }
+
+/*==========  Navigation and Hero  ==========*/
 
 .floatright {
 	text-align: right;
@@ -171,7 +159,7 @@ ol {
 @media (min-width: 550px) {
 
 	body {
-		padding: 50px 0px 100px 0px;
+		padding: 100px 0px;
 	}
 
 	.mobilehide {
@@ -187,10 +175,6 @@ ol {
 /* Larger than tablet */
 @media (min-width: 750px) {
 
-	.tabledata {
-		margin-top: 0px;
-	}
-
 	ol {
 		-webkit-column-count: 3;
 	    -moz-column-count: 3;
@@ -201,12 +185,6 @@ ol {
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-
-
-	h1 {
-		margin-top: 40px;
-		margin-bottom: 30px;
-	}
 
 	.logo {
 		margin-top: 10px;
