@@ -12,6 +12,11 @@ body {
 	padding: 40px 0px;
 }
 
+.container {
+	border: 2px solid white;
+	padding: 30px;
+}
+
 h1 {
 	font-size: 1em;
 	text-transform: uppercase;
@@ -165,6 +170,10 @@ ol {
 
 	body {
 		padding: 100px 0px;
+	}
+
+	.container {
+		padding: 50px;
 	}
 
 	.mobilehide {
