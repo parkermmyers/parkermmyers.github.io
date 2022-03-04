@@ -65,7 +65,9 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 
 .iso {
 	margin-bottom: 20px;
-	font-weight: 700;
+	font-weight: 400;
+	font-family: "Libre Caslon Text";
+	font-style: italic;
 }
 
 .tablelabel, .tabledata {
