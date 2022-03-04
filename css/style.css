@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Typography  ==========*/
 
 body {
-	font: 400 20px/1.7em "Be Vietnam";
+	font: 400 23px/1.7em "Be Vietnam";
 	font-feature-settings: "ss01";
 	background-color: #e4e4e4;
 	color: #45423f;
@@ -91,6 +91,10 @@ hr {
 	border-top: 2px solid white;
 }
 
+.nounderline {
+	border-bottom: none;
+}
+
 /*==========  Navigation and Hero  ==========*/
 
 .floatright {
@@ -174,6 +178,7 @@ ol {
 @media (min-width: 550px) {
 
 	body {
+		font: 400 18px/1.7em "Be Vietnam";
 		padding: 100px 0px;
 	}
 
