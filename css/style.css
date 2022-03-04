@@ -15,7 +15,7 @@ h1 {
 	font-size: 1em;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	font-weight: 700;
+	font-weight: 900;
 	margin-top: 0px;
 }
 
@@ -131,6 +131,10 @@ ol {
 /* Larger than mobile */
 @media (min-width: 400px) {
 
+	.iso {
+		margin-bottom: 0px;
+	}
+
 	.logo {
 		width: 180px;
 	}
@@ -151,6 +155,10 @@ ol {
 
 	figure {
 		margin: 60px auto;
+	}
+
+	p {
+		margin-block-end: 0.6em;
 	}
 
 }
