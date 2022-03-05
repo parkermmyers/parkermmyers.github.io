@@ -2,12 +2,12 @@
 Myers Design Co.
 */
 
-/*==========  Typography  ==========*/
+/*==========  Structure  ==========*/
 
 body {
 	font: 400 23px/1.7em "Be Vietnam";
 	font-feature-settings: "ss01";
-	background-color: #e4e4e4;
+	background-color: #cbcaca;
 	color: #45423f;
 	padding: 40px 0px;
 }
@@ -18,32 +18,46 @@ body {
 	max-width: 1100px;
 }
 
-h1 {
+.mobilehide {
+	display: none;
+}
+
+.mobileshow {
+	display: block;
+}
+
+.floatright {
+	text-align: right;
+}
+
+hr {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	border-top: 2px solid white;
+}
+
+/*==========  Typography  ==========*/
+
+h1 { /*homepage name*/
 	font-size: 1em;
 	font-weight: 700;
 	margin-top: 0px;
 	color: #45423f;
 }
 
-h2 {
+h2 { /*portfolio project title*/
 	font-size: 2em;
 	font-weight: 900;
 	margin-top: 25px;
 }
 
-h3 {
+h3 { /*portfolio project classification*/
 	font-size: 0.8em;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	margin-top: 0px;
 	color: #bebebe;
-}
-
-h4 {
-	text-transform: uppercase;
-	font-weight: 900;
-	font-size: 0.8em;
 }
 
 p {
@@ -57,14 +71,14 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-size: 0.8em;
-	color: #a9a9a9;
+	color: white;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: #45423f;
  	font-weight: 700;
 	text-decoration: none;
-	transition: color .3s;
+	transition: color .4s;
 	border-bottom: 2px solid white;
 }
 
@@ -73,35 +87,11 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	text-decoration: none;
 }
 
-.tablelabel, .tabledata {
-	line-height: ;
-}
-
-/*==========  Structure  ==========*/
-
-.mobilehide {
-	display: none;
-}
-
-.mobileshow {
-	display: block;
-}
-
-hr {
-	margin-top: 1em;
-	margin-bottom: 1.5em;
-	border-top: 2px solid white;
-}
-
 .nounderline {
 	border-bottom: none;
 }
 
 /*==========  Navigation and Hero  ==========*/
-
-.floatright {
-	text-align: right;
-}
 
 .logo {
 	width: 120px;
@@ -114,7 +104,6 @@ hr {
 }
 
 /*==========  Interior Pages  ==========*/
-
 
 figure {
 	width: 100%;
@@ -180,7 +169,7 @@ ol {
 @media (min-width: 550px) {
 
 	body {
-		font: 400 18px/1.7em "Be Vietnam";
+		font-size: 18px;
 		padding: 100px 0px;
 	}
 
@@ -221,14 +210,7 @@ ol {
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
-
-	.logo {
-		margin-top: 10px;
-		margin-left: -30px;
-	}
-
-}
+@media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
