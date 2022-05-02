@@ -104,8 +104,12 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	color: white;
 }
 
-.topbox a{
+.topbox a, .topbox h1 {
 	color: white;
+}
+
+.topbox a {
+	border-bottom: 2px solid #1c6ced;
 }
 
 /*==========  Interior Pages  ==========*/
