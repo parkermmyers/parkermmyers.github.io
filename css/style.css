@@ -67,10 +67,6 @@ p {
 .iso {
 	margin-top: 40px;
 	margin-bottom: 20px;
-	font-weight: 900;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	font-size: 0.8em;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
@@ -101,6 +97,15 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 
 .backarrow {
 	padding: 25px 0px;
+}
+
+.topbox {
+	background-color: black;
+	color: white;
+}
+
+.topbox a{
+	color: white;
 }
 
 /*==========  Interior Pages  ==========*/
