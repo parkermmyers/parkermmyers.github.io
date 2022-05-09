@@ -77,12 +77,12 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: #559ff7;
-	border-bottom: 2px solid #559ff7;
+	color: #0163d7;
+	border-bottom: 2px solid #0163d7;
 	text-decoration: none;
 }
 
-.nounderline {
+.nounderline, .nounderline:hover {
 	border-bottom: none;
 }
 
