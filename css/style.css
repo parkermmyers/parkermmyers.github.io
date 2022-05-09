@@ -38,10 +38,11 @@ hr {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage name*/
-	font-size: 1em;
+	font-size: 0.9em;
 	font-weight: 700;
 	margin-top: 0px;
 	color: #45423f;
+	text-transform: uppercase;
 }
 
 h2 { /*portfolio project title*/
