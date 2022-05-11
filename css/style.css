@@ -136,6 +136,10 @@ ol {
 /* Larger than mobile */
 @media (min-width: 400px) {
 
+	body {
+		padding: 15px 0px;
+	}
+
 	.backarrow {
 		padding-bottom: 75px;
 	}
@@ -165,7 +169,6 @@ ol {
 
 	body {
 		font-size: 18px;
-		padding: 15px 0px;
 	}
 
 	.container {
