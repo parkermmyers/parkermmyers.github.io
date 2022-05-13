@@ -40,13 +40,14 @@ hr {
 h1 { /*homepage name*/
 	font-family: "Corben";
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 1.25em;
 	margin-top: 0px;
 	color: #45423f;
 }
 
 h2 { /*portfolio project title*/
 	font-family: "Corben";
+	font-weight: 400;
 	font-size: 2em;
 	margin-top: 25px;
 }
