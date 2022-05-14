@@ -14,7 +14,7 @@ body {
 .container {
 	border: none;
 	width: 95%;
-	max-width: 1100px;
+	max-width: 1300px;
 }
 
 .mobilehide {
@@ -40,7 +40,7 @@ hr {
 h1 { /*homepage name*/
 	font-family: "Corben";
 	font-weight: 400;
-	font-size: 1.1em;
+	font-size: 1em;
 	margin-top: 0px;
 	color: #45423f;
 }
