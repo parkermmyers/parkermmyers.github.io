@@ -38,7 +38,7 @@ hr {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage name*/
-	font-family: "Corben";
+	font-family: "Zodiak";
 	font-weight: 400;
 	font-size: 1em;
 	margin-top: 0px;
@@ -46,7 +46,7 @@ h1 { /*homepage name*/
 }
 
 h2 { /*portfolio project title*/
-	font-family: "Corben";
+	font-family: "Zodiak";
 	font-weight: 400;
 	font-size: 2em;
 	margin-top: 25px;

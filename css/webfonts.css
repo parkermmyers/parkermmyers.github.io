@@ -1,16 +1,39 @@
 @font-face {
     font-family: 'Basier';
-    src: url('/fonts/basiersquare-bold-webfont.woff2') format('woff2'),
-         url('/fonts/basiersquare-bold-webfont.woff') format('woff');
+    src: url('/fonts/basier/basiersquare-bold-webfont.woff2') format('woff2'),
+         url('/fonts/basier/basiersquare-bold-webfont.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Basier';
-    src: url('/fonts/basiersquare-regular-webfont.woff2') format('woff2'),
-         url('/fonts/basiersquare-regular-webfont.woff') format('woff');
+    src: url('/fonts/basier/basiersquare-regular-webfont.woff2') format('woff2'),
+         url('/fonts/basier/basiersquare-regular-webfont.woff') format('woff');
     font-weight: 400;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'Zodiak';
+    src: url('/fonts/zodiak/zodiak-black.woff2') format('woff2'),
+         url('/fonts/zodiak/zodiak-black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zodiak';
+    src: url('/fonts/zodiak/zodiak-bold.woff2') format('woff2'),
+         url('/fonts/zodiak/zodiak-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zodiak';
+    src: url('/fonts/zodiak/zodiak-regular.woff2') format('woff2'),
+         url('/fonts/zodiak/zodiak-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
