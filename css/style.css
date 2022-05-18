@@ -14,7 +14,7 @@ body {
 .container {
 	border: none;
 	width: 95%;
-	max-width: 1300px;
+	max-width: 800px;
 }
 
 .mobilehide {
@@ -38,11 +38,11 @@ hr {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage name*/
-	font-family: "Zodiak";
 	font-weight: 700;
 	font-size: 1em;
 	line-height: 1.2em;
 	margin-top: 0px;
+	margin-bottom: 50px;
 	color: #45423f;
 }
 
@@ -184,7 +184,7 @@ ol {
 
 	.iso {
 		margin-top: 5px;
-		margin-bottom: 0px;
+		margin-bottom: 50px;
 	}
 
 	hr {
