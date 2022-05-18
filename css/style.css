@@ -38,6 +38,7 @@ hr {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage name*/
+	font-family: "Zodiak";
 	font-weight: 700;
 	font-size: 1em;
 	line-height: 1.2em;
