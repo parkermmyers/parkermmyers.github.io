@@ -1,5 +1,13 @@
 @font-face {
     font-family: 'Basier';
+    src: url('/fonts/basiersquare-bolditalic-webfont.woff2') format('woff2'),
+         url('/fonts/basiersquare-bolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Basier';
     src: url('/fonts/basiersquare-bold-webfont.woff2') format('woff2'),
          url('/fonts/basiersquare-bold-webfont.woff') format('woff');
     font-weight: 700;

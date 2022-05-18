@@ -29,8 +29,10 @@ body {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage name*/
-	font-family: "Zodiak";
+	font-family: "Basier";
 	font-weight: 700;
+	font-style: italic;
+	text-transform: uppercase;
 	font-size: 1em;
 	margin: 40px 0px;
 	color: #45423f;
