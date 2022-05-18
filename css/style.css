@@ -59,16 +59,16 @@ p {
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
- 	color: #0074FD;
+ 	color: #ed5045;ed5045
  	font-weight: 400;
 	text-decoration: none;
 	transition: color .4s, border-bottom .4s;
-	border-bottom: 1.5px solid #0074FD;
+	border-bottom: 1.5px solid #ed5045;
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: black;
-	border-bottom: 1.5px solid black;
+	color: #0074FD;
+	border-bottom: 1.5px solid #0074FD;
 	text-decoration: none;
 }
 
