@@ -29,17 +29,14 @@ body {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage name*/
-	font-family: "Basier";
-	font-weight: 700;
-	text-transform: uppercase;
+	font-family: "Corben";
 	font-size: 1em;
 	margin: 40px 0px;
 	color: #45423f;
 }
 
 h2 { /*portfolio project title*/
-	font-family: "Basier";
-	font-weight: 700;
+	font-family: "Corben";
 	font-size: 2em;
 	margin-top: 25px;
 }
@@ -58,7 +55,7 @@ p {
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
- 	color: #ed5045;ed5045
+ 	color: #ed5045;
  	font-weight: 400;
 	text-decoration: none;
 	transition: color .4s, border-bottom .4s;
