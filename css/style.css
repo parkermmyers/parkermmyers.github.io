@@ -98,6 +98,7 @@ figure img {
 }
 
 figcaption {
+	font-family: "Courier Prime";
 	line-height: 1.4em;
 	font-size: 0.7em;
 	margin-top: 20px;
