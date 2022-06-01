@@ -77,9 +77,8 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 /*==========  Navigation and Hero  ==========*/
 
 .logo {
-	width: 120px;
-	margin-left: -5px;
-	margin-bottom: 30px;
+	width: 50px;
+	margin-left: 30px;
 }
 
 .backarrow {
