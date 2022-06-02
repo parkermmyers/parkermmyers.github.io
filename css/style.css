@@ -196,7 +196,6 @@ ol {
 body {
 	background-color: #131414;
 	color: #AAB2BD;
-	font-family: "Basier";
 }
 
 h1, h2 {
@@ -205,4 +204,8 @@ h1, h2 {
 
 h3, figcaption {
 	color: #696969;
+}
+
+h1, h2, h3, figcaption {
+	font-family: "Basier";
 }
