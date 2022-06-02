@@ -14,7 +14,7 @@ body {
 .container {
 	border: none;
 	width: 95%;
-	max-width: 1000px;
+	max-width: 900px;
 	padding-top: 20px;
 }
 
@@ -191,4 +191,11 @@ ol {
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+body {
+	background-color: #131414;
+	color: #AAB2BD;
+}
 
+h1, h2 {
+	color: white;
+}
