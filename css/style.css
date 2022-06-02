@@ -18,6 +18,11 @@ body {
 	padding-top: 20px;
 }
 
+.content {
+	max-width: 900px;
+	float: right;
+}
+
 .mobilehide {
 	display: none;
 }
