@@ -29,7 +29,7 @@ body {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage name*/
-	font-family: "Lora";
+	font-family: "Fahkwang";
 	font-weight: 400;
 	font-size: 1em;
 	margin: 40px 0px;
@@ -37,7 +37,7 @@ h1 { /*homepage name*/
 }
 
 h2 { /*portfolio project title*/
-	font-family: "Lora";
+	font-family: "Fahkwang";
 	font-weight: 400;
 	font-size: 2em;
 	margin-top: 25px;
@@ -98,7 +98,6 @@ figure img {
 }
 
 figcaption {
-	font-family: "Courier Prime";
 	line-height: 1.4em;
 	font-size: 0.7em;
 	margin-top: 20px;
@@ -207,5 +206,4 @@ h3, figcaption {
 }
 
 h1, h2, h3, figcaption {
-	font-family: "Basier";
 }
