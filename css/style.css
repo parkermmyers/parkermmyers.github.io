@@ -191,11 +191,18 @@ ol {
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+/*Dark Mode!*/
+
 body {
 	background-color: #131414;
 	color: #AAB2BD;
+	font-family: "Basier";
 }
 
 h1, h2 {
 	color: white;
+}
+
+h3, figcaption {
+	color: #696969;
 }
