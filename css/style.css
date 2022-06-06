@@ -220,3 +220,8 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: white;
 	border-bottom: 1.5px solid white;
 }
+
+a:hover, .navbar-default .navbar-nav>li>a:hover {
+	color: #0074FD;
+	border-bottom: 1.5px solid #0074FD;
+}
