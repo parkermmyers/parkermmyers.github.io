@@ -65,11 +65,11 @@ p {
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
- 	color: white;
+ 	color: #45423f;
+	border-bottom: 1.5px solid #45423f;
  	font-weight: 400;
 	text-decoration: none;
-	transition: color .4s, border-bottom .4s;
-	border-bottom: 1.5px solid white;
+	transition: color .4s, border-bottom .4s;	
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
@@ -214,4 +214,9 @@ h3, figcaption {
 }
 
 h1, h2, h3, figcaption {
+}
+
+a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
+ 	color: white;
+	border-bottom: 1.5px solid white;
 }
