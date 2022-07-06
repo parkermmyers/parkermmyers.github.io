@@ -197,7 +197,7 @@ ol {
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
-/*Dark Mode!
+Dark Mode!
 
 body {
 	background-color: #131414;
@@ -224,5 +224,3 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	color: #0074FD;
 	border-bottom: 1.5px solid #0074FD;
 }
-
-*/
