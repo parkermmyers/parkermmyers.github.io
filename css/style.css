@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Structure  ==========*/
 
 body {
-	font: 400 21px/1.7em "Space Grotesk";
+	font: 400 21px/1.7em "Basier";
 	background-color: #f2f2f2;
 	color: #45423f;
 	padding: 0px;
@@ -179,7 +179,7 @@ ol {
 @media (min-width: 750px) {
 
 	body {
-		font: 400 19px/1.7em "Space Grotesk";
+		font: 400 19px/1.7em "Basier";
 		padding: 100px 0px;
 	}
 	
