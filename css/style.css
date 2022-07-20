@@ -198,6 +198,7 @@ ol {
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+/*
 body {
 	background-color: #131414;
 	color: #AAB2BD;
@@ -223,3 +224,4 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	color: #0074FD;
 	border-bottom: 1.5px solid #0074FD;
 }
+*/
