@@ -37,14 +37,14 @@ body {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage name*/
-	font-family: "Zodiak";
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 1em;
 	margin: 40px 0px;
 	color: #45423f;
 }
 
 h2 { /*portfolio project title*/
+	font-family: "Zodiak";
 	font-weight: 400;
 	font-size: 2em;
 	margin-top: 25px;
@@ -84,9 +84,10 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 /*==========  Navigation and Hero  ==========*/
 
 .logo {
-	width: 60px;
-	margin-left: 5px;
+	width: 80px;
+	margin-left: 0px;
 	margin-bottom: 50px;
+	rotate: 90deg;
 }
 
 .backarrow {
