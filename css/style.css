@@ -26,11 +26,6 @@ body {
 	display: inline-block;
 }
 
-.blackbackground {
-	color: white;
-	background-color: black;
-}
-
 .mobilehide {
 	display: none;
 }
@@ -203,6 +198,11 @@ ol {
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+.blackbackground {
+	background-color: black;
+	color: white;
+}
 
 /*
 body {
