@@ -6,7 +6,7 @@ Myers Design Co.
 
 body {
 	font: 400 21px/1.7em "Basier";
-	background-color: #EFCA6E;
+	background-color: #ededed;
 	color: #45423f;
 	padding: 0px;
 }
@@ -37,7 +37,8 @@ body {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage name*/
-	font-weight: 700;
+	font-weight: 400;
+	font-family: "Zodiak";
 	font-size: 1em;
 	margin: 40px 0px;
 	color: #45423f;
