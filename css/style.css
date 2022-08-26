@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Structure  ==========*/
 
 body {
-	font: 400 21px/1.7em "input-sans";
+	font: 400 21px/1.7em "Basier";
 	background-color: #ededed;
 	color: #45423f;
 	padding: 0px;
@@ -37,16 +37,16 @@ body {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage name*/
-	font-family: "Basier";	
-	font-weight: 700;
+	font-family: "Zodiak";	
+	font-weight: 400;
 	font-size: 1em;
 	margin: 40px 0px;
 	color: #45423f;
 }
 
 h2 { /*portfolio project title*/
-	font-family: "Basier";
-	font-weight: 700;
+	font-family: "Zodiak";
+	font-weight: 400;
 	font-size: 2em;
 	margin-top: 25px;
 }
