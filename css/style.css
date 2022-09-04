@@ -21,7 +21,6 @@ body {
 }
 
 .content {
-	float: left;
 	width: 100%;
 	max-width: 800px;
 	padding: 30px 0px;
