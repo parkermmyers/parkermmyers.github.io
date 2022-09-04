@@ -37,8 +37,8 @@ body {
 
 /*==========  Typography  ==========*/
 
-h1 { /*homepage name*/
-	font-weight: 400;
+h1 { /*homepage titles*/
+	font-weight: 700;
 	font-size: 1em;
 	margin: 40px 0px;
 	color: #45423f;
