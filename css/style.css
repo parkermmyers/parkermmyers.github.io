@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Structure  ==========*/
 
 body {
-	font-family: "Courier Prime Sans";
+	font-family: "Basier";
 	font-weight: 400;
 	font-size: 21px;
 	line-height: 1.7em; 
@@ -38,7 +38,7 @@ body {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage titles*/
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 1em;
 	margin: 40px 0px;
 	color: #45423f;
@@ -51,7 +51,7 @@ h2 { /*portfolio project title*/
 }
 
 h3 { /*portfolio project classification*/
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 0.8em;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
