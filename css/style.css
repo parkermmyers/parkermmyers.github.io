@@ -13,7 +13,7 @@ body {
 	padding: 0px;
 }
 
-.container {
+section {
 	border: none;
 	width: 95%;
 	max-width: 800px;
@@ -168,7 +168,7 @@ ol {
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 
-	.container {
+	section {
 		padding: 20px;
 	}
 
