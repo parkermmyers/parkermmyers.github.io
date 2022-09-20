@@ -10,17 +10,12 @@ body {
 	font-size: 21px;
 	line-height: 1.7em; 
 	color: #45423f;
-	padding: 0px;
-}
-
-section {
-	border: none;
 	width: 95%;
 	max-width: 800px;
 	padding-top: 20px;
 }
 
-.content {
+section, footer, header {
 	width: 100%;
 	max-width: 800px;
 	padding: 30px 0px;
@@ -168,7 +163,7 @@ ol {
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 
-	section {
+	section, footer, header {
 		padding: 20px;
 	}
 
