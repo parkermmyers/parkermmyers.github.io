@@ -30,16 +30,17 @@ header, article, figure, footer {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage titles*/
-	font-family: "Zodiak";
-	font-size: 1em;
-	font-weight: 400;
+	font-family: "Crimson Pro";
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: 300;
 	margin: 40px 0px;
 	color: #45423f;
 }
 
 h2 { /*portfolio project title*/
-	font-family: "Zodiak";
-	font-weight: 400;
+	font-family: "Crimson Pro";
+	font-weight: 300;
 	font-size: 2em;
 	margin-top: 25px;
 }
