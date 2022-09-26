@@ -9,6 +9,7 @@ body {
 	font-weight: 400;
 	font-size: 21px;
 	line-height: 1.7em; 
+	letter-spacing: 0.01em;
 	color: #45423f;
 	max-width: 650px;
 	padding: 30px;
@@ -45,7 +46,8 @@ h2 { /*portfolio project title*/
 }
 
 h3 { /*portfolio project classification*/
-	font-weight: 600;
+	font-family: "Clash Display";
+	font-weight: 700;
 	font-size: 0.8em;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
@@ -173,7 +175,6 @@ ol {
 @media (min-width: 750px) {
 
 	body {
-		font-size: 18px;
 		padding: 100px 0px;
 	}
 	
