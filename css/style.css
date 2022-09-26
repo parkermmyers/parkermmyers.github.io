@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Structure  ==========*/
 
 body {
-	font-family: "Clash Grotesk";
+	font-family: "IBM Plex Sans";
 	font-weight: 400;
 	font-size: 21px;
 	line-height: 1.7em; 
@@ -31,7 +31,7 @@ header, article, figure, footer {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage titles*/
-	font-family: "Clash Grotesk";
+	font-family: "IBM Plex Sans";
 	font-size: 1em;
 	font-weight: 700;
 	margin: 40px 0px;
@@ -39,14 +39,14 @@ h1 { /*homepage titles*/
 }
 
 h2 { /*portfolio project title*/
-	font-family: "Clash Display";
+	font-family: "IBM Plex Sans";
 	font-weight: 700;
 	font-size: 2em;
 	margin-top: 25px;
 }
 
 h3 { /*portfolio project classification*/
-	font-family: "Clash Grotesk";
+	font-family: "IBM Plex Sans";
 	font-weight: 700;
 	font-size: 0.8em;
 	text-transform: uppercase;
@@ -102,7 +102,7 @@ figure img {
 }
 
 figcaption {
-	font-family: "Courier Prime";
+	font-family: "IBM Plex Mono";
 	font-style: italic;
 	line-height: 1.4em;
 	font-size: 0.8em;
