@@ -31,16 +31,16 @@ header, article, figure, footer {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage titles*/
-	font-family: "IBM Plex Sans";
+	font-family: "IBM Plex Serif";
 	font-size: 1em;
-	font-weight: 700;
+	font-weight: 400;
 	margin: 40px 0px;
 	color: #45423f;
 }
 
 h2 { /*portfolio project title*/
-	font-family: "IBM Plex Sans";
-	font-weight: 700;
+	font-family: "IBM Plex Serif";
+	font-weight: 400;
 	font-size: 2em;
 	margin-top: 25px;
 }
@@ -103,7 +103,6 @@ figure img {
 
 figcaption {
 	font-family: "IBM Plex Mono";
-	font-style: italic;
 	line-height: 1.4em;
 	font-size: 0.8em;
 	margin-top: 20px;
