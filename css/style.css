@@ -5,7 +5,7 @@ Myers Design Co.
 /*==========  Structure  ==========*/
 
 body {
-	font-family: "Basier";
+	font-family: "Clash Grotesk";
 	font-weight: 400;
 	font-size: 21px;
 	line-height: 1.7em; 
@@ -30,16 +30,16 @@ header, article, figure, footer {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage titles*/
-	font-family: "Courier Prime";
+	font-family: "Clash Display";
 	font-size: 1em;
-	font-weight: 400;
+	font-weight: 700;
 	margin: 40px 0px;
 	color: #45423f;
 }
 
 h2 { /*portfolio project title*/
-	font-family: "Courier Prime";
-	font-weight: 400;
+	font-family: "Clash Display";
+	font-weight: 700;
 	font-size: 2em;
 	margin-top: 25px;
 }
