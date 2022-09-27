@@ -44,6 +44,7 @@ h2 { /*portfolio project title*/
 }
 
 h3 { /*portfolio project classification*/
+	font-family: "Courier Prime Sans";
 	font-weight: 400;
 	font-size: 0.8em;
 	text-transform: uppercase;
