@@ -52,12 +52,12 @@ h3 { /*portfolio project classification*/
 }
 
 p {
-	margin-block-end: 0.35em;
+	margin-block-end: 1em;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: #45423f;
-	border-bottom: 1.5px solid #45423f;
+	border-bottom: 2px solid #45423f;
  	font-weight: 400;
 	text-decoration: none;
 	transition: color .4s, border-bottom .4s;	
@@ -65,7 +65,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
 	color: #0074FD;
-	border-bottom: 1.5px solid #0074FD;
+	border-bottom: 2px solid #0074FD;
 	text-decoration: none;
 }
 
