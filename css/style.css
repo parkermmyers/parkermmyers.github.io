@@ -31,7 +31,6 @@ header, article, figure, footer {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage titles*/
-	font-family: "Courier Prime";
 	font-size: 1em;
 	font-weight: 700;
 	margin: 40px 0px;
@@ -39,14 +38,12 @@ h1 { /*homepage titles*/
 }
 
 h2 { /*portfolio project title*/
-	font-family: "Courier Prime";
 	font-weight: 400;
 	font-size: 2em;
 	margin-top: 25px;
 }
 
 h3 { /*portfolio project classification*/
-	font-family: "Courier Prime Sans";
 	font-weight: 700;
 	font-size: 0.8em;
 	text-transform: uppercase;
@@ -102,7 +99,7 @@ figure img {
 }
 
 figcaption {
-	font-family: "Courier Prime";
+	font-family: "Courier Prime Sans";
 	line-height: 1.4em;
 	font-style: italic;
 	font-size: 0.8em;
