@@ -9,7 +9,6 @@ body {
 	font-weight: 400;
 	font-size: 19px;
 	line-height: 1.7em; 
-	letter-spacing: 0.01em;
 	color: #45423f;
 	max-width: 800px;
 	padding: 20px;
@@ -176,7 +175,7 @@ ol {
 @media (min-width: 750px) {
 
 	body {
-		padding: 100px 0px;
+		padding: 200px 0px;
 		font-size: 21px;
 	}
 	
