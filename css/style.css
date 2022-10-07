@@ -7,10 +7,10 @@ Myers Design Co.
 body {
 	font-family: "DM Mono";
 	font-weight: 400;
-	font-size: 19px;
+	font-size: 18px;
 	line-height: 1.7em; 
 	color: #45423f;
-	max-width: 800px;
+	max-width: 750px;
 	padding: 20px;
 	margin: 0px auto;
 }
@@ -172,7 +172,6 @@ ol {
 
 	body {
 		padding: 200px 0px;
-		font-size: 21px;
 	}
 	
 	ol {
