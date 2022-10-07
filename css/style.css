@@ -30,8 +30,9 @@ header, article, figure, footer {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage titles*/
-	font-size: 1em;
+	font-family: "DM Sans";
 	font-weight: 700;
+	font-size: 1em;
 	margin: 40px 0px;
 	color: #45423f;
 }
