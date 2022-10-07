@@ -30,17 +30,10 @@ header, article, figure, footer {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage titles*/
-	font-family: "DM Sans";
 	font-size: 1em;
 	font-weight: 700;
 	margin: 40px 0px;
 	color: #45423f;
-}
-
-h1.masthead {
-	font-family: "DM Sans";
-	text-transform: uppercase;
-	font-weight: 700;
 }
 
 h2 { /*portfolio project title*/
