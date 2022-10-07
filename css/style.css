@@ -6,7 +6,7 @@ Myers Design Co.
 
 body {
 	font-family: "DM Mono";
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.7em; 
 	color: #45423f;
@@ -44,7 +44,7 @@ h2 { /*portfolio project title*/
 }
 
 h3 { /*portfolio project classification*/
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 1em;
 	font-style: italic;
 	margin-top: 0px;
