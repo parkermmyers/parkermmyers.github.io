@@ -1,5 +1,16 @@
 /*
 Myers Design Co.
+
+Colors
+Gray 1 - E9E9E9
+Gray 2 - C7C6C6
+Gray 3 - 5F5B5B
+Gray 4 - 2D2D2D
+
+Gold - CBA98E
+Red - F27B64
+Yellow - EFCA6E
+Blue - 336BEB
 */
 
 /*==========  Structure  ==========*/
@@ -7,9 +18,9 @@ Myers Design Co.
 body {
 	font-family: "Courier Prime";
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 21px;
 	line-height: 1.7em; 
-	color: #45423f;
+	color: #2D2D2D;
 	max-width: 750px;
 	padding: 20px;
 	margin: 0px auto;
@@ -33,7 +44,6 @@ h1 { /*homepage titles*/
 	font-weight: 700;
 	font-size: 1em;
 	margin: 40px 0px;
-	color: #45423f;
 }
 
 h2 { /*portfolio project title*/
@@ -44,10 +54,10 @@ h2 { /*portfolio project title*/
 
 h3 { /*portfolio project classification*/
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 0.8em;
 	font-style: italic;
 	margin-top: 0px;
-	color: #c9c9c9;
+	color: #5F5B5B;
 }
 
 p {
@@ -55,16 +65,16 @@ p {
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
- 	color: #45423f;
-	border-bottom: 1.75px solid #45423f;
+ 	color: #2D2D2D;
+	border-bottom: 1.75px solid #2D2D2D;
  	font-weight: 400;
 	text-decoration: none;
 	transition: color .4s, border-bottom .4s;	
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: #0074FD;
-	border-bottom: 1.75px solid #0074FD;
+	color: #336BEB;
+	border-bottom: 1.75px solid #336BEB;
 	text-decoration: none;
 }
 
@@ -101,26 +111,11 @@ figcaption {
 	font-style: italic;
 	font-size: 0.8em;
 	margin-top: 20px;
-	color: #828282;
+	color: #5F5B5B;
 }
 
 .archivologos {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(100%) contrast(107%);
-}
-
-.archivelist {
-	font-size: 0.8em;
-	line-height: 1.5em;
-	margin-top: 25px;
-}
-
-ol {
-	-webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    padding-inline-start: 0px;
-    column-gap: 1.5em;
-    list-style-position: inside;
 }
 
 /*==========  Media Queries  ==========*/
@@ -134,16 +129,6 @@ ol {
 
 	.backarrow {
 		padding-bottom: 75px;
-	}
-
-	ol {
-		-webkit-column-count: 2;
-	    -moz-column-count: 2;
-	    column-count: 2;
-	}
-
-	.archivelist {
-		font-size: 0.5em;
 	}
 
 	figure {
@@ -169,14 +154,9 @@ ol {
 @media (min-width: 750px) {
 
 	body {
+		font-size: 18px;
 		padding: 200px 0px;
 	}
-	
-	ol {
-		-webkit-column-count: 3;
-	    -moz-column-count: 3;
-	    column-count: 3;
-	}	
 
 }
 
