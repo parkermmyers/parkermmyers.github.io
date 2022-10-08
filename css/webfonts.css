@@ -56,32 +56,16 @@
 
 @font-face {
     font-family: 'Courier Prime Sans';
+    src: url('/fonts/courier_prime_sans_italic-webfont.woff2') format('woff2'),
+         url('/fonts/courier_prime_sans_italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Courier Prime Sans';
     src: url('/fonts/courier_prime_sans_bold-webfont.woff2') format('woff2'),
          url('/fonts/courier_prime_sans_bold-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Clash Display';
-    src: url('/fonts/ClashDisplay-Bold.woff2') format('woff2'),
-         url('/fonts/ClashDisplay-Bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Clash Grotesk';
-    src: url('/fonts/ClashGrotesk-Regular.woff2') format('woff2'),
-         url('/fonts/ClashGrotesk-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Clash Grotesk';
-    src: url('/fonts/ClashGrotesk-Bold.woff2') format('woff2'),
-         url('/fonts/ClashGrotesk-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
