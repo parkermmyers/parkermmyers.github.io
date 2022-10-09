@@ -91,8 +91,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 
 .logo {
 	width: 50px;
-	margin-left: 2px;
-	margin-bottom: 50px;
+	margin: 20px 0px 0px 2px;
 	rotate: 90deg;
 }
 
@@ -112,7 +111,7 @@ figure img {
 }
 
 figcaption {
-	font-size: 0.6em;
+	font-size: 0.75em;
 	line-height: 1.4em;
 	font-style: italic;
 	margin-top: 20px;
@@ -134,6 +133,10 @@ figcaption {
 
 	header, article, figure, footer {
 		padding: 30px 0px;
+	}
+
+	.logo {
+		margin-bottom: 40px;
 	}
 
 	.backarrow {
