@@ -69,6 +69,11 @@ p {
 	margin-block-end: 1em;
 }
 
+footer p {
+	font-size: 0.75em;
+	color: #C7C6C6;
+}
+
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: #2D2D2D;
 	border-bottom: 1.75px solid #2D2D2D;
