@@ -76,6 +76,7 @@ footer p {
 
 footer p a {
 	color: #C7C6C6;
+	border-bottom: 1.75p solid #2D2D2D;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
