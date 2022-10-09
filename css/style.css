@@ -108,6 +108,7 @@ figure {
 
 figure img {
 	width: 100%;
+	border-radius: 4px;
 }
 
 figcaption {
