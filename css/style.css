@@ -76,7 +76,7 @@ footer p {
 
 footer p a, footer p a:active, footer p a:visited {
 	color: #C7C6C6;
-	border-bottom: 1.75p solid #2D2D2D;
+	border-bottom: 1.75p solid #C7C6C6;
 }
 
 a, a:active, a:visited, a:focus {
