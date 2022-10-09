@@ -90,7 +90,7 @@ footer p {
 
 footer p a, footer p a:active, footer p a:visited {
 	color: #C7C6C6;
-	border-bottom: 1.75p solid #C7C6C6;
+	border-bottom: 1.75px solid #C7C6C6;
 }
 
 .nounderline, .nounderline:hover {
