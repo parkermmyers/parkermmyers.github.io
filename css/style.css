@@ -74,12 +74,12 @@ footer p {
 	color: #C7C6C6;
 }
 
-footer p a {
+footer p a, footer p a:active, footer p a:visited {
 	color: #C7C6C6;
 	border-bottom: 1.75p solid #2D2D2D;
 }
 
-a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
+a, a:active, a:visited, a:focus {
  	color: #2D2D2D;
 	border-bottom: 1.75px solid #2D2D2D;
  	font-weight: 400;
@@ -87,7 +87,7 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 	transition: color .4s, border-bottom .4s;	
 }
 
-a:hover, .navbar-default .navbar-nav>li>a:hover {
+a:hover {
 	color: #336BEB;
 	border-bottom: 1.75px solid #336BEB;
 	text-decoration: none;
