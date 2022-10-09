@@ -69,16 +69,6 @@ p {
 	margin-block-end: 1em;
 }
 
-footer p {
-	font-size: 0.75em;
-	color: #C7C6C6;
-}
-
-footer p a, footer p a:active, footer p a:visited {
-	color: #C7C6C6;
-	border-bottom: 1.75p solid #C7C6C6;
-}
-
 a, a:active, a:visited, a:focus {
  	color: #2D2D2D;
 	border-bottom: 1.75px solid #2D2D2D;
@@ -91,6 +81,16 @@ a:hover {
 	color: #336BEB;
 	border-bottom: 1.75px solid #336BEB;
 	text-decoration: none;
+}
+
+footer p {
+	font-size: 0.9em;
+	color: #C7C6C6;
+}
+
+footer p a, footer p a:active, footer p a:visited {
+	color: #C7C6C6;
+	border-bottom: 1.75p solid #C7C6C6;
 }
 
 .nounderline, .nounderline:hover {
