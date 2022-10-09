@@ -30,6 +30,10 @@ header, article, figure, footer {
 	padding: 15px 0px;
 }
 
+footer {
+	margin-top: 50px;
+}
+
 .mobilehide {
 	display: none;
 }
@@ -85,12 +89,12 @@ a:hover {
 
 footer p {
 	font-size: 0.9em;
-	color: #C7C6C6;
+	color: #5F5B5B;
 }
 
 footer p a, footer p a:active, footer p a:visited {
-	color: #C7C6C6;
-	border-bottom: 1.75px solid #C7C6C6;
+	color: #5F5B5B;
+	border-bottom: 1.75px solid #5F5B5B;
 }
 
 .nounderline, .nounderline:hover {
