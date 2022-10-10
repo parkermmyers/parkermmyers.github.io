@@ -88,8 +88,9 @@ a:hover {
 }
 
 footer p {
-	font-size: 0.9em;
+	font-size: 0.8em;
 	color: #5F5B5B;
+	text-transform: uppercase;
 }
 
 footer p a, footer p a:active, footer p a:visited {
