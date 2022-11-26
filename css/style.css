@@ -51,6 +51,10 @@ h1 { /*homepage titles*/
 	margin: 40px 0px;
 }
 
+h1.masthead {
+	
+}
+
 h2 { /*portfolio project title*/
 	font-weight: 700;
 	font-size: 1.2em;
@@ -64,10 +68,6 @@ h3 { /*portfolio project classification*/
 	font-style: italic;
 	margin-top: 0px;
 	color: #5F5B5B;
-}
-
-h1.masthead {
-	text-transform: uppercase;
 }
 
 p {
