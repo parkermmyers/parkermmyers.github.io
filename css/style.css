@@ -52,7 +52,7 @@ h1 { /*homepage titles*/
 }
 
 h1.masthead {
-	
+	text-transform: uppercase;
 }
 
 h2 { /*portfolio project title*/
@@ -91,12 +91,13 @@ a:hover {
 footer p {
 	font-size: 0.8em;
 	color: #5F5B5B;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 footer p a, footer p a:active, footer p a:visited {
 	color: #5F5B5B;
 	border-bottom: 1.75px solid #5F5B5B;
+	font-style: italic;
 }
 
 .nounderline, .nounderline:hover {
