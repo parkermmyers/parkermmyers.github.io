@@ -48,7 +48,7 @@ footer {
 h1 { /*homepage titles*/
 	font-weight: 600;
 	font-size: 1em;
-	margin: 0px;
+	margin: 30px 0px;
 }
 
 h1.masthead {
@@ -165,7 +165,7 @@ figcaption {
 	}
 
 	figure {
-		margin: 50px auto;
+		margin: 25px auto;
 	}
 
 }
