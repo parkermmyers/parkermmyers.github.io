@@ -18,11 +18,11 @@ Blue - 336BEB
 body {
 	font-family: halyard-text;
 	font-weight: 300;
-	font-size: 19px;
+	font-size: 18px;
 	line-height: 1.7em; 
 	background-color: white;
 	color: #2D2D2D;
-	max-width: 900px;
+	max-width: 750px;
 	padding: 0px 20px;
 	margin: 0px auto;
 }
