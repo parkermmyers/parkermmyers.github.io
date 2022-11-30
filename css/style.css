@@ -46,9 +46,9 @@ footer {
 /*==========  Typography  ==========*/
 
 h1 { /*homepage titles*/
-	font-family: "Zodiak";
+	font-family: "Spectral";
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 1.2em;
 	margin: 30px 0px 60px 0px;
 }
 
@@ -57,7 +57,7 @@ h1.masthead {
 }
 
 h2 { /*portfolio project title*/
-	font-family: "Zodiak";
+	font-family: "Spectral";
 	font-weight: 400;
 	font-size: 1.2em;
 	margin-top: 25px;
