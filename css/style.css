@@ -101,7 +101,6 @@ footer p {
 footer p a, footer p a:active, footer p a:visited {
 	color: #5F5B5B;
 	border-bottom: 1.75px solid #5F5B5B;
-	font-style: italic;
 }
 
 .nounderline, .nounderline:hover {
