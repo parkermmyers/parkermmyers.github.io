@@ -149,6 +149,10 @@ figcaption {
 
 @media (min-width: 400px) {
 
+	body {
+		margin-top: 50px;
+	}
+	
 	.logo {
 		margin-bottom: 40px;
 	}
