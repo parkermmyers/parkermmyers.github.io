@@ -76,6 +76,12 @@ h3 { /*portfolio project classification*/
 	color: #5F5B5B;
 }
 
+h4 {
+	font-size: 1em;
+	font-family: "Basier";
+	font-weight: 600;
+}
+
 p {
 	font-size: 1.05em;
 	margin-block-end: 1em;
