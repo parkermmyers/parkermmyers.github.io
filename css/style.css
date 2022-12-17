@@ -191,22 +191,19 @@ figcaption {
 
 body {
 	background-color: #252120;
-	color: #797673;
+	color: #BAB6B1;
 }
 
 h1, h2 {
-	color: white;
+	color: #F8F6F5;
 }
 
 h3, figcaption {
 	color: #696969;
 }
 
-h1, h2, h3, figcaption {
-}
-
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
- 	color: white;
+ 	color: #F8F6F5;
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
