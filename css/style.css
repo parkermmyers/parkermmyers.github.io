@@ -67,7 +67,7 @@ h2 {
 	margin: 20px 0px;
 }
 
-h3 { /*portfolio project classification*/
+h3 {
 	font-weight: 400;
 	font-family: "Lora";
 	font-size: 0.8em;
@@ -80,6 +80,7 @@ h4 {
 	font-size: 1em;
 	font-family: "Basier";
 	font-weight: 400;
+	margin-top: 0px;
 }
 
 p {
@@ -132,7 +133,7 @@ figure img {
 }
 
 figcaption {
-	font-size: 0.9em;
+	font-size: 1em;
 	font-family: "Lora";
 	line-height: 1.4em;
 	font-style: italic;
