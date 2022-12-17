@@ -124,7 +124,7 @@ strong {
 
 figure {
 	width: 100%;
-	margin: 10px auto;
+	margin: 35px auto;
 }
 
 figure img {
@@ -163,7 +163,7 @@ figcaption {
 	}
 
 	figure {
-		margin: 25px auto;
+		margin: 75px auto;
 	}
 
 }
@@ -198,11 +198,11 @@ body {
 	color: #BAB6B1;
 }
 
-h1 {
+h1, h3, figcaption {
 	color: #BAB6B1;
 }
 
-h2, h3, figcaption {
+h2, h4 {
 	color: #F8F6F5;
 }
 
