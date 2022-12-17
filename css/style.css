@@ -16,23 +16,31 @@ Blue - 336BEB
 /*==========  Structure  ==========*/
 
 body {
-	font-family: "Basier";
+	font-family: "Lora";
 	font-weight: 400;
-	font-size: 18px;
-	line-height: 1.7em; 
+	font-size: 15px;
+	line-height: 1.8em; 
 	background-color: white;
 	color: #2D2D2D;
-	max-width: 700px;
-	padding: 0px 20px;
+	max-width: 600px;
+	padding: 25px;
 	margin: 0px auto;
 }
 
-header, article, figure, footer {
-	padding: 15px 0px;
+header {
+	margin-top: 10px;
+	margin-bottom: 100px;
 }
 
-footer {
-	margin-top: 50px;
+section {
+	margin-bottom: 50px;
+}
+
+.grid {
+	font-family: "Basier";
+	display: grid;
+ 	grid-template-columns: 1fr;
+ 	margin-bottom: 24px;
 }
 
 .mobilehide {
@@ -45,28 +53,23 @@ footer {
 
 /*==========  Typography  ==========*/
 
-h1 { /*homepage titles*/
-	font-family: "Spectral";
+h1 {
+	font-family: "Inter";
 	font-weight: 400;
-	font-size: 1.1em;
-	margin: 30px 0px 60px 0px;
+	font-size: 1em;
+	margin-bottom: 30px;
 }
 
-h1.masthead {
-	
-}
-
-h2 { /*portfolio project title*/
-	font-family: "Spectral";
-	font-weight: 400;
-	font-size: 1.1em;
-	margin-top: 25px;
-	margin-block-end: 0em;
+h2 {
+	font-family: "Basier";
+	font-weight: 600;
+	font-size: 1em;
+	margin: 20px 0px;
 }
 
 h3 { /*portfolio project classification*/
 	font-weight: 400;
-	font-family: "Spectral";
+	font-family: "Lora";
 	font-size: 0.8em;
 	font-style: italic;
 	margin-top: 0px;
@@ -74,37 +77,28 @@ h3 { /*portfolio project classification*/
 }
 
 p {
+	font-size: 1.05em;
 	margin-block-end: 1em;
 }
 
 a, a:active, a:visited, a:focus {
  	color: #2D2D2D;
-	border-bottom: 1.75px solid #2D2D2D;
  	font-weight: 400;
-	text-decoration: none;
-	transition: color .4s, border-bottom .4s;	
+	text-decoration-thickness: 0.5px;
+    text-underline-offset: 0.1em;
+    transition: color 500ms;
 }
 
 a:hover {
 	color: #336BEB;
-	border-bottom: 1.75px solid #336BEB;
-	text-decoration: none;
-}
-
-footer p {
-	font-size: 0.8em;
-	font-family: "Courier Prime";
-	color: #5F5B5B;
-	text-transform: lowercase;
-}
-
-footer p a, footer p a:active, footer p a:visited {
-	color: #5F5B5B;
-	border-bottom: 1.75px solid #5F5B5B;
 }
 
 .nounderline, .nounderline:hover {
 	border-bottom: none;
+}
+
+strong {
+	font-weight: 600;
 }
 
 /*==========  Navigation and Hero  ==========*/
@@ -133,7 +127,7 @@ figure img {
 
 figcaption {
 	font-size: 0.8em;
-	font-family: "Courier Prime";
+	font-family: "Basier";
 	line-height: 1.4em;
 	font-style: italic;
 	margin-top: 20px;
@@ -148,14 +142,6 @@ figcaption {
 
 /* Larger than mobile */
 @media (min-width: 400px) {
-
-	body {
-		padding: 20px 0px;
-	}
-
-	header, article, figure, footer {
-		padding: 30px 0px;
-	}
 
 	.logo {
 		margin-bottom: 40px;
@@ -182,15 +168,16 @@ figcaption {
 		display: none;
 	}
 
+	.grid {
+		grid-template-columns: 1fr 3fr;
+		margin-bottom: 12px;
+	}
+
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
 
-	body {
-		font-size: 18px;
-		padding: 200px 0px;
-	}
 
 }
 
