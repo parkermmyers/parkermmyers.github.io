@@ -140,7 +140,6 @@ figcaption {
 
 /*==========  Media Queries  ==========*/
 
-/* Larger than mobile */
 @media (min-width: 400px) {
 
 	.logo {
@@ -157,7 +156,6 @@ figcaption {
 
 }
 
-/* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 
 	.mobilehide {
@@ -175,18 +173,14 @@ figcaption {
 
 }
 
-/* Larger than tablet */
 @media (min-width: 750px) {
 
 
 }
 
-/* Larger than desktop */
 @media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-/*
+
 body {
 	background-color: #131414;
 	color: #AAB2BD;
@@ -205,11 +199,8 @@ h1, h2, h3, figcaption {
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
  	color: white;
-	border-bottom: 1.5px solid white;
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
 	color: #0074FD;
-	border-bottom: 1.5px solid #0074FD;
 }
-*/
