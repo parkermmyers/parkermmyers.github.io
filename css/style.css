@@ -62,7 +62,7 @@ h1 {
 
 h2 {
 	font-family: "Basier";
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 1em;
 	margin: 20px 0px;
 }
@@ -79,7 +79,7 @@ h3 { /*portfolio project classification*/
 h4 {
 	font-size: 1em;
 	font-family: "Basier";
-	font-weight: 600;
+	font-weight: 400;
 }
 
 p {
@@ -104,7 +104,7 @@ a:hover {
 }
 
 strong {
-	font-weight: 600;
+	font-weight: 400;
 }
 
 /*==========  Navigation and Hero  ==========*/
@@ -201,7 +201,7 @@ h1, h3, figcaption {
 	color: #797673;
 }
 
-h2, h4 {
+h2, h4, strong {
 	color: #F8F6F5;
 }
 
@@ -211,8 +211,4 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
 	color: #0074FD;
-}
-
-strong {
-	color: #F8F6F5;
 }
