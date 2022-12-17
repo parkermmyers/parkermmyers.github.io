@@ -18,7 +18,7 @@ Blue - 336BEB
 body {
 	font-family: "Lora";
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 1.8em; 
 	background-color: white;
 	color: #2D2D2D;
@@ -150,9 +150,10 @@ figcaption {
 @media (min-width: 400px) {
 
 	body {
+		font-size: 15px;
 		margin-top: 50px;
 	}
-	
+
 	.logo {
 		margin-bottom: 40px;
 	}
