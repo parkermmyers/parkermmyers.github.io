@@ -106,7 +106,6 @@ a:hover {
 
 strong {
 	font-weight: 600;
-	color: white;
 }
 
 /*==========  Navigation and Hero  ==========*/
@@ -194,12 +193,12 @@ body {
 	color: #BAB6B1;
 }
 
-h1, h2 {
-	color: #F8F6F5;
+h1 {
+	color: #BAB6B1;
 }
 
-h3, figcaption {
-	color: #696969;
+h2, h3, figcaption {
+	color: #F8F6F5;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
@@ -208,4 +207,8 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
 	color: #0074FD;
+}
+
+strong {
+	color: #F8F6F5;
 }
