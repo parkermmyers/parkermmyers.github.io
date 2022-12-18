@@ -116,12 +116,6 @@ strong {
 	rotate: 90deg;
 }
 
-.logogrid {
-	display: grid;
- 	grid-template-columns: 1fr 1fr 1fr;
- 	margin-bottom: 24px;
-}
-
 .backarrow {
 	padding: 0px 0px 25px 0px;
 }
@@ -147,8 +141,18 @@ figcaption {
 	color: #5F5B5B;
 }
 
+.logogrid {
+	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
+ 	margin-bottom: 24px;
+}
+
+.logogrid figure {
+	margin-top: 25px;
+}
+
 .archivologos {
-	filter: brightness(0) saturate(100%) invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(100%) contrast(107%);
+	filter: brightness(1) saturate(100%) invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(80%) contrast(107%);
 }
 
 /*==========  Media Queries  ==========*/
