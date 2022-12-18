@@ -116,6 +116,12 @@ strong {
 	rotate: 90deg;
 }
 
+.logogrid {
+	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
+ 	margin-bottom: 24px;
+}
+
 .backarrow {
 	padding: 0px 0px 25px 0px;
 }
