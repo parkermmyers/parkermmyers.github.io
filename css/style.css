@@ -105,10 +105,6 @@ a:hover {
 	text-decoration: none;
 }
 
-header a {
-	color: #797673;	
-}
-
 strong {
 	font-weight: 400;
 }
@@ -149,7 +145,6 @@ figcaption {
 .logogrid {
 	display: grid;
  	grid-template-columns: 1fr 1fr 1fr;
- 	margin-bottom: 24px;
 }
 
 .logogrid figure {
@@ -223,4 +218,8 @@ a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
 	color: #0074FD;
+}
+
+header a {
+	color: #797673;	
 }
