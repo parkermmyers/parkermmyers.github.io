@@ -201,7 +201,7 @@ figcaption {
 @media (min-width: 1000px) {}
 @media (min-width: 1200px) {}
 
-body {
+/*body {
 	background-color: #252120;
 	color: #BAB6B1;
 }
@@ -225,3 +225,4 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 header a, header a:visited {
 	color: #797673;	
 }
+*/
