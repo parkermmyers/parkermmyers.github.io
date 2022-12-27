@@ -16,9 +16,9 @@ Blue - 336BEB
 /*==========  Structure  ==========*/
 
 body {
-	font-family: "Lora";
+	font-family: "Courier Prime Code";
 	font-weight: 400;
-	font-size: 17x;
+	font-size: 18x;
 	line-height: 1.8em; 
 	background-color: #f5f3f3;
 	color: #2D2D2D;
@@ -37,7 +37,6 @@ section {
 }
 
 .grid {
-	font-family: "Basier";
 	display: grid;
  	grid-template-columns: 1fr;
  	margin-bottom: 24px;
@@ -54,7 +53,6 @@ section {
 /*==========  Typography  ==========*/
 
 h1 {
-	font-family: "Basier";
 	color: #6a6969;
 	font-weight: 400;
 	font-size: 1em;
@@ -62,7 +60,6 @@ h1 {
 }
 
 h2 {
-	font-family: "Basier";
 	font-weight: 400;
 	font-size: 1em;
 	margin: 20px 0px;
@@ -70,8 +67,6 @@ h2 {
 
 h3 {
 	font-weight: 400;
-	font-family: "Lora";
-	font-size: 0.8em;
 	font-style: italic;
 	margin-top: 0px;
 	color: #6a6969;
@@ -79,7 +74,6 @@ h3 {
 
 h4 {
 	font-size: 1em;
-	font-family: "Basier";
 	font-weight: 400;
 	margin-top: 0px;
 }
@@ -138,7 +132,6 @@ figure img {
 
 figcaption {
 	font-size: 1em;
-	font-family: "Lora";
 	line-height: 1.4em;
 	font-style: italic;
 	margin-top: 20px;
@@ -163,7 +156,7 @@ figcaption {
 @media (min-width: 400px) {
 
 	body {
-		font-size: 15px;
+		font-size: 16px;
 		margin-top: 50px;
 	}
 
