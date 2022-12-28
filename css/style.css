@@ -33,12 +33,12 @@ header {
 	background-color: white;
 }
 
-section {
+section, article {
 	margin-bottom: 25px;
 	background-color: #ebebeb;
 }
 
-header, section {
+header, section, article {
 	padding: 32px;
 	border-radius: 32px;
 }
@@ -63,7 +63,6 @@ h1 {
 	color: #6a6969;
 	font-weight: 400;
 	font-size: 1em;
-	margin-bottom: 30px;
 }
 
 h2 {
