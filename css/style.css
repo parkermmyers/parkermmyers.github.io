@@ -30,17 +30,6 @@ body {
 header {
 	margin-top: 10px;
 	margin-bottom: 60px;
-	background-color: white;
-}
-
-section, article {
-	margin-bottom: 25px;
-	background-color: #ebebeb;
-}
-
-header, section, article {
-	padding: 32px;
-	border-radius: 32px;
 }
 
 .grid {
