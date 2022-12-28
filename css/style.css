@@ -22,18 +22,25 @@ body {
 	line-height: 1.8em; 
 	background-color: #f5f3f3;
 	color: #2D2D2D;
-	max-width: 575px;
+	max-width: 600px;
 	padding: 25px;
 	margin: 0px auto;
 }
 
 header {
 	margin-top: 10px;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
+	background-color: white;
 }
 
 section {
 	margin-bottom: 25px;
+	background-color: #ebebeb;
+}
+
+header, section {
+	padding: 32px;
+	border-radius: 32px;
 }
 
 .grid {
@@ -127,7 +134,7 @@ figure {
 
 figure img {
 	width: 100%;
-	border-radius: 4px;
+	border-radius: 32px;
 }
 
 figcaption {
@@ -194,7 +201,7 @@ figcaption {
 
 @media (min-width: 1000px) {}
 @media (min-width: 1200px) {}
-
+/*
 body {
 	background-color: #252120;
 	color: #BAB6B1;
@@ -223,3 +230,4 @@ header a, header a:visited {
 p {
 	color: #bab6b1;
 }
+*/
