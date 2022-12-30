@@ -32,6 +32,10 @@ header {
 	margin-bottom: 100px;
 }
 
+header a, header a:visited {
+	color: #9c9c9c;
+}
+
 .grid {
 	display: grid;
  	grid-template-columns: 1fr;
@@ -123,11 +127,12 @@ figure {
 
 figure img {
 	width: 100%;
-	border-radius: 32px;
 }
 
 figcaption {
-	font-size: 1em;
+	font-family: "Courier Prime";
+	font-style: italic;
+	font-size: 0.9em;
 	line-height: 1.4em;
 	font-style: italic;
 	margin-top: 20px;
