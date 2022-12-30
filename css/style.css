@@ -21,7 +21,7 @@ body {
 	font-size: 18x;
 	line-height: 1.8em; 
 	background-color: #f5f3f3;
-	color: #2D2D2D;
+	color: #6a6969;
 	max-width: 600px;
 	padding: 25px;
 	margin: 0px auto;
@@ -49,12 +49,13 @@ header {
 /*==========  Typography  ==========*/
 
 h1 {
-	color: #6a6969;
+	color: #9c9c9c;
 	font-weight: 400;
 	font-size: 1em;
 }
 
 h2 {
+	color: black;
 	font-weight: 400;
 	font-size: 1em;
 	margin: 20px 0px;
@@ -97,7 +98,7 @@ a:hover {
 }
 
 strong {
-	color: #2D2D2D;
+	color: black;
 	font-weight: 400;
 }
 
