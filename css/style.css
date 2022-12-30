@@ -121,12 +121,13 @@ strong {
 /*==========  Interior Pages  ==========*/
 
 figure {
-	width: 100%;
+	width: 99%;
 	margin: 75px auto;
 }
 
 figure img {
-	width: 100%;
+	width: 99%;
+	border-radius: 5px;
 }
 
 figcaption {
