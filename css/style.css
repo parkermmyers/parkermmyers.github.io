@@ -16,19 +16,19 @@ Blue - 336BEB
 /*==========  Structure  ==========*/
 
 body {
-	font-family: "Basier";
-	font-weight: 400;
-	font-size: 18x;
-	line-height: 1.8em; 
 	background-color: #f5f3f3;
 	color: #6a6969;
 	max-width: 600px;
 	padding: 25px;
   	overflow-y: scroll;
-  	scrollbar-gutter: stable;
+  	scrollbar-gutter: stable;	
+	font-family: "Basier";
+	font-weight: 400;
+	font-size: 18x;
+	line-height: 1.8em; 
 }
 
-header {
+header, section {
 	margin-top: 10px;
 	margin-bottom: 100px;
 }
@@ -107,28 +107,16 @@ strong {
 	font-weight: 400;
 }
 
-/*
-.logo {
-	width: 50px;
-	margin: 20px 0px 0px 2px;
-	rotate: 90deg;
-}
-
-.backarrow {
-	padding: 0px 0px 25px 0px;
-}
-*/
-
 /*==========  Interior Pages  ==========*/
 
 figure {
-	width: 99%;
+	width: 100%;
 	margin: 75px auto;
 }
 
 figure img {
-	width: 99%;
-	border-radius: 5px;
+	width: 100%;
+	border-radius: 10px;
 }
 
 figcaption {
@@ -160,6 +148,7 @@ figcaption {
 
 	body {
 		font-size: 16px;
+		padding: 100px;
 	}
 
 	.logo {
@@ -196,7 +185,7 @@ figcaption {
 
 @media (min-width: 1000px) {}
 @media (min-width: 1200px) {}
-/*
+
 body {
 	background-color: #252120;
 	color: #BAB6B1;
@@ -225,4 +214,3 @@ header a, header a:visited {
 p {
 	color: #bab6b1;
 }
-*/
