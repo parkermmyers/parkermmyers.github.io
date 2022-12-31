@@ -17,6 +17,7 @@ Blue - 336BEB
 
 body {
 	background-color: #f5f3f3;
+	background-image: none;
 	color: #6a6969;
 	max-width: 600px;
 	padding: 25px;
@@ -180,6 +181,11 @@ figcaption {
 
 @media (min-width: 750px) {
 
+	body {
+		background-image: url(img/logos/MDC_SiteBackground.svg);
+    	background-position: right;
+    	background-repeat: no-repeat;
+	}
 
 }
 
