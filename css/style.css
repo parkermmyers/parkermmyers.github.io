@@ -182,7 +182,7 @@ figcaption {
 @media (min-width: 750px) {
 
 	body {
-		background-image: url(img/logos/MDC_SiteBackground.svg);
+		background-image: url(/img/logos/MDC_SiteBackground.svg);
     	background-position: right;
     	background-repeat: no-repeat;
 	}
