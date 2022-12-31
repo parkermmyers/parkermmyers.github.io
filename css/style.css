@@ -25,6 +25,8 @@ body {
 	max-width: 600px;
 	padding: 25px;
 	margin: 0px auto;
+  	overflow-y: auto;
+  	scrollbar-gutter: stable;
 }
 
 header {
