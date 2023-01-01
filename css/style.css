@@ -195,11 +195,11 @@ figcaption {
 
 body {
 	background-color: #141414;
-	color: #BAB6B1;
+	color: #b0b0b0;
 }
 
 h1, h3, figcaption {
-	color: #797673;
+	color: #797979;
 }
 
 h2, h4, strong {
@@ -219,5 +219,5 @@ header a, header a:visited {
 }
 
 p {
-	color: #bab6b1;
+	color: #b0b0b0;
 }
