@@ -149,7 +149,7 @@ figcaption {
 
 	body {
 		font-size: 16px;
-		padding: 100px;
+		padding: 50px;
 	}
 
 	.logo {
@@ -183,8 +183,9 @@ figcaption {
 
 	body {
 		background-image: url(/img/logos/MDC_SiteBackground.svg);
-    	background-position: right;
+    	background-position: top right;
     	background-repeat: no-repeat;
+    	padding: 100px;
 	}
 
 }
