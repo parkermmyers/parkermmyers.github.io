@@ -40,7 +40,7 @@ header a, header a:visited {
 
 .headerlogo {
 	width: 60px;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 
 .grid {
@@ -190,13 +190,15 @@ figcaption {
 		background-image: url(/img/logos/MDC_SiteBackground.svg);
     	background-position: top right;
     	background-repeat: no-repeat;
-    	padding: 100px;
+    	padding: 75px;
 	}
 
 }
 
 @media (min-width: 1000px) {}
 @media (min-width: 1200px) {}
+
+/*Dark Mode*/
 
 body {
 	background-color: #141414;
