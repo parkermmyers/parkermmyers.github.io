@@ -29,9 +29,14 @@ body {
 	line-height: 1.8em; 
 }
 
-header, section {
+header {
 	margin-top: 10px;
 	margin-bottom: 100px;
+}
+
+section {
+	margin-top: 10px;
+	margin-bottom: 50px;
 }
 
 header a, header a:visited {
