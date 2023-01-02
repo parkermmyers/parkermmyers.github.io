@@ -57,6 +57,7 @@ header a, header a:visited {
 
 .label {
 	text-transform: uppercase;
+	font-size: 0.8em;
 	font-weight: 600;
 }
 
@@ -168,7 +169,7 @@ figcaption {
 	}
 
 	header {
-		margin-bottom: 50px;
+		margin-bottom: 100px;
 	}
 
 	.headerlogo {
