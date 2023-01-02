@@ -233,6 +233,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 }
 
 header a, header a:visited {
+	font-size: 0.8em;
 	color: #797673;	
 }
 
