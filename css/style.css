@@ -20,18 +20,18 @@ body {
 	background-image: none;
 	color: #6a6969;
 	max-width: 550px;
-	padding: 25px;
+	padding: 15px;
   	overflow-y: scroll;
   	scrollbar-gutter: stable;	
 	font-family: "Basier";
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 1.8em; 
 }
 
 header {
-	margin-top: 10px;
-	margin-bottom: 100px;
+	margin-top: 0px;
+	margin-bottom: 50px;
 }
 
 section {
@@ -45,7 +45,7 @@ header a, header a:visited {
 
 .headerlogo {
 	width: 60px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	margin-left: -10px;
 }
 
@@ -53,6 +53,11 @@ header a, header a:visited {
 	display: grid;
  	grid-template-columns: 1fr;
  	margin-bottom: 24px;
+}
+
+.label {
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 .mobilehide {
@@ -159,14 +164,15 @@ figcaption {
 
 	body {
 		padding: 50px;
+		font-size: 18px;
 	}
 
-	.logo {
-		margin-bottom: 40px;
+	header {
+		margin-bottom: 50px;
 	}
 
-	.backarrow {
-		padding-bottom: 75px;
+	.headerlogo {
+		margin-bottom: 100px;
 	}
 
 }
