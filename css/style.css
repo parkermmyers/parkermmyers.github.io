@@ -184,8 +184,9 @@ figcaption {
 	}
 
 	.grid {
-		grid-template-columns: 1fr 3fr;
+		grid-template-columns: 2fr 3fr;
 		margin-bottom: 12px;
+		column-gap: 1em;
 	}
 
 }
@@ -215,7 +216,11 @@ h1, h3, figcaption {
 	color: #797979;
 }
 
-h2, h4, strong {
+h2, h4 {
+	color: #EFCA6E;
+}
+
+strong {
 	color: #F8F6F5;
 }
 
