@@ -25,7 +25,7 @@ body {
   	scrollbar-gutter: stable;	
 	font-family: "Basier";
 	font-weight: 400;
-	font-size: 18x;
+	font-size: 18px;
 	line-height: 1.8em; 
 }
 
@@ -92,7 +92,6 @@ h4 {
 }
 
 p {
-	font-size: 1.05em;
 	margin-block-end: 1em;
 	color: #6a6969;
 }
@@ -159,7 +158,6 @@ figcaption {
 @media (min-width: 400px) {
 
 	body {
-		font-size: 16px;
 		padding: 50px;
 	}
 
