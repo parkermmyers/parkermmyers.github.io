@@ -19,13 +19,13 @@ body {
 	background-color: #f5f3f3;
 	background-image: none;
 	color: #6a6969;
-	max-width: 550px;
+	max-width: 600px;
 	padding: 15px;
   	overflow-y: scroll;
   	scrollbar-gutter: stable;	
 	font-family: "Basier";
 	font-weight: 400;
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.8em; 
 }
 
@@ -58,7 +58,7 @@ header a, header a:visited {
 .label {
 	text-transform: uppercase;
 	font-size: 0.8em;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .mobilehide {
