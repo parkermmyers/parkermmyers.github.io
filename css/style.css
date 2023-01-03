@@ -60,6 +60,10 @@ header a, header a:visited {
 	font-weight: 400;
 }
 
+.rowbreak {
+	margin-bottom: 20px;
+}
+
 .mobilehide {
 	display: none;
 }
