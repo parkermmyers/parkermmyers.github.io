@@ -131,10 +131,6 @@ strong {
 	font-size: 0.9em;
 }
 
-.portfoliolinks a {
-	color: #dab187;
-}
-
 /*==========  Interior Pages  ==========*/
 
 figure {
@@ -250,7 +246,7 @@ a:hover, .navbar-default .navbar-nav>li>a:hover {
 	color: #0074FD;
 }
 
-header a, header a:visited {
+header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited {
 	color: #b0b0b0;	
 }
 
