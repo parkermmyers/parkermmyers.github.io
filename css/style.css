@@ -127,6 +127,10 @@ strong {
 	font-weight: 400;
 }
 
+.subtitle {
+	font-size: 0.9em;
+}
+
 /*==========  Interior Pages  ==========*/
 
 figure {
