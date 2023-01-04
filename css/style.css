@@ -129,8 +129,10 @@ strong {
 
 .subtitle {
 	font-size: 0.9em;
-	font-family: 'Courier Prime';
-	font-style: italic;
+}
+
+.portfoliolinks a {
+	color: #dab187;
 }
 
 /*==========  Interior Pages  ==========*/
@@ -229,7 +231,7 @@ h1, h3, figcaption {
 }
 
 h2, h4 {
-	color: #EFCA6E;
+	color: #dab187;
 }
 
 strong {
@@ -237,7 +239,7 @@ strong {
 }
 
 strong.interiortitle {
-	color: #EFCA6E;
+	color: #dab187;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
