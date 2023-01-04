@@ -250,6 +250,10 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 	color: #b0b0b0;	
 }
 
+header a:hover, .portfoliolinks a:hover {
+	color: #F8F6F5;	
+}
+
 p {
 	color: #F8F6F5;
 }
