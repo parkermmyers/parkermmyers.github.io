@@ -20,7 +20,7 @@ body {
 	background-image: none;
 	color: #6a6969;
 	max-width: 600px;
-	padding: 15px;
+	padding: 16px;
   	overflow-y: scroll;
   	scrollbar-gutter: stable;	
 	font-family: "Basier";
@@ -171,6 +171,7 @@ figcaption {
 @media (min-width: 400px) {
 
 	body {
+		font-size: 15px;
 		padding: 50px;
 	}
 
