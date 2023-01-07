@@ -25,7 +25,7 @@ body {
   	scrollbar-gutter: stable;	
 	font-family: "Basier";
 	font-weight: 400;
-	font-size: 17px;
+	font-size: 18px;
 	line-height: 1.8em; 
 }
 
@@ -171,7 +171,7 @@ figcaption {
 @media (min-width: 400px) {
 
 	body {
-		font-size: 16px;
+		font-size: 17px;
 		padding: 50px;
 	}
 
