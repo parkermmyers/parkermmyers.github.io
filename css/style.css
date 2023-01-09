@@ -108,7 +108,7 @@ p {
 }
 
 a, a:active, a:visited, a:focus {
- 	color: #2D2D2D;
+ 	color: #6a6969;
  	font-weight: 400;
 	text-decoration-thickness: 0.5px;
     text-underline-offset: 0.1em;
@@ -130,7 +130,7 @@ strong {
 }
 
 strong.interiortitle {
-	color: #336BEB;
+	color: black;
 }
 
 .subtitle {
