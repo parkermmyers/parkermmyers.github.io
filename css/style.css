@@ -39,8 +39,8 @@ section {
 	margin-bottom: 75px;
 }
 
-header a, header a:visited {
-	color: #9c9c9c;
+header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
+	color: #9c9c9c;	
 }
 
 .headerlogo {
@@ -76,13 +76,13 @@ header a, header a:visited {
 /*==========  Typography  ==========*/
 
 h1 {
-	color: #9c9c9c;
+	color: #6a6969;
 	font-weight: 400;
 	font-size: 1em;
 }
 
 h2 {
-	color: #dab187;
+	color: #336BEB;
 	font-weight: 400;
 	font-size: 1em;
 	margin: 20px 0px;
@@ -96,7 +96,7 @@ h3 {
 }
 
 h4 {
-	color: #dab187;
+	color: #336BEB;
 	font-size: 1em;
 	font-weight: 400;
 	margin-top: 0px;
@@ -130,7 +130,7 @@ strong {
 }
 
 strong.interiortitle {
-	color: #dab187;
+	color: #336BEB;
 }
 
 .subtitle {
