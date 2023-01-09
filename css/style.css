@@ -82,7 +82,7 @@ h1 {
 }
 
 h2 {
-	color: black;
+	color: #dab187;
 	font-weight: 400;
 	font-size: 1em;
 	margin: 20px 0px;
@@ -96,6 +96,7 @@ h3 {
 }
 
 h4 {
+	color: #dab187;
 	font-size: 1em;
 	font-weight: 400;
 	margin-top: 0px;
@@ -126,6 +127,10 @@ a:hover {
 strong {
 	color: black;
 	font-weight: 400;
+}
+
+strong.interiortitle {
+	color: #dab187;
 }
 
 .subtitle {
@@ -219,7 +224,7 @@ figcaption {
 @media (min-width: 1200px) {}
 
 /*Dark Mode*/
-
+/*
 body {
 	background-color: #141414;
 	color: #b0b0b0;
@@ -229,16 +234,8 @@ h1, h3, figcaption {
 	color: #b0b0b0;
 }
 
-h2, h4 {
-	color: #dab187;
-}
-
 strong {
 	color: #F8F6F5;
-}
-
-strong.interiortitle {
-	color: #dab187;
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
@@ -260,3 +257,4 @@ header a:hover, .portfoliolinks a:hover {
 p {
 	color: #F8F6F5;
 }
+*/
