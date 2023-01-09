@@ -104,11 +104,11 @@ h4 {
 
 p {
 	margin-block-end: 1em;
-	color: #6a6969;
+	color: black;
 }
 
 a, a:active, a:visited, a:focus {
- 	color: #6a6969;
+ 	color: black;
  	font-weight: 400;
 	text-decoration-thickness: 0.5px;
     text-underline-offset: 0.1em;
