@@ -74,7 +74,7 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 /*==========  Typography  ==========*/
 
 h1 {
-	color: #6a6969;
+	color: #9c9c9c;
 	font-weight: 400;
 	font-size: 1em;
 }
@@ -167,7 +167,7 @@ figcaption {
 }
 
 .archivologos {
-	filter: brightness(1) saturate(100%) invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(80%) contrast(107%);
+	filter: brightness(0) saturate(100%) invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(80%) contrast(107%);
 }
 
 /*==========  Media Queries  ==========*/
