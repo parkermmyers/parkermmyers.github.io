@@ -22,7 +22,7 @@ body {
 	max-width: 600px;
 	padding: 15px;
 	font-family: "Basier";
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 17px;
 	line-height: 1.8em; 
 }
@@ -221,7 +221,7 @@ figcaption {
 @media (min-width: 1200px) {}
 
 /*Dark Mode*/
-/*
+
 body {
 	background-color: #141414;
 	color: #b0b0b0;
@@ -254,4 +254,4 @@ header a:hover, .portfoliolinks a:hover {
 p {
 	color: #F8F6F5;
 }
-*/
+
