@@ -74,10 +74,14 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 /*==========  Typography  ==========*/
 
 h1 {
-	font-family: "IBM Plex Serif";
+	font-family: "IBM Plex Sans";
 	font-weight: 400;
 	color: #9c9c9c;
 	font-size: 1em;
+}
+
+h1.strong {
+	font-family: "IBM Plex Serif";
 }
 
 h2 {
@@ -134,6 +138,7 @@ strong.interiortitle {
 
 .subtitle {
 	font-size: 0.9em;
+	font-family: "IBM Plex Sans";
 }
 
 /*==========  Interior Pages  ==========*/
