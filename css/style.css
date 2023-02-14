@@ -74,8 +74,9 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 /*==========  Typography  ==========*/
 
 h1 {
-	color: #9c9c9c;
+	font-family: "IBM Plex Serif";
 	font-weight: 400;
+	color: #9c9c9c;
 	font-size: 1em;
 }
 
