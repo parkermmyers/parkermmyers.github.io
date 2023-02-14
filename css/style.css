@@ -21,7 +21,7 @@ body {
 	color: #9c9c9c;
 	max-width: 600px;
 	padding: 15px;
-	font-family: "IBM Plex Sans";
+	font-family: "Fira Sans";
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 1.8em; 
@@ -74,18 +74,15 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 /*==========  Typography  ==========*/
 
 h1 {
-	font-family: "IBM Plex Sans";
 	font-weight: 400;
 	color: #9c9c9c;
 	font-size: 1em;
 }
 
 h1.strong {
-	font-family: "IBM Plex Serif";
 }
 
 h2 {
-	font-family: "IBM Plex Serif";
 	font-weight: 400;
 	font-size: 1em;
 	margin: 20px 0px;
@@ -136,11 +133,6 @@ strong.interiortitle {
 	color: black;
 }
 
-.subtitle {
-	font-size: 0.9em;
-	font-family: "IBM Plex Sans";
-}
-
 /*==========  Interior Pages  ==========*/
 
 figure {
@@ -154,7 +146,6 @@ figure img {
 }
 
 figcaption {
-	font-family: "IBM Plex Mono";
 	font-style: italic;
 	font-size: 0.8em;
 	line-height: 1.4em;
