@@ -21,7 +21,7 @@ body {
 	color: #9c9c9c;
 	max-width: 600px;
 	padding: 15px;
-	font-family: "halyard-text";
+	font-family: "IBM Plex Sans";
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 1.8em; 
@@ -80,7 +80,8 @@ h1 {
 }
 
 h2 {
-	font-weight: 600;
+	font-family: "IBM Plex Serif";
+	font-weight: 400;
 	font-size: 1em;
 	margin: 20px 0px;
 }
@@ -147,7 +148,7 @@ figure img {
 }
 
 figcaption {
-	font-family: "Courier Prime";
+	font-family: "IBM Plex Mono";
 	font-style: italic;
 	font-size: 0.8em;
 	line-height: 1.4em;
