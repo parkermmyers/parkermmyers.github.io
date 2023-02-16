@@ -18,12 +18,13 @@ Blue - 336BEB
 body {
 	background-color: #f8f8f8;
 	background-image: none;
+	margin: 0px auto;
 	color: #9c9c9c;
 	max-width: 600px;
 	padding: 15px;
 	font-family: "balto";
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.8em; 
 }
 
