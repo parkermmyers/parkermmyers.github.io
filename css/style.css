@@ -75,7 +75,7 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 /*==========  Typography  ==========*/
 
 h1 {
-	font-weight: 700;
+	font-weight: 400;
 	font-family: "schoolbook";
 	color: black;
 	font-size: 1em;
