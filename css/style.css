@@ -75,22 +75,22 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 /*==========  Typography  ==========*/
 
 h1 {
-	font-weight: 400;
-	color: #9c9c9c;
+	font-weight: 700;
+	font-family: "schoolbook";
+	color: black;
 	font-size: 1em;
-}
-
-h1.strong {
 }
 
 h2 {
 	font-weight: 400;
+	font-family: "schoolbook";
 	font-size: 1em;
 	margin: 20px 0px;
 }
 
 h3 {
 	font-weight: 400;
+	font-family: "schoolbook";
 	font-style: italic;
 	margin-top: 0px;
 	color: #6a6969;
