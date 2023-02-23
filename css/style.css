@@ -75,22 +75,19 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 /*==========  Typography  ==========*/
 
 h1 {
-	font-weight: 400;
-	font-family: "miller-text";
+	font-weight: 600;
 	color: black;
 	font-size: 1em;
 }
 
 h2 {
 	font-weight: 400;
-	font-family: "miller-text";
 	font-size: 1em;
 	margin: 20px 0px;
 }
 
 h3 {
 	font-weight: 400;
-	font-family: "miller-text";
 	font-style: italic;
 	margin-top: 0px;
 	color: #6a6969;
@@ -148,7 +145,7 @@ figure img {
 }
 
 figcaption {
-	font-family: "miller-text";
+	font-family: "Courier Prime";
 	font-style: italic;
 	font-size: 0.8em;
 	line-height: 1.4em;
