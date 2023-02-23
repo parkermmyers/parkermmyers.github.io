@@ -76,28 +76,28 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 
 h1 {
 	font-weight: 400;
-	font-family: "Times New Roman";
+	font-family: "miller-text";
 	color: black;
 	font-size: 1em;
 }
 
 h2 {
 	font-weight: 400;
-	font-family: "Times New Roman";
+	font-family: "miller-text";
 	font-size: 1em;
 	margin: 20px 0px;
 }
 
 h3 {
 	font-weight: 400;
-	font-family: "Times New Roman";
+	font-family: "miller-text";
 	font-style: italic;
 	margin-top: 0px;
 	color: #6a6969;
 }
 
 h4 {
-	color: #336BEB;
+	color: #9c9c9c;
 	font-size: 1em;
 	font-weight: 400;
 	margin-top: 0px;
@@ -132,7 +132,7 @@ strong {
 
 strong.interiortitle {
 	color: black;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 /*==========  Interior Pages  ==========*/
@@ -148,6 +148,7 @@ figure img {
 }
 
 figcaption {
+	font-family: "miller-text";
 	font-style: italic;
 	font-size: 0.8em;
 	line-height: 1.4em;
