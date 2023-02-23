@@ -24,7 +24,7 @@ body {
 	padding: 15px;
 	font-family: "balto";
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 1.8em; 
 }
 
@@ -75,13 +75,13 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 /*==========  Typography  ==========*/
 
 h1 {
-	font-weight: 600;
+	font-weight: 500;
 	color: black;
 	font-size: 1em;
 }
 
 h2 {
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 1em;
 	margin: 20px 0px;
 }
@@ -129,7 +129,7 @@ strong {
 
 strong.interiortitle {
 	color: black;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 /*==========  Interior Pages  ==========*/
