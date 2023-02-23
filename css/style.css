@@ -76,21 +76,21 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 
 h1 {
 	font-weight: 400;
-	font-family: "schoolbook";
+	font-family: "Times New Roman";
 	color: black;
 	font-size: 1em;
 }
 
 h2 {
 	font-weight: 400;
-	font-family: "schoolbook";
+	font-family: "Times New Roman";
 	font-size: 1em;
 	margin: 20px 0px;
 }
 
 h3 {
 	font-weight: 400;
-	font-family: "schoolbook";
+	font-family: "Times New Roman";
 	font-style: italic;
 	margin-top: 0px;
 	color: #6a6969;
@@ -132,6 +132,7 @@ strong {
 
 strong.interiortitle {
 	color: black;
+	font-weight: 700;
 }
 
 /*==========  Interior Pages  ==========*/
