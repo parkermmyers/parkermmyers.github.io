@@ -75,14 +75,14 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 /*==========  Typography  ==========*/
 
 h1 {
-	font-weight: 500;
+	font-weight: 600;
 	color: black;
 	font-size: 1em;
 	margin-bottom: -10px;
 }
 
 h2 {
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 1em;
 	margin: 20px 0px;
 }
@@ -130,7 +130,7 @@ strong {
 
 strong.interiortitle {
 	color: black;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 /*==========  Interior Pages  ==========*/
