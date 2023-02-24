@@ -22,7 +22,7 @@ body {
 	color: #9c9c9c;
 	max-width: 600px;
 	padding: 15px;
-	font-family: "Basier";
+	font-family: "Courier Prime Sans";
 	font-weight: 400;
 	font-size: 17px;
 	line-height: 1.8em; 
@@ -75,14 +75,14 @@ header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portf
 /*==========  Typography  ==========*/
 
 h1 {
-	font-weight: 600;
+	font-weight: 700;
 	color: black;
 	font-size: 1em;
 	margin-bottom: -10px;
 }
 
 h2 {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 1em;
 	margin: 20px 0px;
 }
@@ -146,7 +146,6 @@ figure img {
 }
 
 figcaption {
-	font-family: "Courier Prime";
 	font-style: italic;
 	font-size: 0.8em;
 	line-height: 1.4em;
