@@ -79,14 +79,14 @@ header a, header a:visited {
 /*==========  Typography  ==========*/
 
 h1 {
-	font-weight: 600;
+	font-weight: 500;
 	color: black;
 	font-size: 1em;
 	margin-bottom: -10px;
 }
 
 h2 {
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 1em;
 	margin: 20px 0px;
 }
@@ -134,7 +134,7 @@ strong {
 
 strong.interiortitle {
 	color: black;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 /*==========  Interior Pages  ==========*/
