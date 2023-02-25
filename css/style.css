@@ -1,29 +1,26 @@
-/*
-Myers Design Co.
-
-Colors
-Gray 1 - E9E9E9
-Gray 2 - C7C6C6
-Gray 3 - 5F5B5B
-Gray 4 - 2D2D2D
-
-Gold - CBA98E
-Red - F27B64
-Yellow - EFCA6E
-Blue - 336BEB
-*/
+:root {
+	--blue: #336BEB;
+	--yellow: #EFCA6E;
+	--gold: #CBA98E;
+	--red: #F27B64;
+	--deemphasized: #9c9c9c;
+	--neutral: #5F5B5B;
+	--emphasized: #000000;
+	--bold: 700;
+	--regular: 400;
+	--sans: "roc-grotesk";
+}
 
 /*==========  Structure  ==========*/
 
 body {
+	color: var(--emphasized);
+	font-weight: var(--regular);
+	font-family: var(--sans);
 	background-color: #f8f8f8;
-	background-image: none;
 	margin: 0px auto;
-	color: #9c9c9c;
 	max-width: 600px;
 	padding: 15px;
-	font-family: "halyard-text";
-	font-weight: 300;
 	font-size: 18px;
 	line-height: 1.8em; 
 }
@@ -39,7 +36,7 @@ section {
 }
 
 header a, header a:visited {
-	color: #9c9c9c;	
+	color: var(--deemphasized);	
 }
 
 .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
@@ -78,48 +75,42 @@ header a, header a:visited {
 
 /*==========  Typography  ==========*/
 
-h1 {
-	font-weight: 500;
-	color: black;
+h1, h2, h3 {
 	font-size: 1em;
+}
+
+h1 {
+	color: var(--emphasized);
+	font-weight: var(--bold);
 	margin-bottom: -10px;
 }
 
 h2 {
-	font-weight: 500;
-	font-size: 1em;
+	font-weight: var(--bold);
 	margin: 20px 0px;
 }
 
 h3 {
-	font-weight: 300;
-	font-style: italic;
-	margin-top: 0px;
-	color: #6a6969;
-}
-
-h4 {
-	color: #9c9c9c;
-	font-size: 1em;
-	font-weight: 300;
+	color: var(--deemphasized);
+	font-weight: var(--regular);
 	margin-top: 0px;
 }
 
 p {
+	color: var(--emphasized);
 	margin-block-end: 1em;
-	color: black;
 }
 
 a, a:active, a:visited, a:focus {
- 	color: black;
- 	font-weight: 300;
+ 	color: var(--emphasized);
+ 	font-weight: var(--regular);
 	text-decoration-thickness: 0.5px;
-    text-underline-offset: 0.1em;
+    text-underline-offset: 0.15em;
     transition: color 500ms;
 }
 
 a:hover {
-	color: #336BEB;
+	color: var(--blue);
 }
 
 .nounderline, .nounderline:hover {
@@ -128,13 +119,8 @@ a:hover {
 }
 
 strong {
-	color: black;
-	font-weight: 300;
-}
-
-strong.interiortitle {
-	color: black;
-	font-weight: 500;
+	color: var(--emphasized);
+	font-weight: var(--bold);
 }
 
 /*==========  Interior Pages  ==========*/
@@ -150,12 +136,11 @@ figure img {
 }
 
 figcaption {
+	color: var(--neutral);
 	font-style: italic;
 	font-size: 0.8em;
 	line-height: 1.4em;
-	font-style: italic;
 	margin-top: 20px;
-	color: #5F5B5B;
 }
 
 .logogrid {
@@ -210,9 +195,6 @@ figcaption {
 @media (min-width: 750px) {
 
 	body {
-		/*background-image: url(/img/logos/MDC_SiteBackground.svg);
-    	background-position: top right;
-    	background-repeat: no-repeat;*/
     	padding: 70px;
 	}
 
