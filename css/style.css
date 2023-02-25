@@ -22,7 +22,7 @@ body {
 	color: #9c9c9c;
 	max-width: 600px;
 	padding: 15px;
-	font-family: "Courier Prime Sans";
+	font-family: "Basier";
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 1.8em; 
@@ -38,8 +38,12 @@ section {
 	margin-bottom: 75px;
 }
 
-header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
-	color: #9c9c9c;	
+header a, header a:visited {
+	color: #f8f8f8;	
+}
+
+.portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
+	color: #9c9c9c;
 }
 
 .headerlogo {
