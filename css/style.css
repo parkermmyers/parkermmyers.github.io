@@ -61,7 +61,7 @@ header a, header a:visited {
 .label {
 	text-transform: uppercase;
 	font-size: 0.8em;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .rowbreak {
@@ -79,20 +79,20 @@ header a, header a:visited {
 /*==========  Typography  ==========*/
 
 h1 {
-	font-weight: 700;
+	font-weight: 600;
 	color: black;
 	font-size: 1em;
 	margin-bottom: -10px;
 }
 
 h2 {
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 1em;
 	margin: 20px 0px;
 }
 
 h3 {
-	font-weight: 400;
+	font-weight: 300;
 	font-style: italic;
 	margin-top: 0px;
 	color: #6a6969;
@@ -101,7 +101,7 @@ h3 {
 h4 {
 	color: #9c9c9c;
 	font-size: 1em;
-	font-weight: 400;
+	font-weight: 300;
 	margin-top: 0px;
 }
 
@@ -112,7 +112,7 @@ p {
 
 a, a:active, a:visited, a:focus {
  	color: black;
- 	font-weight: 400;
+ 	font-weight: 300;
 	text-decoration-thickness: 0.5px;
     text-underline-offset: 0.1em;
     transition: color 500ms;
@@ -129,12 +129,12 @@ a:hover {
 
 strong {
 	color: black;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 strong.interiortitle {
 	color: black;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 /*==========  Interior Pages  ==========*/
