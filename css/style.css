@@ -141,7 +141,7 @@ figure img {
 }
 
 figcaption {
-	color: var(--neutral);
+	color: var(--blue);
 	font-family: var(--mono);
 	font-style: italic;
 	font-size: 0.8em;
