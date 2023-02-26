@@ -211,7 +211,7 @@ figcaption {
 
 /*Dark Mode*/
 
-/*
+
 :root {
 	--deemphasized: #9c9c9c;
 	--neutral: #b0b0b0;
@@ -227,27 +227,16 @@ h1, h3, figcaption {
 	color: var(--neutral);
 }
 
-strong {
+h1, strong, p, .label, a, a:active, a:visited, a:focus, header a:hover, .portfoliolinks a:hover {
 	color: var(--emphasized);
 }
 
-a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
- 	color: var(--emphasized);
-}
-
-a:hover, .navbar-default .navbar-nav>li>a:hover {
+a:hover, .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
 	color: var(--blue)
 }
 
-header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
+header a, header a:visited {
 	color: var(--neutral);	
 }
 
-header a:hover, .portfoliolinks a:hover {
-	color: var(--emphasized);
-}
-
-p {
-	color: var(--emphasized);
-}
 */
