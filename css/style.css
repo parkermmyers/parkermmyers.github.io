@@ -61,6 +61,10 @@ header a, header a:visited {
 	font-size: 0.8em;
 }
 
+.title {
+	color: var(--deemphasized);
+}
+
 .rowbreak {
 	margin-bottom: 20px;
 }
