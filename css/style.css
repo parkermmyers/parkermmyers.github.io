@@ -9,6 +9,7 @@
 	--bold: 700;
 	--regular: 400;
 	--sans: "roc-grotesk";
+	--mono: "courier-prime";
 }
 
 /*==========  Structure  ==========*/
@@ -40,7 +41,7 @@ header a, header a:visited {
 }
 
 .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
-	color: #336BEB;
+	color: var(--blue);
 }
 
 .headerlogo {
@@ -108,8 +109,8 @@ p {
 a, a:active, a:visited, a:focus {
  	color: var(--emphasized);
  	font-weight: var(--regular);
-	text-decoration-thickness: 1px;
-    text-underline-offset: 0.2em;
+	text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.4em;
     transition: color 500ms;
 }
 
@@ -141,6 +142,7 @@ figure img {
 
 figcaption {
 	color: var(--neutral);
+	font-family: var(--mono);
 	font-style: italic;
 	font-size: 0.8em;
 	line-height: 1.4em;
@@ -208,37 +210,44 @@ figcaption {
 @media (min-width: 1200px) {}
 
 /*Dark Mode*/
+
 /*
+:root {
+	--deemphasized: #9c9c9c;
+	--neutral: #b0b0b0;
+	--emphasized: #F8F6F5;
+}
+
 body {
 	background-color: #141414;
-	color: #b0b0b0;
+	color: var(--neutral);
 }
 
 h1, h3, figcaption {
-	color: #b0b0b0;
+	color: var(--neutral);
 }
 
-strong, strong.interiortitle {
-	color: #F8F6F5;
+strong {
+	color: var(--emphasized);
 }
 
 a, a:active, a:visited, a:focus .navbar-default .navbar-nav>li>a {
- 	color: #F8F6F5;
+ 	color: var(--emphasized);
 }
 
 a:hover, .navbar-default .navbar-nav>li>a:hover {
-	color: #0074FD;
+	color: var(--blue)
 }
 
 header a, header a:visited, .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
-	color: #b0b0b0;	
+	color: var(--neutral);	
 }
 
 header a:hover, .portfoliolinks a:hover {
-	color: #F8F6F5;	
+	color: var(--emphasized);
 }
 
 p {
-	color: #F8F6F5;
+	color: var(--emphasized);
 }
 */
