@@ -124,6 +124,7 @@ a:hover {
 }
 
 strong {
+	color: var(--emphasized);
 	font-weight: var(--bold);
 }
 
@@ -146,6 +147,7 @@ figcaption {
 	font-size: 0.7em;
 	line-height: 1.4em;
 	margin-top: 10px;
+	margin-left: 20px;
 }
 
 .logogrid {
