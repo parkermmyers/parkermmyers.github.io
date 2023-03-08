@@ -19,7 +19,6 @@ body {
 	font-weight: var(--regular);
 	font-family: var(--sans);
 	background-color: #f8f8f8;
-	margin: 0px auto;
 	max-width: 600px;
 	padding: 15px;
 	font-size: 19px;
@@ -176,7 +175,7 @@ figcaption {
 
 	.headerlogo {
 		margin-top: 0px;
-		margin-bottom: 150px;
+		margin-bottom: 300px;
 	}
 
 }
