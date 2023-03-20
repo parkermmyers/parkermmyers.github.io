@@ -6,7 +6,7 @@
 	--deemphasized: #727272;
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
-	--bold: 700;
+	--bold: 600;
 	--regular: 500;
 	--sans: "degular";
 	--mono: "courier-prime";
@@ -211,7 +211,7 @@ figcaption {
 
 /*Dark Mode*/
 
-
+/*
 :root {
 	--deemphasized: #9c9c9c;
 	--neutral: #b0b0b0;
@@ -242,3 +242,4 @@ header a, header a:visited {
 .archivologos {
 	filter: brightness(1) saturate(100%) invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(80%) contrast(107%);
 }
+8?
