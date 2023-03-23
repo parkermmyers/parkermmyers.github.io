@@ -166,6 +166,11 @@ figcaption {
 
 @media (min-width: 400px) {
 
+	:root {
+		--regular: 400;
+	}
+
+
 	body {
 		padding: 50px;
 	}
