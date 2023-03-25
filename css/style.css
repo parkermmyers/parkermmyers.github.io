@@ -172,7 +172,8 @@ figcaption {
 
 
 	body {
-		padding: 50px;
+		padding: 100px;
+		font-size: 17px;
 	}
 
 	header {
