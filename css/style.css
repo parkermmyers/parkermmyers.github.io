@@ -172,7 +172,7 @@ figcaption {
 
 
 	body {
-		padding: 100px;
+		padding: 50px;
 		font-size: 17px;
 	}
 
@@ -207,7 +207,7 @@ figcaption {
 @media (min-width: 750px) {
 
 	body {
-    	padding: 70px;
+    	padding: 100px;
 	}
 
 }
