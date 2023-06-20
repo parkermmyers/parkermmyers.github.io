@@ -86,7 +86,7 @@ h1, h2, h3 {
 
 h1 {
 	color: var(--emphasized);
-	font-style: var(--serif);
+	font-family: var(--serif);
 	font-weight: var(--bold);
 	margin-bottom: -10px;
 }
@@ -216,7 +216,7 @@ figcaption {
 @media (min-width: 1000px) {}
 @media (min-width: 1200px) {}
 
-/*Dark Mode*/
+/*Dark Mode
 
 :root {
 	--deemphasized: #9c9c9c;
@@ -248,4 +248,6 @@ header a, header a:visited {
 .archivologos {
 	filter: brightness(1) saturate(100%) invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(80%) contrast(107%);
 }
+
+*/
 
