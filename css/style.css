@@ -10,7 +10,7 @@
 	--regular: 400;
 	--sans: "DM Sans";
 	--mono: "DM Mono";
-	--serif: "DM Serif Text";
+	--serif: "Lora";
 }
 
 /*==========  Structure  ==========*/
@@ -87,13 +87,13 @@ h1, h2, h3 {
 h1 {
 	color: var(--emphasized);
 	font-family: var(--serif);
-	font-weight: var(--bold);
+	font-weight: var(--regular);
 	margin-bottom: -10px;
 }
 
 h2 {
 	font-family: var(--serif);
-	font-weight: var(--bold);
+	font-weight: var(--regular);
 	margin: 20px 0px;
 }
 
