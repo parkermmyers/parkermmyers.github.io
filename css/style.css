@@ -92,6 +92,7 @@ h1 {
 }
 
 h2 {
+	font-family: var(--serif);
 	font-weight: var(--bold);
 	margin: 20px 0px;
 }
