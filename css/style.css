@@ -10,7 +10,7 @@
 	--regular: 400;
 	--sans: "DM Sans";
 	--mono: "DM Mono";
-	--serif: "Lora";
+	--serif: "Grenze";
 }
 
 /*==========  Structure  ==========*/
@@ -22,7 +22,7 @@ body {
 	background-color: white;
 	max-width: 600px;
 	padding: 15px;
-	font-size: 17px;
+	font-size: 18px;
 	line-height: 1.8em; 
 }
 
@@ -177,6 +177,7 @@ figcaption {
 
 	body {
 		padding: 50px;
+		font-size: 17px;
 	}
 
 	header {
