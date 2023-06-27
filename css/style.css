@@ -1,16 +1,16 @@
 :root {
-	--blue: #336BEB;
+	--blue: #000000; /*#336BEB;*/
 	--yellow: #EFCA6E;
 	--gold: #CBA98E;
 	--red: #F27B64;
-	--deemphasized: #727272;
-	--neutral: #5F5B5B;
+	--deemphasized: #000000; /*#727272;*/
+	--neutral: #000000; /*#5F5B5B;*/
 	--emphasized: #000000;
 	--bold: 700;
 	--regular: 400;
 	--sans: "DM Sans";
 	--mono: "DM Mono";
-	--serif: "Grenze";
+	--serif: "Georgia";
 }
 
 /*==========  Structure  ==========*/
