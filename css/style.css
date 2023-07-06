@@ -20,7 +20,7 @@ body {
 	font-weight: var(--regular);
 	font-family: var(--sans);
 	background-color: white;
-	max-width: 00px;
+	max-width: 700px;
 	padding: 15px;
 	font-size: 18px;
 	line-height: 1.8em; 
