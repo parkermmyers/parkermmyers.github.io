@@ -7,7 +7,7 @@
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
 	--sans: "roc-grotesk";
-	--serif: "orpheuspro";
+	--serif: "ivypresto-display";
 	--mono: "courier-prime";
 	--wide: "roc-grotesk-wide";
 }
@@ -17,7 +17,7 @@
 body {
 	color: var(--emphasized);
 	font-weight: 400;
-	font-family: var(--serif);
+	font-family: var(--sans);
 	background-color: white;
 	padding: 15px;
 	font-size: 16px;
@@ -102,8 +102,8 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-	font-family: "granville";
-	font-weight: 400;
+	font-weight: 300;
+	font-family: "--serif";
 	font-size: 1.25em;
 }
 
