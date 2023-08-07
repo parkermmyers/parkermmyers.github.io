@@ -1,39 +1,52 @@
 :root {
-	--blue: #000000; /*#336BEB;*/
+	--blue: #336BEB;
 	--yellow: #EFCA6E;
 	--gold: #CBA98E;
 	--red: #F27B64;
-	--deemphasized: #000000; /*#727272;*/
-	--neutral: #000000; /*#5F5B5B;*/
+	--deemphasized: #727272;
+	--neutral: #5F5B5B;
 	--emphasized: #000000;
-	--bold: 600;
-	--regular: 400;
 	--sans: "roc-grotesk";
 	--mono: "courier-prime";
-	--serif: "roc-grotesk";
+	--wide: "roc-grotesk-wide";
 }
 
 /*==========  Structure  ==========*/
 
 body {
 	color: var(--emphasized);
-	font-weight: var(--regular);
+	font-weight: 400;
 	font-family: var(--sans);
 	background-color: white;
-	max-width: 700px;
 	padding: 15px;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.8em; 
 }
 
 header {
+	margin: 0px 0px 150px 0px;
+}
+
+header h1 {
+	float: none;
 	margin-top: 0px;
-	margin-bottom: 75px;
+}
+
+.nav a {
+	float: none;
+	display: inline-block;
+	margin: 0px 20px;
+	font-family: var(--wide);
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 0.65em;
+	letter-spacing: 0.1em;
 }
 
 section {
 	margin-top: 10px;
 	margin-bottom: 75px;
+	max-width: 700px;
 }
 
 header a, header a:visited {
@@ -57,9 +70,12 @@ header a, header a:visited {
 }
 
 .label {
-	font-weight: var(--regular);
+	font-weight: 500;
 	text-transform: uppercase;
-	font-size: 0.8em;
+	letter-spacing: 0.1em;
+	font-family: var(--wide);
+	color: var(--deemphasized);
+	font-size: 0.65em;
 }
 
 .title {
@@ -85,8 +101,9 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-	font-family: var(--serif);
-	font-weight: var(--bold);
+	font-family: "granville";
+	font-weight: 400;
+	font-size: 1.25em;
 }
 
 h1 {
@@ -128,7 +145,7 @@ a:hover {
 
 strong {
 	color: var(--emphasized);
-	font-weight: var(--bold);
+	font-weight: 600;
 }
 
 /*==========  Interior Pages  ==========*/
@@ -177,10 +194,19 @@ figcaption {
 
 	body {
 		padding: 50px;
-		font-size: 17px;
+		font-size: 16px;
 	}
 
 	header {
+		margin: 0px 0px 250px 0px;
+	}
+
+	header h1 {
+		float: left;
+	}
+
+	.nav {
+		float: right;
 	}
 
 	.headerlogo {
@@ -201,7 +227,7 @@ figcaption {
 	}
 
 	.grid {
-		grid-template-columns: 2fr 3fr;
+		grid-template-columns: 1fr 1fr;
 		margin-bottom: 12px;
 		column-gap: 1em;
 	}
@@ -219,8 +245,7 @@ figcaption {
 @media (min-width: 1000px) {}
 @media (min-width: 1200px) {}
 
-/*Dark Mode
-
+/*
 :root {
 	--deemphasized: #9c9c9c;
 	--neutral: #b0b0b0;
@@ -241,7 +266,7 @@ h1, strong, p, .label, a, a:active, a:visited, a:focus, header a:hover, .portfol
 }
 
 a:hover, .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
-	color: var(--blue)
+	color: var(--neutral)
 }
 
 header a, header a:visited {
