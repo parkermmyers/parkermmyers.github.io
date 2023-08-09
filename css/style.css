@@ -102,9 +102,9 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-	font-weight: 300;
+	font-weight: 400;
 	font-family: var(--serif);
-	font-size: 1.25em;
+	font-size: 1.1em;
 }
 
 h1 {
