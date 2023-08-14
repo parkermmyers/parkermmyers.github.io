@@ -41,7 +41,7 @@ header h1 {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-stretch: 125%;
-	font-size: 0.65em;
+	font-size: 0.7em;
 	letter-spacing: 0.1em;
 }
 
@@ -78,7 +78,7 @@ header a, header a:visited {
 	letter-spacing: 0.1em;
 	font-family: var(--wide);
 	color: var(--deemphasized);
-	font-size: 0.65em;
+	font-size: 0.7em;
 }
 
 .title {
@@ -120,7 +120,7 @@ h2 {
 
 h3 {
 	color: var(--deemphasized);
-	font-weight: var(--regular);
+	font-weight: 400;
 	margin-top: 0px;
 }
 
@@ -131,7 +131,6 @@ p {
 
 a, a:active, a:visited, a:focus {
  	color: var(--emphasized);
- 	font-weight: var(--regular);
 	text-decoration-thickness: 1.25px;
     text-underline-offset: 0.3em;
     transition: color 500ms;
