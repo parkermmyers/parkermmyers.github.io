@@ -6,10 +6,10 @@
 	--deemphasized: #727272;
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
-	--sans: "roc-grotesk";
-	--serif: "scotch-text";
-	--mono: "courier-prime";
-	--wide: "roc-grotesk-wide";
+	--sans: "Archivo";
+	--serif: "Archivo";
+	--mono: "Archivo";
+	--wide: "Archivo";
 }
 
 /*==========  Structure  ==========*/
@@ -39,7 +39,8 @@ header h1 {
 	margin: 0px 20px;
 	font-family: var(--wide);
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 900;
+	font-stretch: 200%;
 	font-size: 0.65em;
 	letter-spacing: 0.1em;
 }
