@@ -39,8 +39,8 @@ header h1 {
 	margin: 0px 20px;
 	font-family: var(--wide);
 	text-transform: uppercase;
-	font-weight: 900;
-	font-stretch: 200%;
+	font-weight: 700;
+	font-stretch: 125%;
 	font-size: 0.65em;
 	letter-spacing: 0.1em;
 }
@@ -72,7 +72,8 @@ header a, header a:visited {
 }
 
 .label {
-	font-weight: 500;
+	font-weight: 700;
+	font-stretch: 125%;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-family: var(--wide);
@@ -103,9 +104,9 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-	font-weight: 400;
+	font-weight: 700;
 	font-family: var(--serif);
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 h1 {
@@ -147,7 +148,7 @@ a:hover {
 
 strong {
 	color: var(--emphasized);
-	font-weight: 600;
+	font-weight: 700;
 }
 
 /*==========  Interior Pages  ==========*/
@@ -166,7 +167,7 @@ figcaption {
 	color: var(--blue);
 	font-family: var(--mono);
 	font-style: italic;
-	font-size: 0.7em;
+	font-size: 0.75em;
 	line-height: 1.4em;
 	margin-top: 10px;
 	margin-left: 20px;
