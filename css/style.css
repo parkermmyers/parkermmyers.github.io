@@ -7,9 +7,7 @@
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
 	--sans: "Bricolage Grotesque";
-	--serif: "Bricolage Grotesque";
 	--mono: "Bricolage Grotesque";
-	--wide: "Bricolage Grotesque";
 }
 
 /*==========  Structure  ==========*/
@@ -29,15 +27,12 @@ header {
 }
 
 header h1 {
-	float: none;
 	margin-top: 0px;
 }
 
 .nav a {
-	float: none;
-	display: inline-block;
-	margin: 0px 20px;
-	font-family: var(--wide);
+	font-family: var(--sans);
+	padding-right: 10px;
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 0.75em;
@@ -74,7 +69,7 @@ header a, header a:visited {
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	font-family: var(--wide);
+	font-family: var(--sans);
 	color: var(--deemphasized);
 	font-size: 0.75em;
 }
@@ -103,7 +98,7 @@ h1, h2, h3 {
 
 h1, h2 {
 	font-weight: 700;
-	font-family: var(--serif);
+	font-family: var(--sans);
 	font-size: 1em;
 }
 
@@ -199,14 +194,6 @@ figcaption {
 
 	header {
 		margin: 0px 0px 250px 0px;
-	}
-
-	header h1 {
-		float: left;
-	}
-
-	.nav {
-		float: right;
 	}
 
 	.headerlogo {
