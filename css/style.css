@@ -40,7 +40,6 @@ header h1 {
 	font-family: var(--wide);
 	text-transform: uppercase;
 	font-weight: 700;
-	font-stretch: 125%;
 	font-size: 0.7em;
 	letter-spacing: 0.1em;
 }
@@ -73,7 +72,6 @@ header a, header a:visited {
 
 .label {
 	font-weight: 700;
-	font-stretch: 125%;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-family: var(--wide);
