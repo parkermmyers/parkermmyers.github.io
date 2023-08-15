@@ -219,7 +219,7 @@ figcaption {
 	}
 
 	.grid {
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 2fr;
 		margin-bottom: 12px;
 		column-gap: 1em;
 	}
