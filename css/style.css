@@ -199,7 +199,7 @@ figcaption {
 
 	.headerlogo {
 		margin-top: 0px;
-		margin-bottom: 250px;
+		margin-bottom: 150px;
 	}
 
 	section {
@@ -256,8 +256,12 @@ h1, strong, p, .label, a, a:active, a:visited, a:focus, header a:hover, .portfol
 	color: var(--emphasized);
 }
 
-a:hover, .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
+.portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
 	color: var(--neutral)
+}
+
+a:hover {
+	color: var(--emphasized);
 }
 
 header a, header a:visited {
