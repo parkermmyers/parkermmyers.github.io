@@ -27,7 +27,7 @@ header {
 }
 
 headerlogo {
-	float: left;
+	float: none;
 }
 
 header h1 {
@@ -36,7 +36,7 @@ header h1 {
 
 .nav {
 	margin-top: 15px;
-	float: right;
+	float: none;
 }
 
 .nav a {
@@ -206,11 +206,11 @@ figcaption {
 	.headerlogo {
 		margin-top: 0px;
 		margin-bottom: 150px;
-		float: none;
+		float: left;
 	}
 
 	.nav {
-		float: none;
+		float: right;
 	}
 
 	.nav a {
