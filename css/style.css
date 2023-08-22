@@ -7,16 +7,16 @@
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
 	--sans: "Bricolage Grotesque";
-	--mono: "Bricolage Grotesque";
+	--mono: "Courier Prime";
 }
 
 /*==========  Structure  ==========*/
 
 body {
 	color: var(--emphasized);
-	font-weight: 400;
 	font-family: var(--sans);
 	background-color: white;
+	font-weight: 400;
 	padding: 15px;
 	font-size: 17px;
 	line-height: 1.8em; 
@@ -32,6 +32,7 @@ header h1 {
 
 .nav {
 	margin-top: 15px;
+	float: right;
 }
 
 .nav a {
@@ -59,6 +60,7 @@ header a, header a:visited {
 	width: 40px;
 	margin-top: 5px;
 	margin-bottom: 50px;
+	float: left;
 }
 
 .grid {
@@ -194,12 +196,17 @@ figcaption {
 	}
 
 	header {
-		margin: 0px 0px 50px 0px;
+		margin: 0px 0px 120px 0px;
 	}
 
 	.headerlogo {
 		margin-top: 0px;
 		margin-bottom: 150px;
+		float: none;
+	}
+
+	.nav {
+		float: none;
 	}
 
 	section {
