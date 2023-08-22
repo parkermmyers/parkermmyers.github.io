@@ -26,6 +26,10 @@ header {
 	margin: 0px 0px 30px 0px;
 }
 
+headerlogo {
+	float: left;
+}
+
 header h1 {
 	margin-top: 0px;
 }
@@ -207,6 +211,10 @@ figcaption {
 
 	.nav {
 		float: none;
+	}
+
+	.nav a {
+		font-size: 1em;
 	}
 
 	section {
