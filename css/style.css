@@ -26,7 +26,10 @@ header {
 	margin: 0px 0px 30px 0px;
 }
 
-headerlogo {
+.headerlogo {
+	width: 40px;
+	margin-top: 5px;
+	margin-bottom: 50px;
 	float: none;
 }
 
@@ -58,13 +61,6 @@ header a, header a:visited {
 
 .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
 	color: var(--blue);
-}
-
-.headerlogo {
-	width: 40px;
-	margin-top: 5px;
-	margin-bottom: 50px;
-	float: left;
 }
 
 .grid {
