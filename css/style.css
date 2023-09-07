@@ -38,6 +38,11 @@ header h1 {
 	float: none;
 }
 
+.herotext {
+	font-size: 4em;
+	line-height: 1em;
+}
+
 .nav {
 	margin-top: 15px;
 	float: none;
@@ -197,7 +202,7 @@ figcaption {
 	}
 
 	header {
-		margin: 0px 0px 120px 0px;
+		margin: 0px 0px 400px 0px;
 	}
 
 	.headerlogo {
