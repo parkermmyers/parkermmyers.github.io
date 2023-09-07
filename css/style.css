@@ -23,7 +23,7 @@ body {
 }
 
 header {
-	margin: 0px 0px 30px 0px;
+	margin: 0px 0px 50px 0px;
 }
 
 .headerlogo {
@@ -39,8 +39,9 @@ header h1 {
 }
 
 .herotext {
-	font-size: 4em;
+	font-size: 2em;
 	line-height: 1em;
+	color: var(--deemphasized);
 }
 
 .nav {
@@ -215,6 +216,10 @@ figcaption {
 		float: left;
 	}
 
+	.herotext {
+		font-size: 4em;
+	}
+
 	.nav {
 		float: right;
 		margin-top: 0px;
@@ -258,7 +263,7 @@ figcaption {
 
 @media (min-width: 1000px) {}
 @media (min-width: 1200px) {}
-
+/*
 :root {
 	--deemphasized: #9c9c9c;
 	--neutral: #CBA98E;
@@ -293,4 +298,5 @@ header a, header a:visited {
 .archivologos {
 	filter: brightness(1) saturate(100%) invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(80%) contrast(107%);
 }
+*/
 
