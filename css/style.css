@@ -43,7 +43,6 @@ header h1 {
 	line-height: 1em;
 	color: white;
 	font-weight: 700;
-	text-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.13);
 }
 
 .nav {
