@@ -15,7 +15,7 @@
 body {
 	color: var(--emphasized);
 	font-family: var(--sans);
-	background-color: white;
+	background-color: #efefef;
 	font-weight: 400;
 	padding: 15px;
 	font-size: 17px;
@@ -41,7 +41,7 @@ header h1 {
 .herotext {
 	font-size: 2em;
 	line-height: 1em;
-	color: var(--deemphasized);
+	color: white;
 }
 
 .nav {
