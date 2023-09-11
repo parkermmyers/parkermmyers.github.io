@@ -12,10 +12,6 @@
 
 /*==========  Structure  ==========*/
 
-html {
-	background-color: #efefef;
-}
-
 body {
 	color: var(--emphasized);
 	font-family: var(--sans);
