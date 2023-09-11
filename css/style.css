@@ -17,6 +17,7 @@ body {
 	font-family: var(--sans);
 	background-color: white;
 	max-width: 700px;
+	margin: 200px auto;
 	font-weight: 400;
 	padding: 15px;
 	font-size: 17px;
@@ -201,6 +202,7 @@ figcaption {
 
 	body {
 		padding: 50px;
+		margin-top: 250px;
 		font-size: 16px;
 	}
 
