@@ -199,9 +199,12 @@ figcaption {
 
 
 	body {
-		padding: 50px;
+		margin: 50px;
+		border: 2px solid black;
 		font-size: 16px;
 	}
+
+/*
 
 	header {
 		margin: 0px 0px 400px 0px;
@@ -212,18 +215,18 @@ figcaption {
 		margin-bottom: 150px;
 		float: left;
 	}
-
+	
 	header h1 {
 		float: left;
 	}
-
-	.herotext {
-		font-size: 4em;
-	}
-
 	.nav {
 		float: right;
 		margin-top: 0px;
+	}
+*/
+
+	.herotext {
+		font-size: 4em;
 	}
 
 	.nav a {
