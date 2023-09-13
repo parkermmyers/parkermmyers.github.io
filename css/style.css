@@ -24,7 +24,7 @@ body {
 }
 
 header {
-	margin: 0px 0px 75px 0px;
+	margin: 0px 0px 25px 0px;
 }
 
 .headerlogo {
@@ -65,7 +65,7 @@ section {
 }
 
 header a, header a:visited {
-	color: var(--deemphasized);	
+	color: var(--gold);	
 }
 
 .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
