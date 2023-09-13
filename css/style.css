@@ -16,7 +16,6 @@ body {
 	color: var(--emphasized);
 	font-family: var(--sans);
 	background-color: white;
-	max-width: 700px;
 	font-weight: 400;
 	padding: 15px;
 	font-size: 17px;
@@ -28,7 +27,7 @@ header {
 }
 
 .headerlogo {
-	width: 50px;
+	width: 45px;
 	margin-top: 5px;
 	margin-bottom: 50px;
 	float: none;
@@ -76,6 +75,18 @@ header a, header a:visited {
 	display: grid;
  	grid-template-columns: 1fr;
  	margin-bottom: 24px;
+}
+
+.floatleft {
+	float: left;
+	width: 50%;
+}
+
+.floatright {
+	float: right;
+	width: 50%;
+	background-color: #CBA98E;
+	height: 88vh;
 }
 
 .label {
