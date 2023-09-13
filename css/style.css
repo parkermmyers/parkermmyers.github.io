@@ -6,7 +6,7 @@
 	--deemphasized: #727272;
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
-	--sans: "Be Vietnam Pro";
+	--sans: "Bricolage Grotesque";
 	--mono: "Courier Prime";
 }
 
@@ -15,7 +15,6 @@
 body {
 	color: var(--emphasized);
 	font-family: var(--sans);
-	font-feature-settings: "ss01";
 	background-color: white;
 	max-width: 700px;
 	font-weight: 400;
@@ -202,7 +201,7 @@ figcaption {
 
 	body {
 		padding: 50px;
-		margin-top: 250px;
+		margin-top: 150px;
 		font-size: 16px;
 	}
 
