@@ -69,7 +69,7 @@ header a, header a:visited {
 }
 
 .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
-	color: var(--blue);
+	color: var(--gold);
 }
 
 .grid {
@@ -143,7 +143,7 @@ a, a:active, a:visited, a:focus {
 }
 
 a:hover {
-	color: var(--blue);
+	color: var(--gold);
 }
 
 .nounderline, .nounderline:hover {
@@ -169,7 +169,7 @@ figure img {
 }
 
 figcaption {
-	color: var(--blue);
+	color: var(--gold);
 	font-family: var(--sans);
 	font-size: 0.75em;
 	line-height: 1.4em;
@@ -269,6 +269,7 @@ figcaption {
 @media (min-width: 1000px) {}
 @media (min-width: 1200px) {}
 
+/*
 :root {
 	--deemphasized: #9c9c9c;
 	--neutral: #EFCA6E;
@@ -303,4 +304,5 @@ header a, header a:visited {
 .archivologos {
 	filter: brightness(1) saturate(100%) invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(80%) contrast(107%);
 }
+*/
 
