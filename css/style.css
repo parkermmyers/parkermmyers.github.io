@@ -224,6 +224,7 @@ figcaption {
 	.floatright {
 		float: right;
 		width: 50%;
+		display: block;
 		background-color: #CBA98E;
 		height: 85vh;
 	}
