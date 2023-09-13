@@ -79,14 +79,14 @@ header a, header a:visited {
 
 .floatleft {
 	float: left;
-	width: 50%;
+	width: 40%;
 }
 
 .floatright {
 	float: right;
 	width: 50%;
 	background-color: #CBA98E;
-	height: 88vh;
+	height: 85vh;
 }
 
 .label {
@@ -212,7 +212,6 @@ figcaption {
 
 	body {
 		padding: 50px;
-		margin-top: 150px;
 		font-size: 16px;
 	}
 
