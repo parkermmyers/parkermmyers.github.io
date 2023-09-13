@@ -28,7 +28,7 @@ header {
 }
 
 .headerlogo {
-	width: 40px;
+	width: 50px;
 	margin-top: 5px;
 	margin-bottom: 50px;
 	float: none;
@@ -204,27 +204,6 @@ figcaption {
 		margin-top: 250px;
 		font-size: 16px;
 	}
-
-/*
-
-	header {
-		margin: 0px 0px 400px 0px;
-	}
-
-	.headerlogo {
-		margin-top: 0px;
-		margin-bottom: 150px;
-		float: left;
-	}
-
-	header h1 {
-		float: left;
-	}
-	.nav {
-		float: right;
-		margin-top: 0px;
-	}
-*/
 
 	.herotext {
 		font-size: 4em;
