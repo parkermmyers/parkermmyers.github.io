@@ -43,7 +43,7 @@ header h1 {
 	font-size: 2em;
 	line-height: 1em;
 	color: white;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .nav {
@@ -123,7 +123,7 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-	font-weight: 700;
+	font-weight: 500;
 	font-family: var(--sans);
 	font-size: 1em;
 }
@@ -219,7 +219,8 @@ figcaption {
 
 	.floatleft {
 		float: left;
-		width: 40%;
+		width: 100%;
+		max-width: 750px;
 	}
 
 	.floatright {
