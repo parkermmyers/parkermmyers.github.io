@@ -19,7 +19,7 @@ body {
 	background-color: white;
 	font-weight: 400;
 	padding: 15px;
-	font-size: 17px;
+	font-size: 18px;
 	line-height: 1.8em; 
 }
 
@@ -43,7 +43,7 @@ header h1 {
 	font-size: 2em;
 	line-height: 1em;
 	color: white;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .nav {
@@ -123,7 +123,7 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-	font-weight: 500;
+	font-weight: 600;
 	font-family: var(--sans);
 	font-size: 1em;
 }
@@ -214,7 +214,7 @@ figcaption {
 
 	body {
 		padding: 50px;
-		font-size: 16px;
+		font-size: 17px;
 	}
 
 	.floatleft {
