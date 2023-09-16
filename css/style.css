@@ -123,8 +123,8 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-	font-weight: 300;
-	font-family: var(--serif);
+	font-weight: 500;
+	font-family: var(--sans);
 	font-size: 1em;
 }
 
@@ -166,7 +166,7 @@ a:hover {
 
 strong {
 	color: var(--emphasized);
-	font-weight: 600;
+	font-weight: 500;
 }
 
 /*==========  Interior Pages  ==========*/
