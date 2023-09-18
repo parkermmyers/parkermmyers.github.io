@@ -18,7 +18,7 @@ body {
 	color: var(--emphasized);
 	background-color: #e8e8e8;
 	font-weight: 300;
-	max-width: 800px;
+	max-width: 750px;
 	padding: 15px;
 	font-size: 18px;
 	line-height: 1.8em; 
@@ -35,8 +35,7 @@ header {
 }
 
 .nav {
-	margin-top: 0px;
-	float: none;
+	margin-top: 15px;
 }
 
 .nav a {
@@ -146,6 +145,7 @@ p {
 
 a, a:active, a:visited, a:focus {
  	color: var(--emphasized);
+ 	font-weight: 400;
 	text-decoration-thickness: 1.25px;
     text-underline-offset: 0.3em;
     transition: color 500ms;
