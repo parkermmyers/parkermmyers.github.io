@@ -18,7 +18,7 @@ body {
 	color: var(--emphasized);
 	background-color: #e8e8e8;
 	font-weight: 300;
-	max-width: 900px;
+	max-width: 800px;
 	padding: 15px;
 	font-size: 18px;
 	line-height: 1.8em; 
@@ -60,6 +60,7 @@ header a, header a:visited {
 .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
 	background-color: var(--gold);
 	color: var(--emphasized);
+	font-weight: 400;
 	display: inline;
 }
 
@@ -117,7 +118,7 @@ h1, h2 {
 	font-family: var(--display);	
 	color: var(--emphasized);
 	font-weight: 600;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 h1 {
