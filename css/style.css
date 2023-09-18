@@ -6,7 +6,7 @@
 	--deemphasized: #727272;
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
-	--sans: "halyard-text";
+	--sans: "halyard-display";
 	--display: "halyard-display";
 	--mono: "courier-prime";
 }
@@ -17,7 +17,7 @@ body {
 	color: var(--emphasized);
 	font-family: var(--sans);
 	background-color: white;
-	font-weight: 400;
+	font-weight: 300;
 	max-width: 900px;
 	padding: 15px;
 	font-size: 18px;
@@ -113,7 +113,7 @@ h1, h2, h3 {
 h1, h2 {
 	font-weight: 700;
 	font-family: var(--display);
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 h1 {
@@ -123,7 +123,7 @@ h1 {
 
 header h1 {
 	margin-top: 10px;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 700;
 }
 
@@ -176,8 +176,8 @@ figure img {
 }
 
 figcaption {
-	color: var(--gold);
-	font-family: "halyard-micro";
+	color: var(--deemphasized);
+	font-family: var(--mono);
 	font-style: italic;
 	font-size: 0.75em;
 	line-height: 1.4em;
