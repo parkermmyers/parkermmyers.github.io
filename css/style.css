@@ -14,9 +14,9 @@
 /*==========  Structure  ==========*/
 
 body {
-	color: var(--emphasized);
 	font-family: var(--sans);
-	background-color: white;
+	color: var(--emphasized);
+	background-color: #e8e8e8;
 	font-weight: 300;
 	max-width: 900px;
 	padding: 15px;
@@ -58,7 +58,9 @@ header a, header a:visited {
 }
 
 .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
-	color: var(--gold);
+	background-color: var(--gold);
+	color: var(--emphasized);
+	display: inline;
 }
 
 .grid {
@@ -82,11 +84,10 @@ header a, header a:visited {
 
 .label {
 	font-family: var(--sans);
-	color: var(--gold);
+	color: var(--neutral);
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-
 	font-size: 0.8em;
 }
 
@@ -114,19 +115,17 @@ h1, h2, h3 {
 
 h1, h2 {
 	font-family: var(--display);	
+	color: var(--emphasized);
 	font-weight: 600;
 	font-size: 1.2em;
 }
 
 h1 {
-	color: var(--emphasized);
 	margin-bottom: 0px;
 }
 
 header h1 {
 	margin-top: 10px;
-	font-size: 1em;
-	font-weight: 600;
 }
 
 h2 {
