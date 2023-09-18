@@ -54,7 +54,7 @@ section {
 }
 
 header a, header a:visited {
-	color: var(--gold);	
+	color: var(--deemphasized);	
 }
 
 .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
