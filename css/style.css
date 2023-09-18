@@ -85,8 +85,8 @@ header a, header a:visited {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-family: var(--sans);
-	color: var(--deemphasized);
-	font-size: 0.75em;
+	color: var(--gold);
+	font-size: 0.8em;
 }
 
 .title {
