@@ -17,7 +17,7 @@ body {
 	font-family: var(--sans);
 	color: var(--emphasized);
 	background-color: #e8e8e8;
-	font-weight: 300;
+	font-weight: 400;
 	max-width: 600px;
 	padding: 15px;
 	font-size: 18px;
@@ -112,7 +112,6 @@ h1, h2 {
 	font-family: var(--display);	
 	color: var(--emphasized);
 	font-weight: 400;
-	font-size: 1.1em;
 }
 
 h1 {
@@ -294,7 +293,7 @@ h1, strong, p, .label, a, a:active, a:visited, a:focus, header a:hover, .portfol
 }
 
 a:hover {
-	color: var(--emphasized);
+	color: var(--yellow);
 }
 
 header a, header a:visited {
