@@ -18,7 +18,7 @@ body {
 	color: var(--emphasized);
 	background-color: #e8e8e8;
 	font-weight: 300;
-	max-width: 700px;
+	max-width: 600px;
 	padding: 15px;
 	font-size: 18px;
 	line-height: 1.8em; 
@@ -31,7 +31,7 @@ header {
 .headerlogo {
 	width: 45px;
 	margin-top: 5px;
-	margin-bottom: 200px;
+	margin-bottom: 150px;
 }
 
 .nav {
@@ -210,12 +210,12 @@ figcaption {
 	}
 
 	header {
-		margin: 0px 0px 100px 0px;
+		margin: 0px 0px 75px 0px;
 	}
 
 	.floatleft {
 		float: left;
-		width: 400px;
+		width: 40%;
 	}
 
 	.floatright {
