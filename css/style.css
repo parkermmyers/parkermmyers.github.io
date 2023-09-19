@@ -31,7 +31,7 @@ header {
 .headerlogo {
 	width: 45px;
 	margin-top: 5px;
-	margin-bottom: 50px;
+	margin-bottom: 200px;
 }
 
 .nav {
@@ -211,6 +211,10 @@ figcaption {
 		font-size: 17px;
 	}
 
+	header {
+		margin: 0px 0px 100px 0px;
+	}
+
 	.floatleft {
 		float: left;
 		width: 400%;
@@ -266,7 +270,7 @@ figcaption {
 
 :root {
 	--deemphasized: #9c9c9c;
-	--neutral: #EFCA6E;
+	--neutral: #e8e8e8;
 	--emphasized: #F8F6F5;
 }
 
@@ -277,6 +281,10 @@ body {
 
 h1, h3, figcaption {
 	color: var(--neutral);
+}
+
+h2 {
+	color: var(--yellow);
 }
 
 h1, strong, p, .label, a, a:active, a:visited, a:focus, header a:hover, .portfoliolinks a:hover {
