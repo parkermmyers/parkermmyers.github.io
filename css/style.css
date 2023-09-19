@@ -18,7 +18,7 @@ body {
 	color: var(--emphasized);
 	background-color: #e8e8e8;
 	font-weight: 300;
-	max-width: 750px;
+	max-width: 600px;
 	padding: 15px;
 	font-size: 18px;
 	line-height: 1.8em; 
@@ -57,10 +57,8 @@ header a, header a:visited {
 }
 
 .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
-	background-color: var(--gold);
 	color: var(--emphasized);
 	font-weight: 400;
-	display: inline;
 }
 
 .grid {
@@ -208,7 +206,7 @@ figcaption {
 
 	body {
 		padding: 50px;
-		font-size: 17px;
+		font-size: 18px;
 	}
 
 	header {
@@ -217,7 +215,7 @@ figcaption {
 
 	.floatleft {
 		float: left;
-		width: 400%;
+		width: 400px;
 	}
 
 	.floatright {
@@ -300,7 +298,7 @@ a:hover {
 }
 
 header a, header a:visited {
-	color: var(--neutral);	
+	color: var(--deemphasized);	
 }
 
 .archivologos {
