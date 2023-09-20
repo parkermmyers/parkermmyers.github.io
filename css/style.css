@@ -20,7 +20,7 @@ body {
 	max-width: 600px;
 	padding: 15px;
 	font-size: 17px;
-	line-height: 1.8em; 
+	line-height: 1.6em; 
 }
 
 header {
@@ -60,7 +60,7 @@ header a, header a:visited {
 
 .grid {
 	display: grid;
- 	grid-template-columns: 1fr;
+ 	grid-template-columns: 1fr 2fr;
  	margin-bottom: 24px;
 }
 
@@ -233,7 +233,6 @@ figcaption {
 	}
 
 	.grid {
-		grid-template-columns: 1fr 2fr;
 		margin-bottom: 12px;
 		column-gap: 1em;
 	}
