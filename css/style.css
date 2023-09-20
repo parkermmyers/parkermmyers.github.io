@@ -23,8 +23,8 @@ body {
 	line-height: 1.6em; 
 }
 
-header {
-	margin-bottom: 3em;
+header, section {
+	margin-bottom: 2.5em;
 }
 
 .headerlogo {
@@ -43,10 +43,6 @@ header {
 	font-size: 1em;
 	padding-right: 20px;
 	font-weight: 400;
-}
-
-section {
-	margin-bottom: 3em;
 }
 
 header a, header a:visited {
