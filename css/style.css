@@ -19,18 +19,18 @@ body {
 	font-weight: 400;
 	max-width: 600px;
 	padding: 15px;
-	font-size: 19px;
+	font-size: 17px;
 	line-height: 1.8em; 
 }
 
 header {
-	margin: 0px 0px 25px 0px;
+	margin-bottom: 3em;
 }
 
 .headerlogo {
-	width: 45px;
+	width: 30px;
 	margin-top: 5px;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 
 .nav {
@@ -46,9 +46,7 @@ header {
 }
 
 section {
-	margin-top: 10px;
-	margin-bottom: 50px;
-	max-width: 700px;
+	margin-bottom: 3em;
 }
 
 header a, header a:visited {
@@ -64,19 +62,6 @@ header a, header a:visited {
 	display: grid;
  	grid-template-columns: 1fr;
  	margin-bottom: 24px;
-}
-
-.floatleft {
-	float: none;
-	width: 100%;
-}
-
-.floatright {
-	float: none;
-	width: 100%;
-	display: none;
-	background-color: #CBA98E;
-	height: 85vh;
 }
 
 .label {
@@ -123,7 +108,9 @@ header h1 {
 }
 
 h2 {
-	margin: 40px 0px 10px 0px;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+
 }
 
 h3 {
@@ -212,14 +199,13 @@ figcaption {
 		margin: 0px 0px 75px 0px;
 	}
 
-	.floatleft {
-		float: left;
-		width: 40%;
+	.headerlogo {
+		width: 45px;
+		margin-bottom: 150px;
 	}
 
-	.floatright {
-		float: right;
-		width: 50%;
+	h2 {
+		margin-top: 40px;
 	}
 
 	.herotext {
@@ -286,10 +272,6 @@ h2 {
 
 h1, strong, p, .label, a, a:active, a:visited, a:focus, header a:hover, .portfoliolinks a:hover {
 	color: var(--emphasized);
-}
-
-.deemph {
-	color: var(--deemphasized);
 }
 
 .portfoliolinks a, .portfoliolinks a:visited, .portfoliolinks {
