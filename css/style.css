@@ -16,11 +16,11 @@
 body {
 	font-family: var(--sans);
 	color: var(--emphasized);
-	background-color: #e8e8e8;
+	background-color: white;
 	font-weight: 400;
 	max-width: 600px;
 	padding: 15px;
-	font-size: 17px;
+	font-size: 15px;
 	line-height: 1.6em; 
 }
 
@@ -92,7 +92,7 @@ h1, h2, h3 {
 h1, h2 {
 	font-family: var(--sans);	
 	color: var(--emphasized);
-	font-weight: 400;
+	font-weight: 600;
 }
 
 h1 {
@@ -118,8 +118,9 @@ h3 {
 
 p {
 	color: var(--emphasized);
-	margin-block-end: 1em;
 	font-family: var(--serif);
+	font-size: 1.1em;
+	margin-block-end: 1em;
 }
 
 a, a:active, a:visited, a:focus {
