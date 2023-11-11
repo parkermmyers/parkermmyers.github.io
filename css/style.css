@@ -100,7 +100,7 @@ h1 {
 }
 
 header h1 {
-	margin-top: 10px;
+	margin-top: -4px;
 	font-weight: 600;
 }
 
@@ -200,7 +200,7 @@ figcaption {
 
 	.headerlogo {
 		width: 45px;
-		margin-bottom: 150px;
+		margin-bottom: 0px;
 	}
 
 	h2 {
