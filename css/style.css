@@ -6,7 +6,8 @@
 	--deemphasized: #727272;
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
-	--sans: "degular";
+	--sans: "balto";
+	--serif: "freight-text-pro";
 	--mono: "courier-prime";
 }
 
@@ -118,6 +119,7 @@ h3 {
 p {
 	color: var(--emphasized);
 	margin-block-end: 1em;
+	font-family: var(--serif);
 }
 
 a, a:active, a:visited, a:focus {
@@ -246,6 +248,7 @@ figcaption {
 @media (min-width: 1000px) {}
 @media (min-width: 1200px) {}
 
+/*Dark Mode
 :root {
 	--deemphasized: #9c9c9c;
 	--neutral: #e8e8e8;
@@ -284,4 +287,4 @@ header a, header a:visited {
 .archivologos {
 	filter: brightness(1) saturate(100%) invert(0%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(80%) contrast(107%);
 }
-
+*/
