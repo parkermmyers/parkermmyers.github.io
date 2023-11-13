@@ -3,10 +3,11 @@
 	--yellow: #EFCA6E;
 	--gold: #CBA98E;
 	--red: #F27B64;
+	--subtle: #bbbbbb;
 	--deemphasized: #727272;
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
-	--sans: "degular";
+	--sans: "covik-sans";
 	--serif: "freight-text-pro";
 	--mono: "courier-prime";
 }
@@ -131,8 +132,9 @@ p {
 a, a:active, a:visited, a:focus {
  	color: var(--emphasized);
  	font-weight: 400;
-	text-decoration-thickness: 1.25px;
-    text-underline-offset: 0.3em;
+	text-decoration-thickness: 1px;
+    text-underline-offset: 0.1em;
+    text-decoration-color: var(--subtle);
     transition: color 500ms;
 }
 
