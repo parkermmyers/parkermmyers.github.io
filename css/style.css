@@ -21,7 +21,7 @@ body {
 	font-weight: 400;
 	max-width: 600px;
 	padding: 20px 56px 20px 20px;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 1.6em; 
 }
 
@@ -194,7 +194,6 @@ figcaption {
 
 	body {
 		padding: 50px;
-		font-size: 18px;
 	}
 
 	header {
