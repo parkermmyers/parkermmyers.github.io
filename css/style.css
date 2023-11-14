@@ -9,13 +9,13 @@
 	--emphasized: #000000;
 	--sans: "freight-sans-pro";
 	--serif: "freight-text-pro";
-	--mono: "courier-prime";
+	--mono: "freight-micro-pro";
 }
 
 /*==========  Structure  ==========*/
 
 body {
-	font-family: var(--serif);
+	font-family: var(--sans);
 	color: var(--emphasized);
 	background-color: white;
 	font-weight: 400;
