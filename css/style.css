@@ -126,7 +126,7 @@ h3 {
 p {
 	color: var(--emphasized);
 	font-family: var(--serif);
-	font-size: 1.1em;
+	font-size: 1em;
 	margin-block-end: 1em;
 }
 
