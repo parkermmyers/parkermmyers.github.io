@@ -17,7 +17,7 @@
 body {
 	font-family: var(--sans);
 	color: var(--emphasized);
-	background-color: white;
+	background-color: #EAE5E2;
 	font-weight: 400;
 	max-width: 600px;
 	padding: 20px 56px 20px 20px;
@@ -133,9 +133,9 @@ p {
 a, a:active, a:visited, a:focus {
  	color: var(--emphasized);
  	font-weight: 400;
-	text-decoration-thickness: 1px;
-    text-underline-offset: 0.1em;
-    text-decoration-color: var(--subtle);
+	text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+    text-decoration-color: white;
     transition: color 500ms;
 }
 
