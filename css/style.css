@@ -93,9 +93,9 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-	font-family: var(--display);	
+	font-family: var(--sans);	
 	color: var(--emphasized);
-	font-weight: 400;
+	font-weight: 700;
 }
 
 h1 {
@@ -107,12 +107,8 @@ header {
 }
 
 header h1 {
+	font-family: var(--display);
 	margin-top: 0px;
-	font-weight: 900;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
-	font-size: 0.95em;
-
 }
 
 h2 {
@@ -196,7 +192,6 @@ figcaption {
 @media (min-width: 400px) {
 
 	body {
-		font-size: 20px;
 		padding: 50px;
 	}
 
