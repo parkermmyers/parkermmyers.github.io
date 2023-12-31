@@ -109,6 +109,8 @@ header {
 header h1 {
 	font-family: var(--display);
 	margin-top: 0px;
+	font-weight: 400;
+	font-size: 1.2em;
 }
 
 h2 {
