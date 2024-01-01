@@ -7,9 +7,9 @@
 	--deemphasized: #727272;
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
-	--sans: "proxima-nova";
-	--display: "proxima-sera";
-	--micro: "proxima-sera";
+	--sans: "DM Sans";
+	--serif: "DM Serif";
+	--micro: "DM Mono";
 }
 
 /*==========  Structure  ==========*/
@@ -21,7 +21,7 @@ body {
 	font-weight: 400;
 	max-width: 600px;
 	padding: 20px 56px 20px 20px;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 1.6em; 
 }
 
@@ -107,7 +107,7 @@ header {
 }
 
 header h1 {
-	font-family: var(--display);
+	font-family: var(--serif);
 	margin-top: 0px;
 	font-weight: 400;
 	font-size: 1.2em;
@@ -168,7 +168,7 @@ figure img {
 
 figcaption {
 	color: var(--deemphasized);
-	font-family: var(--micro);
+	font-family: var(--mono);
 	font-style: italic;
 	font-size: 0.8em;
 	line-height: 1.4em;
