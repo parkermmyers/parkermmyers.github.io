@@ -109,7 +109,7 @@ header {
 header h1 {
 	margin-top: 0px;
 	font-weight: 1000;
-	font-size: 1.2em;
+	text-transform: uppercase;
 }
 
 h2 {
