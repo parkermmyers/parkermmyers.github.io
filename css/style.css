@@ -7,9 +7,9 @@
 	--deemphasized: #727272;
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
-	--sans: "IBM Plex Sans";
-	--serif: "IBM Plex Serif";
-	--mono: "IBM Plex Mono";
+	--sans: "Work Sans";
+	--serif: "Lora";
+	--mono: "Courier Prime";
 }
 
 /*==========  Structure  ==========*/
@@ -25,7 +25,7 @@ body {
 	font-weight: 400;
 	max-width: 600px;
 	padding: 20px 56px 20px 20px;
-	font-size: 17px;
+	font-size: 15px;
 	line-height: 1.6em; 
 	box-sizing: 0 5px 10px rgba(0,0,0,0.1), 0 5px 10px rgba(0,0,0,0.15);
 }
