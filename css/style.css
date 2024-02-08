@@ -79,6 +79,7 @@ header a, header a:visited {
 
 .title {
 	color: var(--deemphasized);
+	font-size: 1.15em;
 }
 
 .rowbreak {
@@ -108,7 +109,7 @@ h1, h2 {
 h1 {
 	margin-bottom: 10px;
 	text-transform: uppercase;
-	font-weight: 900;
+	font-weight: 800;
 	letter-spacing: 0.08em;
 }
 
@@ -134,7 +135,7 @@ h3 {
 p {
 	color: var(--emphasized);
 	font-family: var(--serif);
-	font-size: 1.2em;
+	font-size: 1.15em;
 	margin-block-end: 1em;
 }
 
