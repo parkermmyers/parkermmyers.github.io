@@ -25,7 +25,7 @@ body {
 	font-weight: 400;
 	max-width: 650px;
 	padding: 20px 56px 20px 20px;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 1.6em; 
 }
 
@@ -70,8 +70,8 @@ header a, header a:visited {
 
 .label {
 	font-family: var(--sans);
-	color: var(--neutral);
-	font-size: 0.85em;
+	color: var(--deemphasized);
+	font-size: 0.8em;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -106,6 +106,9 @@ h1, h2 {
 
 h1 {
 	margin-bottom: 0px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.1em;
 }
 
 header {
