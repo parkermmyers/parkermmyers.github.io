@@ -25,7 +25,7 @@ body {
 	font-weight: 400;
 	max-width: 650px;
 	padding: 20px 56px 20px 20px;
-	font-size: 13px;
+	font-size: 12px;
 	line-height: 1.6em; 
 }
 
@@ -106,7 +106,7 @@ h1, h2 {
 }
 
 h1 {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
 	font-weight: 900;
 	letter-spacing: 0.08em;
@@ -134,7 +134,7 @@ h3 {
 p {
 	color: var(--emphasized);
 	font-family: var(--serif);
-	font-size: 1.1em;
+	font-size: 1.2em;
 	margin-block-end: 1em;
 }
 
