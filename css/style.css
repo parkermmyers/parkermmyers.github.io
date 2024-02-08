@@ -44,7 +44,8 @@ header, section {
 }
 
 .nav a {
-	font-family: var(--sans);
+	font-family: var(--serif);
+	font-style: italic;
 	color: var(--deemphasized);
 	font-size: 1em;
 	padding-right: 20px;
@@ -107,7 +108,7 @@ h1, h2 {
 }
 
 h1 {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	text-transform: uppercase;
 	font-weight: 800;
 	letter-spacing: 0.08em;
