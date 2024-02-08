@@ -7,9 +7,9 @@
 	--deemphasized: #727272;
 	--neutral: #5F5B5B;
 	--emphasized: #000000;
-	--sans: "proxima-nova";
-	--serif: "proxima-nova";
-	--mono: "courier-prime";
+	--sans: "Montserrat";
+	--serif: "Lora";
+	--mono: "Courier Prime";
 }
 
 /*==========  Structure  ==========*/
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-	font-family: var(--sans);
+	font-family: var(--serif);
 	color: var(--emphasized);
 	background-color: white;
 	font-weight: 400;
@@ -99,7 +99,7 @@ h1, h2, h3 {
 h1, h2 {
 	font-family: var(--sans);	
 	color: var(--emphasized);
-	font-weight: 700;
+	font-weight: 600;
 }
 
 h1 {
