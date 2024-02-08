@@ -25,7 +25,7 @@ body {
 	font-weight: 400;
 	max-width: 650px;
 	padding: 20px 56px 20px 20px;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 1.6em; 
 }
 
@@ -71,7 +71,9 @@ header a, header a:visited {
 .label {
 	font-family: var(--sans);
 	color: var(--neutral);
-	font-weight: 400;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 .title {
@@ -93,13 +95,13 @@ header a, header a:visited {
 /*==========  Typography  ==========*/
 
 h1, h2, h3 {
-	font-size: 1em;
+	font-size: 0.95em;
 }
 
 h1, h2 {
 	font-family: var(--sans);	
 	color: var(--emphasized);
-	font-weight: 600;
+	font-weight: 500;
 }
 
 h1 {
